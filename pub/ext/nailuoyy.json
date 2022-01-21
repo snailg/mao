@@ -5,9 +5,9 @@
   "cateName" : " /text() " ,
   "cateId" : " /@href " ,
   "cateIdR" : " /index.php/vod/type/id/( \\ d+).html " ,
-   "cateManual" : {       "电影" : " 1 " ,
-    《连续剧》：《 2 》，
-    《综艺》：《 3 》，
+   "cateManual" : {       "电影" : " 1 ",
+    "剧集" : " 2 ",
+    "综艺" : " 3 ",
     "动漫" : " 4 " },    
  "homeVodNode" : " //div[contains(@class, 'module-items')]/div[contains(@class, 'module-item')] " ,
  "homeVodName" : " /div[contains(@class, 'module-item-titlebox')]/a/@title " ,
@@ -32,16 +32,11 @@
   "dtCateR" : " " ,
   "dtArea" : " " ,
   "dtAreaR" : " " ,
-  "dtDirector" : " //span[contains(@class,'video-info-itemtitle') and contains(text(), '导演')]/following-sibling::div/span/following-sibling::* /文本（）“，
-  "dtDirectorR" : " " ,
-  "dtActor" : " //span[contains(@class,'video-info-itemtitle') 和 contains(text(), '演员')]/following-sibling::div/span/following-sibling::* /文本（）“，
-  "dtActorR" : " " ,
-  "dtYear" : " //span[contains(@class,'video-info-itemtitle') and contains(text(), '年龄')]/following-sibling::div/span/following-sibling::* /文本（）“，
-  "dtYearR" : " " ,
-  "dtMark" : " //span[contains(@class,'video-info-itemtitle') and contains(text(), '集合数')]/following-sibling::div/span/following-sibling:: */文本（）“，
-  "dtMarkR" : " " ,
-  "dtDesc" : " //span[contains(@class,'video-info-itemtitle') and contains(text(), '剧情')]/following-sibling::div/span/following-sibling::* /文本（）“，
-  "dtDescR" : " " ,
+  "dtDirector" : " //span[contains(@class,'video-info-itemtitle') and contains(text(), '导演')]/following-sibling::div/span/following-sibling::*/text()",
+  "dtActor" : " //span[contains(@class,'video-info-itemtitle') and contains(text(), '演员')]/following-sibling::div/span/following-sibling::*/text()",
+  "dtYear" : " //span[contains(@class,'video-info-itemtitle') and contains(text(), '年龄')]/following-sibling::div/span/following-sibling::*/text()",
+  "dtMark" : " //span[contains(@class,'video-info-itemtitle') and contains(text(), '集合数')]/following-sibling::div/span/following-sibling::*/text()",
+  "dtDesc" : " //span[contains(@class,'video-info-itemtitle') and contains(text(), '剧情')]/following-sibling::div/span/following-sibling::*/text()",
   "dtFromNode" : " //div[contains(@class, 'module-tab-content')]/div[contains(@class, 'module-tab-item')]/span " ,
   "dtFromName" : " /text() " ,
   "dtUrlNode" : " //div[contains(@class, 'module-blocklist')] " ,
