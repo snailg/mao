@@ -5,7 +5,7 @@
   "cateName": "/text()",
   "cateId": "/@href",
   "cateIdR": "/vod/type/id/(\\d+)/",
-  "cateManual": {},    
+  "cateManual": {"电影":"20","连续剧":"21","动漫":"23","4K高清":"25","综艺":"22"},    
  "homeVodNode": "//ul[contains(@class, 'mo-cols-rows')]/li[contains(@class, 'mo-paxs-5px')]",
  "homeVodName": "/a[contains(@class, 'mo-situ-name')]/text()",
  "homeVodId": "/a[contains(@class, 'mo-situ-name')]/@href",
