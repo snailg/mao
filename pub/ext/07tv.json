@@ -12,6 +12,7 @@
 	"cateIdR": "/index.php/vod/type/id/(\\w+).html",
 	"cateManual": {
 		"番剧": "20",
+        "超清": "25",
 		"电影": "1",
 		"连续剧": "2",
 		"动漫": "4"
