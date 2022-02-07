@@ -4,7 +4,7 @@
   "cateNode": "//div[contains(@class,'menu clearfix')]/dl/a[contains(@href, '')]",
   "cateName": "/text()",
   "cateId": "/@href",
-  "cateIdR": "(\\w+)",
+  "cateIdR": "/video/(\\w+)/",
   "cateManual":  {},
   "homeVodNode": "//div[contains(@class, 'row col5 clearfix')]//dt[contains(@class,'preview-item')]/li//a[contains(@class,'nature')]",
   "homeVodName": "/@title",
