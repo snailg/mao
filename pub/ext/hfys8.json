@@ -1,5 +1,7 @@
 {"ua": "",
   "homeUrl": "https://www.hfys8.vip/",
+  "pCfgJs": "https://www.hfys8.vip/static/js/playerconfig.js",
+  "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
   "cateManual": {"电影": "20","连续剧": "21","动漫": "22","4K": "63","综艺": "23"},
   "homeVodNode": "//ul[@class='stui-vodlist clearfix']/li/div/a",
   "homeVodName": "/@title",
