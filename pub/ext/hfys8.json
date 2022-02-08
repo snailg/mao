@@ -1,6 +1,6 @@
 {"ua": "",
   "homeUrl": "https://www.hfys8.vip/",
-  "cateManual": {"电影": "20","连续剧": "21","动漫": "22","综艺": "23"},
+  "cateManual": {"电影": "20","连续剧": "21","动漫": "22","4K": "63","综艺": "23"},
   "homeVodNode": "//ul[@class='stui-vodlist clearfix']/li/div/a",
   "homeVodName": "/@title",
   "homeVodId": "/@href",
