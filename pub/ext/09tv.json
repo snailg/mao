@@ -1,7 +1,7 @@
 {
 	"ua": "",
 	"homeUrl": "https://09tv.top",
-	"cateNode": "//ul[contains(@class,'drop-content-items grid-items')]/li/a[contains(@href,'type')and not(contains(@href,'5' and '20'))]",
+	"cateNode": "//ul[contains(@class,'drop-content-items grid-items')]/li/a[contains(@href,'type')and not(contains(@href,'5'))]",
 	"cateName": "/@title",
 	"cateId": "/@href",
 	"cateIdR": "/index.php/vod/type/id/(\\d+).html",
@@ -9,7 +9,7 @@
 	"homeVodNode": "//div[contains(@class,'module-item-cover')]/div[contains(@class,'module-item-pic')]",
 	"homeVodName": "/a/@title",
 	"homeVodId": "/a/@href",
-	"homeVodIdR": "/index.php/vod/type/id/(\\w+).html",
+	"homeVodIdR": "/index.php/vod/detail/id/(\\w+).html",
 	"homeVodImg": "/img/@data-src",
 	"homeVodImgR": "\\S+(http\\S+)",
 	"homeVodMark": "/div[contains(@class,'module-item-style video-text')]/text()",
