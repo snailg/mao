@@ -2,7 +2,7 @@
 	"ua": "",
 	"homeUrl": "https://09tv.top",
 	"cateNode": "//ul[contains(@class,'drop-content-items grid-items')]/li/a[contains(@href,'type')and not(contains(@href,'5'))]",
-	"cateName": "/text()",
+	"cateName": "/@title",
 	"cateId": "/@href",
 	"cateIdR": "/index.php/vod/type/id/(\\d+).html",
 	"cateManual": {},
