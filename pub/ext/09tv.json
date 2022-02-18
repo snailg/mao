@@ -9,7 +9,7 @@
 	"homeVodNode": "//div[contains(@class,'module-item-cover')]/div[contains(@class,'module-item-pic')]",
 	"homeVodName": "/a/@title",
 	"homeVodId": "/a/@href",
-	"homeVodIdR": "/index.php/vod/detail/id/(\\w+).html",
+	"homeVodIdR": "/index.php/vod/type/id/(\\w+).html",
 	"homeVodImg": "/img/@data-src",
 	"homeVodImgR": "\\S+(http\\S+)",
 	"homeVodMark": "/div[contains(@class,'module-item-style video-text')]/text()",
