@@ -3,7 +3,7 @@
 	"homeUrl": "https://www.jiujiukanpian.com/",
 	"cateNode": "//ul[contains(@class,'navbar-nav')]/li/a[contains(@href, '.html')]",
 	"cateName": "/text()",
-	"cateNameR": "热门(.+)",
+	//"cateNameR": "热门(.+)",
 	"cateId": "/@href",
 	"cateIdR": "/type/(\\d+).html",
 	"cateManual": {},
