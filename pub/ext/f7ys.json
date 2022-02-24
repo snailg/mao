@@ -1,6 +1,11 @@
 {
 	"ua": "",
 	"homeUrl": "http://www.haokanju1.cc/",
+    "dcVipFlag": "true",
+	"pCfgJs": "https:/www.haokanju1.cc/static/js/playerconfig.js",
+	"pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
+	"dcShow2Vip": {},
+	"dcPlayUrl": "true",
 	"cateNode": "//ul[contains(@class,'nav-menu-items')]/li/a[contains(@href, 'vodtype')]",
 	"cateName": "/@title",
 	"cateId": "/@href",
