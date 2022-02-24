@@ -77,10 +77,10 @@
 	"playUrl": "https://www.40mdd.com/play/{playUrl}.html",
 	"playUa": "",
 	"searchUrl": "https://www.40mdd.com/search?wd={wd}",
-	"scVodNode": "//div[@class='stui-vodlist__box']/a",
-	"scVodName": "/@title",
-	"scVodId": "/@href",
-	"scVodIdR": "/show/(\\w+).html",
-	"scVodImg": "/@data-original",
-	"scVodMark": "/span[contains(@class,'pic-text text-center')]/text()"
+	"scVodNode": "json:list",
+	"scVodName": "name",
+	"scVodId": "id",
+	"scVodIdR": "",
+	"scVodImg": "pic",
+	"scVodMark": ""
 }
