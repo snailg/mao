@@ -22,7 +22,7 @@
 	"cateVodImgR": "",
 	"cateVodMark": "//div[contains(@class,'module-item-titlebox')]/div[contains(@class,'module-item-text')]/text()",
 	"dtUrl": "http://www.haokanju1.cc/voddetail/{vid}.html",
-	"dtNode": "//div[contains(@class,'box view-heading')]",
+	"dtNode": "//div[contains(@class,'content')]",
 	"dtName": "//div[@class='video-cover']/div[@class='module-item-cover']/div[@class='module-item-pic']/img/@alt",
 	"dtNameR": "",
 	"dtImg": "//div[@class='video-cover']/div[@class='module-item-cover']/div[@class='module-item-pic']/img/@src",
