@@ -8,7 +8,7 @@
 	//"cateNameR": "热门(.+)",
 	"cateId": "/@href",
 	"cateIdR": "/type/(\\d+).html",
-	"cateManual": {"电影":"1","电视剧":"2","综艺":"3","动漫":"4","福利":"5","音乐":"6"},
+	"cateManual": {},
 	//"homeVodNode": "//div[@class='col-md-12 movie-item-out']//a/parent::*/parent::*/parent::*/div[contains(@class, 'movie-item-out') and position()<10]/div[@class='movie-item']/a",
 	"homeVodNode": "//div[@class='stui-vodlist__box']/a",
     "homeVodName": "/@title",
