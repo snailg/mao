@@ -1,8 +1,8 @@
 {
 	"ua": "",
 	"homeUrl": "http://www.haokanju1.cc/",
-	"cateNode": "//ul[contains(@class,'drop-content-items grid-items')]/li/a[contains(@href, 'vodtype')]",
-	"cateName": "/text()",
+	"cateNode": "//ul[contains(@class,'nav-menu-items')]/li/a[contains(@href, 'vodtype')]",
+	"cateName": "/@title",
 	"cateId": "/@href",
 	"cateIdR": "/vodtype/(\\w+).html",
 	"cateManual": {},
