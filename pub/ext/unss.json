@@ -27,7 +27,7 @@
 	"cateVodImgR": "",
 	"cateVodMark": "/span[contains(@class,'pic-text text-right')]/text()",
 	"dtUrl": "http://www.unss.net/voddetail/{vid}.html",
-	"dtNode": "//div[@class='container']",
+	"dtNode": "//body",
 	"dtName": "//div[@class='stui-content__thumb']/a/@title",
 	"dtNameR": "",
 	"dtImg": "//div[@class='stui-content__thumb']/a/img/@src",
