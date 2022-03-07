@@ -52,7 +52,7 @@
 	"dtFromNode": "//a[@data-toggle='tab' and contains(@href, 'playlist')]",
 	"dtFromName": "/text()",
 	"dtFromNameR": "",
-	"dtUrlNode": "//div[contains(@class,'tab-content stui-pannel_bd col-pd')]/div[contains(@id, 'playlist')]",
+	"dtUrlNode": "//div[contains(@class='tab-content stui-pannel_bd col-pd')]/div[contains(@id, 'playlist')]",
 	"dtUrlSubNode": "//li/a",
 	"dtUrlId": "@href",
 	"dtUrlIdR": "/vodplay/(\\S+).html",
