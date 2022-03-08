@@ -27,7 +27,7 @@
 	"dtUrl": "https://aidi.tv/movie/{vid}.html",
 	"dtNode": "//div[contains(@class,'content_thumb fl')]/a[contains(@class,'vodlist_thumb picture')]",
 	"dtName": "/@title",
-	"dtImg": "/img/@src",
+	"dtImg": "/img/@data-original",
     "dtCate": "//span[contains(text(), '类型')]/following-sibling::*/text()",
     "dtCateR": "",
     "dtYear": "//span[contains(text(), '年份')]/following-sibling::*/text()",
