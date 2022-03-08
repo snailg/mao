@@ -37,7 +37,7 @@
     "dtAreaR": "",
     "dtMark": "//div[@class='content_detail content_min fl']//span[contains(text(), '状态')]/following-sibling::*/text()",
     "dtMarkR": "",
-    "dtActor": "//div[@class='content_detail content_min fl']//span[contains(text(), '主演')]/parent::*/following-sibling::text()",
+    "dtActor": "//div[@class='content_detail content_min fl']//span[contains(text(), '主演')]/following-sibling::*/text()",
     "dtActorR": "",
     "dtDirector": "//div[@class='content_detail content_min fl']//span[contains(text(), '导演')]/following-sibling::*/text()",
     "dtDirectorR": "",
