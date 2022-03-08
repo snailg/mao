@@ -1,9 +1,9 @@
 { 
     "ua": "", 
     "homeUrl": "https://yanetflix.com", 
-    "cateNode": "//div[@class='nav']/ul[@class='nav-menu-items']/li[@class='nav-menu-item  ']", 
-    "cateName": "/a/@title", 
-    "cateId": "/a/@href",
+    "cateNode": "//div[@class='nav']/ul[@class='nav-menu-items']/li/a[contains(@href, 'type')]", 
+    "cateName": "/@title", 
+    "cateId": "/@href",
     "cateIdR": "/index.php/vod/type/id/(\\d+).html",
     "cateManual": {}, 
     "homeVodNode": "//div[@class='module-items']//div[@class='module-item-pic']", 
