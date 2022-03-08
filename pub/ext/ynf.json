@@ -1,7 +1,7 @@
 { 
     "ua": "", 
     "homeUrl": "https://yanetflix.com", 
-    "cateNode": "//ul[@class='drop-content-items grid-items']/li/a[contains(@href, 'type')]", 
+    "cateNode": "//ul[@class='drop-content-items grid-items']/li[@class='grid-item']//a[contains(@href, 'type')]", 
     "cateName": "/@title", 
     "cateId": "/@href",
     "cateIdR": "/index.php/vod/type/id/(\\d+).html",
