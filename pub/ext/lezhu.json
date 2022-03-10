@@ -14,7 +14,7 @@
       "电影":"1",
     "连续剧":"2",
     "动漫":"4",
-    "韩剧":"14",
+    "韩剧":"14","美剧":"15",
     "综艺":"3"},    
   "homeVodNode": "//ul[contains(@class, 'tbox_m')]/li[contains(@class,'vbox')]/a[contains(@class,'vbox_t')]",
   "homeVodName": "/@title",
