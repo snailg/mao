@@ -39,7 +39,7 @@
   "dtYearR": "",
   "dtMark": "",
   "dtMarkR": "",
-  "dtDesc": "//div[@class='ee']//span[containss(text(), '介绍')]/following-sibling::/p/text()",
+  "dtDesc": "//div[@class='ee']//span[containss(text(), '介绍')]/p/text()",
   "dtDescR": "",
   "dtFromNode": "//li[contains(@id,'tab81') and contains(@class,'on')]",
   "dtFromName": "/text()",
