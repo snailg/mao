@@ -43,7 +43,7 @@
 	"dtMarkR": "",
 	"dtActor": "//span[contains(@class,'video-info-itemtitle') and contains(text(), '主演')]//span[@class='slash']/following-sibling::*/text()",
 	"dtActorR": "",
-	"dtDirector": "//span[contains(@class,'video-info-itemtitle') and contains(text(), '导演')]/following-sibling::/a/text()",
+	"dtDirector": "//span[contains(@class,'video-info-itemtitle') and contains(text(), '导演')]/following-sibling::/div/a/text()",
 	"dtDirectorR": "",
 	"dtDesc": "//div[@class='video-info-main']//span[contains(@class,'video-info-itemtitle') and contains(text(), '剧情')]/following-sibling::*/text()",
 	"dtDescR": "",
