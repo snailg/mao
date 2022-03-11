@@ -33,7 +33,7 @@
 	"dtNameR": "",
 	"dtImg": "//div[@class='video-cover']/div[@class='module-item-cover']/div[@class='module-item-pic']/img/@data-src",
 	"dtImgR": "\\S+(http\\S+)",
-	"dtCate": "",
+	"dtCate": "//div[@class='video-info-aux scroll-content']/div[@class='tag-link']/following-sibling::/div/a/text()",
 	"dtCateR": "",
 	"dtYear": "//span[contains(@class,'video-info-itemtitle') and contains(text(), '上映')]/following-sibling::*/text()",
 	"dtYearR": "",
