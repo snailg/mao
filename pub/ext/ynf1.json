@@ -39,7 +39,7 @@
 	"dtActorR": "",
 	"dtDirector": "//div[@class='video-info']//div[@class='video-info-main']//div[@class='video-info-items']//div[contains(@class,'video-info-item')]/a[contains(@href, 'director')]/text()",
 	"dtDirectorR": "",
-	"dtDesc": "//div[@class='video-info']//div[@class='video-info-main']//div[@class='video-info-items']/span[contains(@class,'video-info-itemtitle') and contains(text(), '剧情')]/following-sibling::span/text()",
+	"dtDesc": "//span[contains(@class,'video-info-itemtitle') and contains(text(), '剧情')]/following-sibling::/span/text()",
 	"dtDescR": "",
 	"dtFromNode": "//div[@class='module']//div[@class='module-heading']//div[@class='module-tab-items']//div[@class='module-tab-content']//div[contains(@class, 'module-tab-item')]/span",
 	"dtFromName": "/text()",
