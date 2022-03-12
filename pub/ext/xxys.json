@@ -49,7 +49,7 @@
 	"dtFromNode": "//div[contains(@class,'fed-drop-boxs')]/ul[contains(@class,'fed-part-rows')]/li/a",
 	"dtFromName": "/text()",
 	"dtFromNameR": "",
-	"dtUrlNode": "//div[contains(@class,'fed-drop-boxs')]/div[contains(@class,'fed-play-item')]/ul[contains(@class,'fed-part-rows')]",
+	"dtUrlNode": "//div[contains(@class,'fed-drop-boxs')]/div[contains(@class,'fed-play-item')]/ul[2]",
 	"dtUrlSubNode": "//li/a",
 	"dtUrlId": "@href",
 	"dtUrlIdR": "/vodplay/(\\S+)/",
