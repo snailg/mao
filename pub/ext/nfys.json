@@ -27,7 +27,7 @@
     "cateVodImgR": "\\S+(http\\S+)",
     "cateVodMark": "//div[@class='module-item-text']/text()",
     "dtUrl": "https://www.nfuxs.com/voddetail/{vid}/",
-    "dtNode": "//main[@class='wrapper']",
+    "dtNode": "//body",
     "dtName": "//div[@class='video-cover']/div[@class='module-item-cover']/div[@class='module-item-pic']/img/@alt",
     "dtNameR": "",
     "dtImg": "//div[@class='video-cover']/div[@class='module-item-cover']/div[@class='module-item-pic']/img/@data-src",
