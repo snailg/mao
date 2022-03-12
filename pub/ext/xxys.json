@@ -6,7 +6,7 @@
 	"pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
 	"dcShow2Vip": {},
 	"dcPlayUrl": "true",
-	"cateNode": "//ul[contains(@class,'fed-pops-list')]/li/a[contains(@href, 'vodtype')]",
+	"cateNode": "//ul[contains(@class,'fed-pops-list')]/li/a[contains(@href, 'vodtype')and not（contains(@href, '47'))]",
 	"cateName": "/text()",
 	"cateId": "/@href",
 	"cateIdR": "/vodtype/(\\w+)/",
