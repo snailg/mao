@@ -44,7 +44,7 @@
 	"dtActorR": "",
 	"dtDirector": "//span[contains(@class,'fed-text-muted') and contains(text(), '导演')]/following-sibling::*/text()",
 	"dtDirectorR": "",
-	"dtDesc": "//div[@class='fed-part-esan']/text()",
+	"dtDesc": "//div[contains(@class,'fed-col-xs12')]//div[@class='fed-part-esan']/text()",
 	"dtDescR": "",
 	"dtFromNode": "//div[contains(@class,'fed-drop-boxs')]/ul[contains(@class,'fed-part-rows')]/li/a",
 	"dtFromName": "/text()",
