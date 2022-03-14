@@ -4,7 +4,7 @@
   "cateNode": "//nav/p/a[contains(@href, 'vodtype')]",
   "cateName": "/text()",
   "cateId": "/@href",
-  "cateIdR": "/vodtype/(\\S\\W).html",
+  "cateIdR": "/vodtype/(\\S+).html",
   //"cateManual": {"电影": "dianying","连续剧": "lianxuju","动漫": "dongman-----------","综艺": "zongyi-----------"},
   "cateManual": {},
   "homeVodNode": "//section//ul[contains(@class,'pic')]/li/a",
