@@ -13,7 +13,7 @@
   "homeVodIdR": "/v/(\\w+).html",
   "homeVodImg": "/a[contains(@class,'fed-list-pics')]/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
-  "cateUrl": "https://www.osx3.com/t/{cateId}.html",
+  "cateUrl": "https://www.osx3.com/t/{cateId}-{catePg}.html",
   "cateVodNode": "//li[@class='fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2']",
   "cateVodName": "/a[contains(@class,'fed-list-title')]/text()",
   "cateVodId": "/a[contains(@class,'fed-list-title')]/@href",
