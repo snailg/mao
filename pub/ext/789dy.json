@@ -30,7 +30,7 @@
   "dtCate": "//div[@class='info fl']/p[4]/text()",
   "dtCateR": "",
   "dtYear": "//div[@class='info fl']/p[3]/text()",
-  "dtYearR": "",
+  "dtYearR": "\\S+(\\S+)\\S+",
   "dtArea": "//div[@class='info fl']/p[5]/text()",
   "dtAreaR": "",
   "dtMark": "",
