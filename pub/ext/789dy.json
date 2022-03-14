@@ -28,7 +28,7 @@
   "dtNameR": "",
   "dtImg": "//div[@class='pic fl']/img/@src",
   "dtImgR": "\\S+(http\\S+)",
-  "dtCate": "//div[@class='info fl']/p[4]/../text()",
+  "dtCate": "//div[@class='info fl']/p[4]/.//text()",
   "dtCateR": "",
   "dtYear": "//div[@class='info fl']/p[3]/child::text()",
   "dtYearR": "",
