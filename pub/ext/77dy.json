@@ -22,7 +22,7 @@
   "homeVodImg": "/div/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
   "homeVodMark": "/span[@class='pack-prb hidden']/text()", 
-  "cateUrl": "https://www.77diany.com/vodtype/{cateId}-{catePg}.html",
+  "cateUrl": "https://www.77diany.com/vodtype/{cateId}/page/{catePg}.html",
   "cateVodNode": "//div[contains(@class, 'vodlist hotgrow')]//a[@class='aplus-exp ecimgbor']",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
