@@ -32,7 +32,7 @@
   "dtNameR": "",
   "dtImg": "//div[@class='stui-content__thumb']/a[contains(@class,'pic')]/img/@data-original",
   //"dtImgR": "\\S+(http\\S+)",
-  "dtCate": "//div[@class='stui-content__detail']//p[contains(@class,'data') and contains(text(), '类型')]/following-sibling::*/text()",
+  "dtCate": "//div[@class='stui-content__detail']//p[contains(@class,'data') and contains(text(), '类型')]/text()",
   "dtCateR": "类型：(\\S+) / \\S+ / \\S+",
   "dtArea": "",
   "dtAreaR": "",
