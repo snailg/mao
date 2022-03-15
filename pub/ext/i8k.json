@@ -1,4 +1,5 @@
 {
+  "author" :"baddychen",
   "ua": "",
   "homeUrl": "https://www.i8k.cc",
   "dcVipFlag": "true",
@@ -18,7 +19,8 @@
   "homeVodImg": "/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
   "homeVodMark": "",
-  "cateUrl": "https://www.i8k.cc/vodtype/{cateId}-{catePg}.html",
+  //"cateUrl": "https://www.i8k.cc/vodtype/{cateId}-{catePg}.html",
+  "cateUrl": "https://www.i8k.cc/vodtype/{cateId}--time------{catePg}---.html",
   "cateVodNode": "//a[contains(@class,'cover-area img vip lazy')]",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
