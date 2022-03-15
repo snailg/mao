@@ -11,7 +11,7 @@
   //"cateId": "/@href",
   //"cateIdR": "/vodtype/(\\d+).html",
   //"cateManual": {}, 
-  "cateManual": {"电影":"1","连续剧":"2","综艺":"3","动漫":"4"},    
+  "cateManual": {"电影":"1","连续剧":"2","综艺":"3","动漫":"4","记录片":"20"},    
  "homeVodNode": "//div[contains(@class, 'module-items')]/div[contains(@class, 'module-item')]",
  "homeVodName": "/div[contains(@class, 'module-item-titlebox')]/a/@title",
  "homeVodId": "/div[contains(@class, 'module-item-titlebox')]/a/@href",
