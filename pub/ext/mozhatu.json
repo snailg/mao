@@ -30,7 +30,7 @@
 	"dtNode": "//div[contains(@class,'layui-main')]",
 	"dtName": "//div[contains(@class,'vod-info')]/div[contains(@class,'info')]/h3/text()",
 	"dtNameR": "",
-	"dtImg": "//div[contains(@class,'vod-info')]/div[contains(@class,'pic')]/img/attribute::*",
+	"dtImg": "//div[contains(@class,'vod-info')]/div[contains(@class,'pic')]/img/@src",
 	"dtImgR": "",
 	"dtCate": "//span[contains(text(), '分类')]/following-sibling::a/text()",
 	"dtCateR": "",
