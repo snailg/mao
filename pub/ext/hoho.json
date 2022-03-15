@@ -24,7 +24,7 @@
  "cateVodId": "/a/@href",
  "cateVodIdR": "/title/(\\w+).html",
  "cateVodImg": "/img/@data-src",
- "cateVodMark": "/div[@class='module-item-text']/text()",
+ "cateVodMark": "//div[@class='module-item-text']/text()",
   "dtUrl": "https://www.hoho.tv/title/{vid}.html",
   "dtNode": "//div[contains(@class, 'box view-heading')]",
   "dtName": "/div[@class='video-info']/div[@class='video-info-header']/h1/text()",
