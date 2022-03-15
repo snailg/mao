@@ -34,7 +34,7 @@
   "dtCate": "//div[@class='video-info-aux scroll-content']/div/a/text",
   "dtCateR": "",
   "dtArea": "//div[@class='video-info-aux scroll-content']/a[3]/text",
-  "dtAreaR": "(\\S+) ",
+  "dtAreaR": "(\\S+)\\S+",
   "dtDirector": "//span[contains(@class,'video-info-itemtitle') and contains(text(), '导演')]/following-sibling::div/span/following-sibling::*/text()",
   "dtDirectorR": "",
   "dtActor": "//span[contains(@class,'video-info-itemtitle') and contains(text(), '主演')]/following-sibling::div/span/following-sibling::*/text()",
