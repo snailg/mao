@@ -46,7 +46,7 @@
 	"dtYearR": "",
 	"dtMark": "//span[contains(text(), '更新')]/following-sibling::*/text()",
 	"dtMarkR": "",
-	"dtDesc": "//span[contains(text(), '详情介绍')]/parent::h3/following-sibling::div//span/text()",
+	"dtDesc": "//span[contains(text(), '详情介绍')]/parent::h3/following-sibling::div[2]/span/text()",
 	"dtDescR": "",
 	"dtFromNode": "//a[contains(@class,'channelname')]",
 	"dtFromName": "[substring-before(text(),'(')]",
