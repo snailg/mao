@@ -1,4 +1,6 @@
+//https://www.paopaoshipin.cc/,https://www.paopaoshipin.com/,https://www.paopaoshipin.xyz/,https://www.paopaoshipin.net/
 {
+    "author":"baddychen",
 	"ua": "",
 	"homeUrl": "https://www.paopaoshipin.com",
 	"cateNode": "//div[contains(@class,'nav flex')]/a[contains(@href, 't')]",
@@ -11,7 +13,7 @@
 	"homeVodId": "/@href",
 	"homeVodIdR": "/v/(\\w+).html",
 	"homeVodImg": "/div/div/@data-original",
-        "homeVodImgR": "",
+    "homeVodImgR": "",
 	"homeVodMark": "/div/div[contains(@class,'movie-rating cor4')]/text()",
 	"cateUrl": "https://www.paopaoshipin.com/t/{cateId}/{catePg}.html",
 	"cateVodNode": "//div[contains(@class,'movie-list-item')]/a[contains(@target, '_top')]",
@@ -19,7 +21,6 @@
 	"cateVodId": "/@href",
 	"cateVodIdR": "/v/(\\w+).html",
 	"cateVodImg": "/div/div/@data-original",
-        "homeVodImgR": "",
 	"cateVodMark": "/div/div[contains(@class,'movie-rating cor4')]/text()",
 	"dtUrl": "https://www.paopaoshipin.com/v/{vid}.html",
 	"dtNode": "//body",
