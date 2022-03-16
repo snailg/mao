@@ -59,7 +59,7 @@
 	"playUrl": "https://www.libvio.com/play/{playUrl}.html",
 	"playUa": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36",
 	//"searchUrl": "https://www.libvio.com/search/-------------.html?wd={wd}&submit=",
-    "searchUrl": "https://www.libvio.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
+    "searchUrl": "https://www.libvio.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=30",
 	"scVodNode": "json:list",
 	"scVodName": "name",
 	"scVodId": "id",
