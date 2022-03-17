@@ -33,7 +33,7 @@
 	"dtNameR": "",
 	"dtImg": "//div[@class='poster']/img/@src",
 	"dtImgR": "",
-	"dtCate": "//div[@class='scroll-content']/child::a/text()",
+	"dtCate": "//div[@class='scroll-content']/child::a/child::*/text()",
 	"dtCateR": "",
 	"dtYear": "//div[@class='stui-content__detail']//span[contains(@class,'text-muted hidden-xs') and contains(text(), '年份')]/following-sibling::*/text()",
 	"dtYearR": "",
