@@ -41,7 +41,7 @@
 	"dtAreaR": "",
 	"dtMark": "",
 	"dtMarkR": "",
-	"dtActor": "//div[@class='cr3 starLink']/a[1]/text() | //div[@class='cr3 starLink']/a[2]/text()",
+	"dtActor": "//div[@class='cr3 starLink']/a[1]/text()",
 	"dtActorR": "",
 	"dtDirector": "//div[@class='stui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '导演')]/following-sibling::*/text()",
 	"dtDirectorR": "",
