@@ -39,7 +39,7 @@
     "dtActor": "//span[contains(text(), '主演')]/following-sibling::*/text()",
     "dtDirector": "//span[contains(text(), '导演')]/following-sibling::*/text()",
 	"dtDesc": "//div[@class='fed-part-layout fed-back-whits']/p[10]/text()",
-	"dtDescR": "\\S+剧情简介：(\\S+)",
+	"dtDescR": "",
 	"dtFromNode": "//div[@class='fed-tabs-item fed-drop-info fed-visible']/div/ul[@class='fed-part-rows']",
 	"dtFromName": "/li/a/text()",
 	"dtFromNameR": "",
