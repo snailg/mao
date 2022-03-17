@@ -30,7 +30,7 @@
 	"dtImgR": "",
     "dtCate": "//div[contains(@class, 'scroll-content')]/a[1]/text()",
     "dtCateR": "",
-    "dtYear": "//div[contains(@class, 'scroll-content')]/a[3]/text()",
+    "dtYear": "//div[contains(@class, 'scroll-content')]/a[last()]/text()",
     "dtYearR": "",   
 	"dtMark": "//p[contains(@class,'cr3')]/text()",
     "dtMarkR": "状态：(.+)",
