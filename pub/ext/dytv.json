@@ -50,7 +50,7 @@
 	"dtFromNode": "//div[contains(@class, 'module-tab-item tab-item')]/span",
 	"dtFromName": "/text()",
 	"dtFromNameR": "",
-	"dtUrlNode": "//div[contains(@class,'scroll-content')]",
+	"dtUrlNode": "//div[contains(@class,'sort-item') and contains(@id, 'sort-item')]",
 	"dtUrlSubNode": "/a",
 	"dtUrlId": "@href",
 	"dtUrlIdR": "/p/(\\S+).html",
