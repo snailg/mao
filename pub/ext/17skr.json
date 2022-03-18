@@ -11,7 +11,6 @@
 //	"cateId": "/@href",
 //	"cateIdR": "/type/(\\d+).html",
 //	"cateManual": {"动漫": "dongman","电影": "dianying"},
-    "cateIdR": "/vod/show/id/(\\d+).html",
     "cateManual": {"动漫": "1","电影": "2"},
 	"homeVodNode": "//div[contains(@class, 'video-img-box')]",
 	"homeVodName": "/div[contains(@class, 'detail')]/h6/a/text()",
