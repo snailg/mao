@@ -10,7 +10,7 @@
 //	"cateName": "/@title",
 //	"cateId": "/@href",
 //	"cateIdR": "/type/(\\d+).html",
-    "cateManual": {"日本动漫": "ribendongman","国产动漫": "guochangdongman","欧美动漫": "oumeidongman","日本动漫电影": "ribendonghuadianying","国产动漫电影": "guochangdonghuadianying","欧美动漫电影": "oumeidonghuadianying"},
+    "cateManual": {"日本动漫": "ribendongman","国产动漫": "guochandongman","欧美动漫": "oumeidongman","日本动漫电影": "ribendonghuadianying","国产动漫电影": "guochandonghuadianying","欧美动漫电影": "oumeidonghuadianying"},
 	"homeVodNode": "//div[contains(@class, 'video-img-box')]",
 	"homeVodName": "/div[contains(@class, 'detail')]/h6/a/text()",
 	"homeVodId": "/div[contains(@class, 'img-box')]/a/@href",
