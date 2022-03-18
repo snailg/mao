@@ -23,7 +23,7 @@
 	"homeVodImgR": "",
 	"homeVodMark": "/a/span[2]/text()",
 	//"cateUrl": "https://www.libvio.com/type/{cateId}-{catePg}.html",
-    "cateUrl": "https://www.libvio.com/show/{cateId}-time------{catePg}---{year}.html",
+    "cateUrl": "https://www.libvio.com/show/{cateId}-{area}-{by}------{catePg}---{year}.html",
 	"cateVodNode": "//div[@class='stui-vodlist__box']",
 	"cateVodName": "/a/@title",
 	"cateVodId": "/a/@href",
