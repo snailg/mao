@@ -1,6 +1,6 @@
 {
 	"ua": "",
-	"homeUrl": "https://www.17skr.com",
+	"homeUrl": "https://www.17skr.com/",
 	"dcVipFlag": "true",
 	"pCfgJs": "https://www.17skr.com/static/js/playerconfig.js",
 	"pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
@@ -10,8 +10,7 @@
 //	"cateName": "/@title",
 //	"cateId": "/@href",
 //	"cateIdR": "/type/(\\d+).html",
-//	"cateManual": {"动漫": "dongman","电影": "dianying"},
-    "cateManual": {"动漫": "1","电影": "2"},
+    "cateManual": {"动漫": "dongman","电影": "dianying"},
 	"homeVodNode": "//div[contains(@class, 'video-img-box')]",
 	"homeVodName": "/div[contains(@class, 'detail')]/h6/a/text()",
 	"homeVodId": "/div[contains(@class, 'img-box')]/a/@href",
@@ -62,7 +61,7 @@
 	"scVodImg": "pic",
 	"scVodMark": "",
     "filter": {
-    "1": [
+    "dongman": [
       {
         "key": "year",
         "name": "年份",
@@ -92,7 +91,7 @@
         ]
       }
     ],
-    "2": [
+    "dianying": [
        {
         "key": "year",
         "name": "年份",
