@@ -1,8 +1,8 @@
 {
     "author":"baddychen",
 	"ua": "",
-	"homeUrl": "https://www.iuuys.com",
-	"pCfgJs": "https://www.iuuys.com/static/js/playerconfig.js",
+	"homeUrl": "https://www.iuuys.com/",
+	"pCfgJs": "https://www.iuuys.com/static/js/playerconfig.js?t=20220318",
 	"pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
 	"dcShow2Vip": {},
     "dcVipFlag": "true",
