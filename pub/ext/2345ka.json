@@ -5,7 +5,7 @@
     "cateNode": "//div[@class='home-nav flex']/div/a[contains(@href, '.html'))]",
 	"cateName": "/div[1]/text()",
 	"cateId": "/@href",
-	"cateIdR": "/t/(\\d+).html",
+	"cateIdR": "/t(\\S+).html",
 	"cateManual": {},
 	"homeVodNode": "//div[contains(@id,'listId') and not(contains(@id, '6'))]/div[contains(@class,'movie-list-body')]/div[contains(@class,'movie-list-item')]",
 	"homeVodName": "/a/div[2]/div[1]/text()",
