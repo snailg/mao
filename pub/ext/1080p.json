@@ -1,0 +1,62 @@
+{
+	"ua": "",
+    // 首页地址 用于获取 分类和首页推荐
+	"homeUrl": "https://1080p.one/",
+    // 分类节点
+	"cateNode": "",
+    // 分类名
+	"cateName": "",
+    // 分类id
+	"cateId": "",
+    // 分类id二次处理正则
+	"cateIdR": "",
+    // 手动设置分类，如果手动设置了分类则不使用上面的分类xpath获取分类  例如 "cateManual": {"电影": "1", "电视剧": "2"},
+	"cateManual": { "4k专区": "45", "电影": "1", "电视剧": "2", "动漫": "4", "综艺": "3", "纪录片": "38" },
+    // 首页推荐视频的节点
+	"homeVodNode": "//div[@class='palyconnt cf top20 wwp index-vod-list-c']/div[1]/div[2]/div/div[1]",
+    // 首页推荐视频的名称
+	"homeVodName": "/a/@title",
+    // 二次处理正则
+        "homeVodNameR": "",
+    // 首页推荐视频的id
+	"homeVodId": "/a/@href",
+    // 二次处理正则
+	"homeVodIdR": "/vodplay/(\\w+).html",
+    // 首页推荐视频的图片
+	"homeVodImg": "/a/div/@data-original",
+    // 二次处理正则
+        "homeVodImgR": "",
+    // 首页推荐视频的简介
+	"homeVodMark": "/a/span[2]/text()",
+    "cateUrl": "https://1080p.one/vodshow/{cateId}--------{catePg}---.html",
+    // 同上面的homeVod字段 分类列表中的视频信息
+	"cateVodNode": "//div[@class='pack-packcover returl list-top-b']/a",
+	"cateVodName": "/@title",
+	"cateVodId": "/@href",
+	"cateVodIdR": "/vodplay/(\\w+).html",
+	"cateVodImg": "/div/@data-original",
+	"cateVodImgR": "",
+	"cateVodMark": "/span[2]/text()",
+	// 详情页地址 用于获取详情页信息 及 播放列表和地址
+	"dtUrl": "https://1080p.one/vodplay/{vid}.html",
+	//详情节点
+	"dtNode": "//body/div/div",
+	//名字
+	"dtName": " //h1[@class='title']/span[1]/@title",
+	//图片
+	"dtImg": "//div[@style='display:none']/span/@data-pic",
+	 // 播放源节点
+	"dtFromNode": "//div[@class='swiper-wrapper cf']/a",
+	 // 播放源名称
+	"dtFromName": "/text()",
+	// 播放列表节点
+	"dtUrlNode": "//div[@class='player-xl-list top20 listdh size']/ul",
+	// 播放地址节点
+	"dtUrlSubNode": "/li/a",
+	// 播放地址
+	"dtUrlId": "@href",
+	// 二次处理正则
+	"dtUrlIdR": "/vodplay/(\\S+).html",
+	// 剧集名称
+	"dtUrlName": "/text()"
+}
