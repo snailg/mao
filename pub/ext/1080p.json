@@ -34,7 +34,7 @@
 	"dtFromNode": "//a[contains(@class,'swiper-slide')]",
 	"dtFromName": "/text()",
 	"dtUrlNode": "//ul[contains(@class,'content_playlist')]",
-	"dtUrlSubNode": "/li/a",
+	"dtUrlSubNode": "//li/a",
 	"dtUrlId": "@href",
 	"dtUrlIdR": "/vodplay/(\\S+).html",
 	"dtUrlName": "/text()",
