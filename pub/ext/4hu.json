@@ -14,7 +14,7 @@
   "homeVodImg": "/img/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
   "homeVodMark": "",
-  "cateUrl": "https://www.b1c77.com/{cateId}/index_.html",
+  "cateUrl": "https://www.b1c77.com/{cateId}/index_{catePg}.html",
   "cateVodNode": "//div[contains(@class, 'row col5 clearfix')]/dl/dt/a",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
