@@ -22,7 +22,7 @@
 	"cateVodImg": "//span[@class='pic-con-default lazy-load-image-background opacity lazy-load-image-loaded']/img/@src",
 	"cateVodImgR": "\\S+(http\\S+)",
 	"cateVodMark": "//span[@class='viewer-count']/text()",
-	"dtUrl": "https://www.2345ka.com/v/{vid}.html",
+	"dtUrl": "https://m.huya.com/{vid}",
 	"dtNode": "//div[@class='movie bj br card border-shadow']",
 	"dtName": "/div[@class='cf b-t1']/div[2]/div[1]/h1/text()",
 	"dtNameR": "",
