@@ -44,7 +44,7 @@
 	"dtFromName": "/text()",
     "dtFromNameR": "",
 	"dtUrlNode": "//div[contains(@class,'player-xl-list')]/ul",
-	"dtUrlSubNode": "//li/a",
+	"dtUrlSubNode": "/li/a",
 	"dtUrlId": "@href",
 	"dtUrlIdR": "/vodplay/(\\S+).html",
 	"dtUrlName": "/text()",
