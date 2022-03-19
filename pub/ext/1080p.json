@@ -32,6 +32,7 @@
 	"dtYear": "//div[contains(@class,'play-tag cor3')]/span[2]/a[2]/text()",
 	"dtDirector": "//div[contains(@class,'content-wrap')]/div[1]/a/text()",
 	"dtActor": "//div[contains(@class,'content-wrap')]/div[2]/a/text()",
+    "dtDesc": "//div[@class='info-wrap cor3']/text()",
 	"dtMark": "", 
 	"dtFromNode": "//a[contains(@class,'swiper-slide')]",
 	"dtFromName": "/text()",
