@@ -1,6 +1,11 @@
 {
 	"ua": "",
-	"homeUrl": "http://ouyewow.com/",
+	"homeUrl": "http://ouyewow.com/",	
+	"pCfgJs": "http://ouyewow.com/static/js/playerconfig.js",
+	"pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
+	"dcShow2Vip": {},
+	"dcPlayUrl": "true",
+    "dcVipFlag": "true",
 	"cateNode": "",
 	"cateName": "",
 	"cateId": "",
@@ -57,11 +62,11 @@
 	"dtUrlNameR": "",
 	"playUrl": "http://ouyewow.com/index.php/vod/play/id/{playUrl}.html",
 	"playUa": "",
- 	"searchUrl": "http://ouyewow.com/index.php/vod/search.html?wd={wd}&submit=",
-	"scVodNode": "//ul[@class='vodlist clearfix']/li",
-	"scVodName": "/div/a/@title",
-	"scVodId": "/div/a/@href",
+ 	"searchUrl": "http://ouyewow.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=20",
+	"scVodNode": "json:list",
+	"scVodName": "name",
+	"scVodId": "id",
 	"scVodIdR": "",
-	"scVodImg": "/div/a/@data-original",
-	"scVodMark": "/div/a/span/text()"
+	"scVodImg": "pic",
+	"scVodMark": ""
 }
