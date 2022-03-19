@@ -21,7 +21,7 @@
 	"cateVodImg": "/div/@data-original",
 	"cateVodImgR": "\\S+(http\\S+)",
 	"cateVodMark": "/span[contains(@class,'pack-prb hidden')]/text()",
-	"dtUrl": "https://1080p.one/{vid}.html",
+	"dtUrl": "https://1080p.one{vid}",
 	"dtNode": "//body",
 	"dtName": "//div[@class='play-detail']/h1/span/@title",
 	"dtNameR": "",
