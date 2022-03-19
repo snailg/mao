@@ -22,7 +22,7 @@
 	"cateVodImgR": "\\S+(http\\S+)",
 	"cateVodMark": "/span[contains(@class,'pack-prb hidden')]/text()",
 	"dtUrl": "https://1080p.one/vodplay/{vid}.html",
-	"dtNode": "/html",
+	"dtNode": "//body",
 	"dtName": "//div[@class='play-detail']/h1/span/@title",
 	"dtNameR": "",
 	"dtImg": "//div[@class='intro-wrap intro-wrapec']/a/@style",
