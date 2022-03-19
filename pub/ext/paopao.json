@@ -48,10 +48,10 @@
 	"playUrl": "https://www.paopaoshipin.com/p/{playUrl}.html",
 	"playUa": "",
 	"searchUrl": "https://www.paopaoshipin.com/search?wd={wd}",
-	"scVodNode": "json:list",
-	"scVodName": "name",
-	"scVodId": "id",
-	"scVodIdR": "",
-	"scVodImg": "pic",
+	"scVodNode": "//div[contains(@class,'vod-search-list')]",
+	"scVodName": "//div[contains(@class,'movie-title')]/text()",
+	"scVodId": "//div[contains(@class,'box flex')]/a/@href",
+	"scVodIdR": "/v/(\\w+).html",
+	"scVodImg": "//div[contains(@class,'movie-post-lazyload')]/@data-original",
 	"scVodMark": ""
 }
