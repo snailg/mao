@@ -29,7 +29,7 @@
 	"dtNode": "//body",
 	"dtName": "//div[@class='s-cover box']/a/@title",
 	"dtImg": "//div[@class='s-cover box']/a/img/@src",
-	"dtFromNode": "//div[contains(@class,'play_source_tab')]/div/a",
+	"dtFromNode": "//a[contains(@class,'swiper-slide')]",
 	"dtFromName": "/text()",
 	"dtUrlNode": "//div[@class='playlist_notfull']/ul",
 	"dtUrlSubNode": "/li/a",
