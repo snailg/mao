@@ -19,7 +19,7 @@
   "homeVodImgR": "\\S+(http\\S+)",
   "homeVodMark": "/span[contains(@class,'pic-text')]/text()",
   "cateUrl": "http://1090ys8.com/whole/{cateId}/page/{catePg}.html",
-  "cateVodNode": "//div[contains(@class,'stui-pannel_bd')]/ul/li[contains(@class,'col-md-5')]/div/a[contains(@class,'stui-vodlist__thumb')]",
+  "cateVodNode": "//div[contains(@class='stui-vodlist__box']/a[contains(@class,'stui-vodlist__thumb')]",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
   "cateVodIdR": "/show/(\\w+).html",
