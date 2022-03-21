@@ -45,7 +45,7 @@
 "dtMarkR":"",
 "dtDesc":"//span[contains(@class,'detail-sketch') and contains(text(), '剧情')]/following-sibling::*/text()",
 "dtDescR":"",
-"dtFromNode":"//div[contains(@class,'stui-vodlist__head)]/h3",
+"dtFromNode":"//div[contains(@class,'stui-pannel__bd)]/div[2]/h3",
 "dtFromName":"/text()",
 "dtUrlNode":"//ul[contains(@class='stui-content__playlist')]",
 "dtUrlSubNode":"/li/a",
