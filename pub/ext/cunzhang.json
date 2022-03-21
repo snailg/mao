@@ -6,7 +6,7 @@
 	"dcShow2Vip": {},
 	"dcPlayUrl": "true",
     "dcVipFlag": "true",
-	"cateNode": "//ul[contains(@class,'stui-header__menu type-slide')]/li/a[contains(@href, 'type')]",
+	"cateNode": "//ul[contains(@class,'stui-header__menu')]/li/a[contains(@href, 'tv')]",
 	"cateName": "/text()",
 	"cateId": "/@href",
 	"cateIdR": "/tv/(\\w+).html",
