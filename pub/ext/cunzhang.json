@@ -28,7 +28,7 @@
 	"dtNameR": "",
 	"dtImg": "//a[@class='stui-vodlist__thumb picture v-thumb']/img/@data-original",
 	"dtImgR": "",
-	"dtFromNode": "//span[contains(@class,'more text-muted')]/parent::/following-sibling::h3",
+	"dtFromNode": "//span[contains(@class,'more text-muted')]/parent::div/h3",
 	"dtFromName": "/text()",
 	"dtFromNameR": "",
 	"dtUrlNode": "//ul[@class='stui-content__playlist clearfix column8']/li",
