@@ -8,7 +8,7 @@
     "dcVipFlag": "true",   
 	"dcPlayUrl": "true",
 	"cateNode": "//ul[contains(@class,'nav-menu-items')]/li/a[contains(@href, 'type')]",
-	"cateName": "/@title",
+	"cateName": "/text()",
 	"cateId": "/@href",
 	"cateIdR": "/vodtype/(\\w+)/",
 	"cateManual": {},
