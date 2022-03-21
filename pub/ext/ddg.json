@@ -43,7 +43,7 @@
 "dtDirectorR": "导演：(.+)",
 "dtMark": "//div[@class='stui-content__detail']//p[contains(@class,'data') and contains(text(), '更新')]/text()",
 "dtMarkR": "",
-"dtDesc": "//span[@class='detail-sketch']/text()",
+"dtDesc": "//span[@class='detail-content']/text()",
 "dtDescR": "",
 "dtFromNode": "//h3",
 "dtFromName": "[substring-before(text(),'(')]",
