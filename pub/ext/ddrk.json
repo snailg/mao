@@ -11,7 +11,7 @@
     "homeVodNode": "//div[@class='post-box-list']//div[@class='post-box-container']",
 	"homeVodName": "substring-before(//div[@class='post-box-text']/h2[@class='post-box-title']/a/text(), \"(\")",
 	"homeVodId": "//h2[@class='post-box-title']/a/@href",
-    "homeVodIdR": "substring-after((\\w+), \"https://ddrk.me/\")",
+    "homeVodIdR": "substring-after((\\S+), \"https://ddrk.me/\")",
 	"homeVodImg": "substring-before(substring-after(//div[@class='post-box-image']/@style, \"background-image: url(\"), \")\")",
 	"homeVodMark": "substring-before(substring-after(//div[@class='post-box-text']/h2[@class='post-box-title']/a/text(), \"(\"), \")\")",
 
