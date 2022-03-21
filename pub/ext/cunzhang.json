@@ -47,7 +47,7 @@
 	"dtMark": "//div[@class='stui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '更新')]/following-sibling::*/text()",
 	"dtMarkR": "",
 	//"dtDesc": "//p[@class='desc hidden-xs']/text()",
-    "dtDesc": "//span[contains(@class,'text-muted') and contains(text(), '简介')]/parent::text()",
+    "dtDesc": "//span[contains(@class,'text-muted') and contains(text(), '简介')]/parent::*/text()",
 	"dtDescR": "",
 	//"dtFromNode": "//span[contains(@class,'more text-muted')]/following-sibling::h3",
     "dtFromNode": "//h3[contains(@class,'title')]",
