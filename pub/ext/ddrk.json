@@ -1,6 +1,12 @@
 {
 	"ua": "",
 	"homeUrl": "https://ddrk.me",
+    "cateNode": "//ul[@class=' dropdown-menu']/li[contains(@id,'menu-item-')]/a",
+	"cateName": "/text()",
+	"cateId": "/@href",
+	"cateManual": {},
+
+
     "homeVodNode": "//div[@class='post-box-list']//div[@class='post-box-container']",
 	"homeVodName": "substring-before(//div[@class='post-box-text']/h2[@class='post-box-title']/a/text(), \"(\")",
 	"homeVodId": "//h2[@class='post-box-title']/a/@href",
@@ -8,19 +14,14 @@
 	"homeVodImg": "substring-before(substring-after(//div[@class='post-box-image']/@style, \"background-image: url(\"), \")\")",
 	"homeVodMark": "substring-before(substring-after(//div[@class='post-box-text']/h2[@class='post-box-title']/a/text(), \"(\"), \")\")",
 
-	"cateManual": {},
-	"cateNode": "//ul[@class=' dropdown-menu']/li[contains(@id,'menu-item-')]/a",
-	"cateName": "/text()",
-	"cateId": "/@href",
 	"cateUrl": "{cateId}/page/{catePg}/",
-
 	"cateVodNode": "//div[@class='post-box-list']//div[@class='post-box-container']",
 	"cateVodName": "substring-before(//div[@class='post-box-text']/h2[@class='post-box-title']/a/text(), \"(\")",
 	"cateVodId": "substring-after(//h2[@class='post-box-title']/a/@href, \"https://ddrk.me/\")",
 	"cateVodImg": "substring-before(substring-after(//div[@class='post-box-image']/@style, \"background-image: url(\"), \");\")",
 	"cateVodMark": "substring-before(substring-after(//div[@class='post-box-text']/h2[@class='post-box-title']/a/text(), \"(\"), \")\")",
 
-	"dtUrl": "https://ddrk.me/crime-2021",
+	"dtUrl": "https://ddrk.me/{vid}",
 	"dtNode": "//div[@class='post-content']",
 	"dtName": "//div[@class='title']/a[@class='cute']/text()",
 	"dtNameR": "",
@@ -47,7 +48,7 @@
     // // 视频简介
 	// "dtDesc": "//p[@class='summary']/text()",
 	// "dtDescR": "",
-	"dtFromNode": "//div[@class='post-content']/div[@class='entry']/p[1]",
+	"dtFromNode": "//div[@class='entry']/p[1]",
 	"dtFromName": "//text()",
 	"dtFromNameR": "",
 	"dtUrlNode": "//div[@class='wp-playlist-tracks']",
@@ -56,7 +57,7 @@
 	"dtUrlIdR": "",
 	"dtUrlName": "/text()",
 	"dtUrlNameR": "",
-	"playUrl": "https://ddrk.me/crime-2021/?ep=1",
+	"playUrl": "https://ddrk.me/{playUrl}",
 	"playUa": "",
 	"searchUrl": "",
     
