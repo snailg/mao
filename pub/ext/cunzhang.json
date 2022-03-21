@@ -49,7 +49,7 @@
 	"dtDesc": "//p[@class='desc hidden-xs']/text()",
 	"dtDescR": "",
 	//"dtFromNode": "//span[contains(@class,'more text-muted')]/following-sibling::h3",
-    "dtFromNode": "//h3[contains(@class,'title')] or //a[contains(@class,'btn-primary')]",
+    "dtFromNode": "//h3[contains(@class,'title')]",
 	"dtFromName": "[substring-before(text(),'(')]",
 	"dtFromNameR": "",
 	"dtUrlNode": "//ul[contains(@class,'stui-content__playlist')]",
