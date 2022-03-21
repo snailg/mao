@@ -56,7 +56,7 @@
 "dtUrlNameR":"",
 "playUrl":"http://www.dadagui.com/vodplay/{playUrl}.html",
 "playUa":"",
-"searchUrl":"http://www.dadagui.com/vodsearch/{wd}-------------.html",
+"searchUrl":"http://www.dadagui.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=30",
 "scVodNode":"json:list",
 "scVodName":"name",
 "scVodId":"id",
