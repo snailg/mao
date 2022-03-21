@@ -50,7 +50,7 @@
 	"dtDescR": "",
 	//"dtFromNode": "//span[contains(@class,'more text-muted')]/following-sibling::h3",
     "dtFromNode": "//h3[contains(@class,'title')] | //a[contains(@class,'btn-primary')] ",
-	"dtFromName": "[substring-before(text(),'(')]",
+	"dtFromName": "[substring-before(text(),'(')]  |  /text()",
 	"dtFromNameR": "",
 	"dtUrlNode": "//ul[contains(@class,'stui-content__playlist')]",
 	"dtUrlSubNode": "/li/a",
