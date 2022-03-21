@@ -29,7 +29,7 @@
 	"dtImg": "//a[@class='stui-vodlist__thumb picture v-thumb']/img/@data-original",
 	"dtImgR": "",
 	"dtFromNode": "//span[contains(@class,'more text-muted')]/following-sibling::h3",
-	"dtFromName": "/text()",
+	"dtFromName": "[substring-before(text(),'(')]",
 	"dtFromNameR": "",
 	"dtUrlNode": "//ul[@class='stui-content__playlist clearfix column8']/li",
 	"dtUrlSubNode": "/a",
