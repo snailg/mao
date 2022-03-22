@@ -1,3 +1,4 @@
+//http://789ba.com
 {
   "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",  
 //  "ua": "",
@@ -6,7 +7,7 @@
 //  "pCfgJs": "http://789kp.com/static/js/playerconfig.js",
 //  "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
 //  "dcShow2Vip": {},
-//  "dcPlayUrl": "true",
+  "dcPlayUrl": "true",
   "cateNode": "//div[contains(@class,'stui-header_bd')]/ul[contains(@class, 'menu')]/li/a[contains(@href,'list')]",
   "cateName": "/text()",
   "cateId": "/@href",
