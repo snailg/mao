@@ -1,7 +1,8 @@
 //https://www.luwangyangrong.com/?s=vod-type-id-1-p-1.html
 {
   "ua": "",
-  "homeUrl": "https://www.luwangyangrong.com",
+  "homeUrl": "https://www.luwangyangrong.com/",
+  "dcPlayUrl": "true",
   "cateNode": "",
   "cateName": "",
   "cateId": "",
