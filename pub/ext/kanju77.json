@@ -48,7 +48,7 @@
 	"dtDesc": "//p[@class='col-pd']/text()",
 	"dtDescR": "",
 	"dtFromNode": "//a[@data-toggle='tab' and contains(@href,'playlist')]",
-	"dtFromName": "/text",
+	"dtFromName": "/text()",
 	"dtFromNameR": "",
 	"dtUrlNode": "//ul[contains(@class, 'myui-content__list')]",
 	"dtUrlSubNode": "/li/a",
