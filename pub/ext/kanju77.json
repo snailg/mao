@@ -45,7 +45,7 @@
 	"dtDirectorR": "",
 	"dtMark": "//div[@class='stui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '更新')]/following-sibling::*/text()",
 	"dtMarkR": "",
-	"dtDesc": "//p[@class='col-pd']/text()",
+	"dtDesc": "//span[@class='data' and contains(@style,'display')]/text()",
 	"dtDescR": "",
 	"dtFromNode": "//a[@data-toggle='tab' and contains(@href,'playlist')]",
 	"dtFromName": "/text()",
