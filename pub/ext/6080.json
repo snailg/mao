@@ -40,7 +40,7 @@
   "dtMarkR": "",
   "dtDesc": "//em[contains(text(), '介绍')]/parent::div/text()",
   "dtDescR": "",
-  "dtFromNode": "//ul[@class='playname']/li/a",
+  "dtFromNode": "//a[@rel='nofollow']",
   "dtFromName": "/text()",
   "dtUrlNode": "//div[@class='playerlist back-tab']",
   "dtUrlSubNode": "/ul/a",
