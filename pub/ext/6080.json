@@ -43,7 +43,7 @@
   "dtFromNode": "//ul[@class='playname']/li/a",
   "dtFromName": "/text()",
   "dtUrlNode": "//ul[contains(@style,'opacity:')]",
-  "dtUrlSubNode": "/a",
+  "dtUrlSubNode": "//a",
   "dtUrlId": "@href",
   "dtUrlIdR": "/play/(\\S+).html",
   "dtUrlName": "/text()",
