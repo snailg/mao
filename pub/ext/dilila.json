@@ -8,7 +8,7 @@
 //"pCfgJsR":"[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
 //"dcShow2Vip": {},
 "dcPlayUrl":"true",
-"cateManual": {"电影":"1","电视剧":"2","综艺":"3","动漫":"4","记录片":"21"},
+"cateManual": {"电影":"1","电视剧":"2","综艺":"3","动漫":"4","直播":"20","记录片":"21"},
 "homeVodNode":"//div[@class='movie-list-item']/a[@target='_top']",
 "homeVodName":"//div[@class='movie-title txtHide']/@title",
 "homeVodId":"/@href",
