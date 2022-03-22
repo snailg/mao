@@ -42,7 +42,7 @@
   "dtDescR": "",
   "dtFromNode": "//ul[@class='playname']/li/a",
   "dtFromName": "/text()",
-  "dtUrlNode": "//div[contains(@class,'playerlist')]/ul[contains(@style,'opacity:')]",
+  "dtUrlNode": "//div[contains(@class,'playerlist')]/ul",
   "dtUrlSubNode": "/a",
   "dtUrlId": "@href",
   "dtUrlIdR": "/play/(\\S+).html",
