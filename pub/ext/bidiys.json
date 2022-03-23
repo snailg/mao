@@ -39,7 +39,7 @@
   "dtUrlSubNode": "//div[@class='scroll-content']/a",
   "dtUrlId": "@href",
   "dtUrlIdR": "/vodplay-(\\S+).html",
-  "dtUrlName": "//span/text()",
+  "dtUrlName": "/span/text()",
   "dtUrlNameR": "",
   "playUrl": "https://www.bidiys.cc/vodplay-{playUrl}.html",
   "searchUrl":"https://www.bidiys.cc/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
