@@ -10,7 +10,7 @@
 	"cateName": "",
 	"cateId": "",
 	"cateIdR": "",
-	"cateManual": {"抖音电影": "5-----------", "电视剧": "2-----------" , "电影": "1-----------" , "综艺": "3-----------" , "动漫": "4-----------" },
+	"cateManual": {"抖音电影": "5", "电视剧": "2" , "电影": "1" , "综艺": "3" , "动漫": "4" },
 	"homeVodNode": "//div[@class='module-main tab-list active']/div/a",
 	"homeVodName": "/@title",
 	"homeVodNameR": "",
