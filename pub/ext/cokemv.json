@@ -11,7 +11,7 @@
 	"cateId": "",
 	"cateIdR": "",
 	"cateManual": {"抖音电影": "5", "电视剧": "2" , "电影": "1" , "综艺": "3" , "动漫": "4" },
-	"homeVodNode": "//div[@class='module-items module-poster-items-base']/div/a",
+	"homeVodNode": "//div[@class='module-items module-poster-items-base']/a",
 	"homeVodName": "/@title",
 	"homeVodNameR": "",
 	"homeVodId": "/@href",
