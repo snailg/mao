@@ -20,7 +20,7 @@
 	"homeVodImg": "/div[1]/div[2]/img/@data-original",
 	"homeVodImgR": "",
 	"homeVodMark": "/div[1]/div[1]/text()",
-	"cateUrl": "https://cokemv.me/vodshow/{cateId}{catePg}.html",
+	"cateUrl": "https://cokemv.me/vodshow/{cateId}--------{catePg}---.html",
 	"cateVodNode": "//div[@class='module-items module-poster-items-base ']/a",
 	"cateVodName": "/@title",
 	"cateVodId": "/@href",
