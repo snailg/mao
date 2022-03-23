@@ -13,7 +13,7 @@
   "homeVodIdR": "/voddetail/(\\w+).html",
   "homeVodImg": "/@data-original",
   "homeVodImgR": "",
-  "cateUrl": "https://cokemv.me/vodtype/{cateId}-{catePg}.html",
+  "cateUrl": "https://cokemv.me/vodshow/{cateId}-{catePg}.html",
   "cateVodNode": "//li[@class='col-lg-8 col-md-6 col-sm-4 col-xs-3']/div/a",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
