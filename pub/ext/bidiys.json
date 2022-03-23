@@ -32,10 +32,7 @@
  // "dtDirector": "//ul[@class='moviedteail_list']/li[contains(text(),'导演')]/a/text()",
  //"dtFromNode": "//div[contains(@class,'mi_paly_box')]//div[@class='ypxingq_t']",
  //"dtFromName": "/text()",
-
-
-
-  "dtFromNode":"//div[2][@class='module-tab-content']//div//span",
+  "dtFromNode":"//div[@class='module-tab-content']/div/span",
   "dtFromName": "/text()",
   "dtFromNameR": "",
   "dtUrlNode": "//body",
