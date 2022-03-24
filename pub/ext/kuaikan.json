@@ -8,7 +8,7 @@
 //  "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
 //  "dcShow2Vip": {},
 //  "dcPlayUrl": "true",
-  "cateNode": "//ul[contains(@class,'ui-nav') and contains(@id,'nav')]/li/a",
+  "cateNode": "//ul[@id='nav')]/li/a",
   "cateName": "/text()",
   "cateId": "/@href",
   "cateIdR": "/(\\S+)/",
