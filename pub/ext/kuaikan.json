@@ -38,7 +38,7 @@
   "dtDirectorR": "",
   "dtDesc": "//span[contains(text(), '简介：')]/parent::*/text()",
   "dtDescR": "",
-  "dtFromNode": "//div[@class='caption fn-clear')]/h4/a/img",
+  "dtFromNode": "//div[@id='detail-list']//div[@class='caption fn-clear')]/h4/a/img",
   "dtFromName": "/@alt",
   "dtFromNameR": "",
   "dtUrlNode": "//p[@class='play-list']",
