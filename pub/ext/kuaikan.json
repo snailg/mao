@@ -16,7 +16,7 @@
   "homeVodImg": "/img/@data-original",
   "homeVodImgR": "",
   "homeVodMark": "/label[2]/text()",
-  "cateUrl": "http://www.kuaikan888.com/{cateId}/____{catePg}.html",
+  "cateUrl": "http://www.kuaikan888.com/{cateId}/_____{catePg}.html",
   "cateVodNode": "//body",
   "cateVodName": "//a[@class='play-img']/img/@alt",
   "cateVodId": "//a[@class='play-img']/@href",
