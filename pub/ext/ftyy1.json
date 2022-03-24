@@ -50,7 +50,7 @@
   "dtUrlName": "/text()",
   "dtUrlNameR": "",
   "playUrl": "https://fantuan.tv/vodplay/{playUrl}.html",
-  "playUa": "",
+  "playUa": "Mozilla/5.0 (Windows NT 10.0)",
   "searchUrl": "https://fantuan.tv/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
   "scVodNode": "json:list",
   "scVodName": "name",
