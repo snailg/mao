@@ -24,7 +24,7 @@
   "cateVodImg": "//a[@class='play-img']/img/@data-original",
   "cateVodImgR": "\\S+(http\\S+)",
   "cateVodMark": "/div/p//span[contains(@class,'mod_version')]/text()",
-  "dtUrl": "http://www.kuaikan888.com{vid}",
+  "dtUrl": "http://www.kuaikan888.com/{vid}/",
   "dtNode": "//body",
   "dtName": "//div[@class='detail-pic fn-left']/img/@alt",
   "dtNameR": "",
