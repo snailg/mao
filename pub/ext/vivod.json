@@ -13,7 +13,7 @@
 	"homeVodImg": "/img/@data-original",
 	"homeVodImgR": "\\S+(http\\S+)",
 	"homeVodMark": "/div/span/text()",
-	"cateUrl": "https://www.4ltv.com/movie_bt/{cateId}/page/{catePg}",
+	"cateUrl": "https://www.vivod.xyz/movie_bt_series/{cateId}/page/{catePg}/",
 	"cateVodNode": "//div[@class='bt_img mi_ne_kd mrb']/ul/li/a",
 	"cateVodName": "/following-sibling::h3/a/text()",
 	"cateVodId": "/@href",
