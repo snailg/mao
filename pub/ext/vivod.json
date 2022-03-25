@@ -43,7 +43,7 @@
 	"dtDesc": "//div[@class='yp_context']/p/text()",
 	"dtDescR": "",
     "dtFromNode": "//span[contains(text(), '观看')]",
-    "dtFromName": "concat('VIVOD源',count(parent::*/preceding::*//span[contains(text(), '观看')]) + 1)",
+    "dtFromName": "concat('vivod超清源',count(parent::*/preceding::*//span[contains(text(), '观看')]) + 1)",
     "dtFromNameR": "(\\S+).0",
 	"dtUrlNode": "//div[@class='paly_list_btn']",
 	"dtUrlSubNode": "/a",
