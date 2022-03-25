@@ -19,7 +19,7 @@
 	"homeVodImg": "/a[1]/@data-original",
 	"homeVodImgR": "",
 	"homeVodMark": "/span[contains(@class,'pack-prb hidden')]/text()",
-    "cateUrl": "https://www.id190.com/vodtype/{cateId}-{catePg}.html",
+    "cateUrl": "https://www.id190.com/vodshow/{cateId}--------{catePg}---.html",
 	"cateVodNode": "//ul[@class='mo-cols-rows']/li",
 	"cateVodName": "/a[2]/text()",
 	"cateVodId": "/a[2]/@href",
