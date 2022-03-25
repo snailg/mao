@@ -43,7 +43,7 @@
 	"dtFromNode": "//div[contains(@class,'mo-sort-head')]/h2[contains(@href,'mo-cols-zero')]/a",
 	"dtFromName": "[substring-before(text(),'(')]",
 	"dtFromNameR": "",
-	"dtUrlNode": "//ul[@class='mo-movs-item mo-sort-boxs mo-cols-rows mo-pamd-5px mo-cols-show']",
+	"dtUrlNode": "//ul[contains(@class,'mo-movs-item']",
 	"dtUrlSubNode": "/li/a",
 	"dtUrlId": "@href",
 	"dtUrlIdR": "/play/(\\S+).html",
