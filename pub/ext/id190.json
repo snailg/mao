@@ -41,7 +41,7 @@
     "dtDesc": "//span[@class='sketch content']/text()",
 	"dtMark": "", 
 	"dtFromNode": "//div[contains(@class,'mo-sort-head')]/h2[contains(@href,'mo-cols-zero')]/a",
-	"dtFromName": "/text()",
+	"dtFromName": "[substring-before(text(),'(')]",
 	"dtFromNameR": "",
 	"dtUrlNode": "//ul[@class='mo-movs-item mo-sort-boxs mo-cols-rows mo-pamd-5px mo-cols-show']",
 	"dtUrlSubNode": "/li/a",
