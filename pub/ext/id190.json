@@ -38,7 +38,7 @@
 	"dtYear": "//span[@class='mo-text-muted' and contains(text(), '年份')]/following-sibling::a/text()",
 	"dtDirector": "//span[@class='mo-text-muted' and contains(text(), '导演')]/following-sibling::a/text()",
 	"dtActor": "//span[@class='mo-text-muted' and contains(text(), '主演')]/following-sibling::a/text()",
-    "dtDesc": "substring-before(//div[@class='mo-paxs-5px mo-ptxs-0px']/p/text(), \"(\")",
+    "dtDesc": "substring-before(//div[@class='mo-paxs-5px mo-ptxs-0px']/p/text(), '(')",
 	"dtMark": "", 
 	"dtFromNode": "//a[contains(@class,'mo-movs-btns')]",
     "dtFromName": "/text()",
