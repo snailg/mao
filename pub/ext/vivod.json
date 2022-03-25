@@ -37,7 +37,7 @@
 	"dtMarkR": "",
 	"dtActor": "//li[contains(text(),'主演')]/a/text()",
 	"dtActorR": "",
-	"dtDirector": "//li[contains(text(),'导演')/a/text()",
+	"dtDirector": "//li[contains(text(),'导演')]/a/text()",
 	"dtDirectorR": "",
 	"dtDesc": "//div[@class='yp_context']/p/text()",
 	"dtDescR": "",
