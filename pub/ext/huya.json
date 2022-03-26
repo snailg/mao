@@ -14,7 +14,7 @@
 	"homeVodImg": "/div/div[1]/div/span/img[@class='pic-con']/@src",
 	"homeVodImgR": "\\S+(http\\S+)",
 	"homeVodMark": "//span[@class='viewer-count']/text()",
-	"cateUrl": "https://m.huya.com/g/2135/{cateId}",
+	"cateUrl": "https://m.huya.com/g/2135{cateId}",
 	"cateVodNode": "//div[@class='m-container-slide']/a",
 	"cateVodName": "/div/p[@class='title']/text()",
 	"cateVodId": "/@href",
