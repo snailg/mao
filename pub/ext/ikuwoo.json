@@ -49,7 +49,7 @@
     "dtFromNode": "//div[@id='y-playList']/div/span",
   "dtFromName": "/text()",
   "dtFromNameR": "",
-  "dtUrlNode": "//div[contains(@class, 'module-play-list')]/div[contains(@class,'content_playlist')]",
+  "dtUrlNode": "//div[contains(@class, 'module-play-list')]/div[contains(@class,'module-play-list-base')]",
   "dtUrlSubNode": "/a",
   "dtUrlId": "@href",
   "dtUrlIdR": "/index.php/vod/play/id/(\\S+).html",
