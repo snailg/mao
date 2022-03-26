@@ -53,7 +53,7 @@
 	"dtFromName": "//text()",
 	"dtFromNameR": "",
 	"dtUrlNode": "//div[@class='wp-playlist-tracks']",
-	"dtUrlSubNode": "//div[contains(@class,'wp-playlist-item')]/a",
+	"dtUrlSubNode": "/div[contains(@class,'wp-playlist-item')]/a",
 	"dtUrlId": "substring-before(/text(), \".\")",
 	"dtUrlIdR": "",
 	"dtUrlName": "/text()",
