@@ -17,7 +17,8 @@
 	"homeVodImg": "/img/@data-src",
 	"homeVodImgR": "",
 	"homeVodMark": "/a/span[contains(@class,'pic-text')]/text()",
-	"cateUrl": "https://www.lipinvip.com/{cateId}-pg-{catePg}-order--by-time-year--letter--area--lang-.html",
+    
+	"cateUrl": "https://www.lipinvip.com/{cateId}-pg-{catePg}-order--by--year--letter--area--lang-.html",
 	"cateVodNode": "//ul[@class='show-list fn-clear']/li/a",
 	"cateVodName": "/img/@alt",
 	"cateVodId": "/@href",
