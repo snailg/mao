@@ -50,7 +50,7 @@
   "dtFromName": "/text()",
   "dtFromNameR": "",
   "dtUrlNode": "//div[@id='panel1']",
-  "dtUrlSubNode": "//a",
+  "dtUrlSubNode": "//div/a",
   "dtUrlId": "@href",
   "dtUrlIdR": "/index.php/vod/play/id/(\\S+).html",
   "dtUrlName": "/span/text()",
