@@ -16,7 +16,7 @@
   "homeVodId": "/a/@href",
   "homeVodIdR": "/detail/(\\w+)",
   //"homeVodImg": "/a/@data-original",
-  "homeVodImg": "concat(\"https://www.1993s.top/\",/a/@data-original)",
+  "homeVodImg": "concat('https://www.1993s.top',/a/@data-original)",
   "homeVodMark": "/a/span[@class='pic-text text-right']/text()",
   
 // Category Summary ================================================    
@@ -26,7 +26,7 @@
   "cateVodId": "/a/@href",
   "cateVodIdR": "/detail/(\\w+).html",
   //"cateVodImg": "/a/@data-original",
-  "cateVodImg": "concat(\"https://www.1993s.top/\",/a/@data-original)",
+  "cateVodImg": "concat('https://www.1993s.top',/a/@data-original)",
   "cateVodMark": "/a/span[@class='pic-text text-right']/text()",
   
 // Category Details ================================================    
