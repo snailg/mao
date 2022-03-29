@@ -27,7 +27,7 @@
 	"cateVodImg": "/img/@data-src",
 	"cateVodImgR": "\\S+(http\\S+)",
 	"cateVodMark": "/span[contains(@class,'pic-text')]/text()",
-	"dtUrl": "http://www.kuaiyunyy.com/detail/{vid}/",
+	"dtUrl": "http://www.kuaiyunyy.com/vod/detail/id/{vid}.html",
 	"dtNode": "//div[contains(@class,'col-lg-wide-75')]",
 	"dtName": "//div[@class='stui-content__thumb']/a[contains(@class,'stui-vodlist__thumb')]/@title",
 	"dtNameR": "",
