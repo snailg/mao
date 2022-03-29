@@ -54,7 +54,7 @@
 	"dtUrlSubNode": "/div/a",
 	"dtUrlId": "@href",
 	"dtUrlIdR": "/index.php/vod/play/id/(\\S+).html",
-	"dtUrlName": "/text()",
+	"dtUrlName": "/span/text()",
 	"dtUrlNameR": "",
 	"playUrl": "http://www.kuaiyunyy.com/index.php/vod/play/id/{playUrl}.html",
 	"playUa": "",
