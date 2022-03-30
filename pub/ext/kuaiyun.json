@@ -7,7 +7,7 @@
 	"pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
 	"dcShow2Vip": {},
 	"dcPlayUrl": "true",
-	"cateNode": "///li[@class='nav-menu-item']/a[contains(@href, 'type') and not(contains(@href,'label'))]",
+	"cateNode": "//li[@class='nav-menu-item']/a[contains(@href, 'type') and not(contains(@href,'label'))]",
 	"cateName": "/@title",
 	"cateId": "/@href",
 	"cateIdR": "index.php/vod/type/id/(\\d+).html",
