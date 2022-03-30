@@ -13,7 +13,7 @@
   "homeVodIdR": "/voddetail/(\\w+).html",
   "homeVodImg": "/@data-original",
   "homeVodImgR": "",
-  "cateUrl": "https://www.ysgc.cc/vodtype/{cateId}-{catePg}.html",
+  "cateUrl": "https://www.ysgc.cc/{cateId}--------{catePg}---.html",
   "cateVodNode": "//ul[@class='myui-vodlist clearfix']/li/div/a",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
