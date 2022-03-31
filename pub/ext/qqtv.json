@@ -57,7 +57,7 @@
 	"dtUrlName": "/text()",
 	"dtUrlNameR": "",
 	"playUrl": "http://www.qqtv.top/play/{playUrl}.html",
-	"playUa": "",
+	"playUa": "Mozilla/5.0",
 	"searchUrl": "http://www.qqtv.top/index.php/ajax/suggest?mid=1&wd={wd}&limit=100",
 	"scVodNode": "json:list",
 	"scVodName": "name",
