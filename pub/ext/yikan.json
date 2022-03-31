@@ -12,7 +12,7 @@
 	"cateId": "/@href",
 	"cateIdR": "index.php/vod/type/id/(\\d+).html",
 	"cateManual": {},
-	"homeVodNode": "//ul[@class='hl-vod-list clearfix']/li/a",
+	"homeVodNode": "//ul[contains(@class,'hl-vod-list')]/li/a",
 	"homeVodName": "/@title",
 	"homeVodId": "/@href",
 	"homeVodIdR": "/index.php/vod/detail/id/(\\w+).html",
