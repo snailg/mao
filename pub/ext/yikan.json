@@ -20,7 +20,7 @@
 	"homeVodImg": "/data-original",
 	"homeVodImgR": "",
 	"homeVodMark": "/div[contains(@class,'hl-pic-text')]/span/text()",
-	"cateUrl": "https://video.ykvideo.cn/index.php/vod/show/id/{cateId}/page/{catePg}.html",
+	"cateUrl": "https://video.ykvideo.cn/index.php/vod/type/id/{cateId}/page/{catePg}.html",
 	"cateVodNode": "//a[contains(@class,'hl-item-thumb')]",
 	"cateVodName": "/@title",
 	"cateVodId": "/@href",
