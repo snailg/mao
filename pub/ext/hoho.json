@@ -54,7 +54,7 @@
   "dtUrlName": "/span/text()",
   "dtUrlNameR": "",
   "playUrl": "https://www.hoho.tv/vod/play/id/{playUrl}.html",
-  "playUa": "",
+  "playUa": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3883.400 QQBrowser/10.8.4559.400",
   "searchUrl": "https://www.hoho.tv/ajax/suggest?mid=1&wd={wd}&limit=10",
   "scVodNode": "json:list",
   "scVodName": "name",
