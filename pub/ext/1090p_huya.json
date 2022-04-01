@@ -38,7 +38,7 @@
 	"dtUrlIdR": "https://www.huya.com/(\\S+)",
 	"dtUrlName": "/span/text()",
 	"dtUrlNameR": "",
-	"playUrl": "https://1090p.tk/index.php/label/zb/id/{vid}.html",
+	"playUrl": "https://1090p.tk/index.php/label/zb/id/{playUrl}.html",
 	"playUa": "",
 	"searchUrl": "https://1090p.tk/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
 	"scVodNode": "json:list",
