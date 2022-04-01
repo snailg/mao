@@ -38,7 +38,7 @@
 	"dtFromNode": "//p[contains(@class,'top-tillist')]",
 	"dtFromName": "/text()",
 	"dtFromNameR": "",
-	"dtUrlNode": "//ul[@class='play_vlist cblock player_hint cf']",
+	"dtUrlNode": "//div[@class='play_vlist cblock player_hint cf']",
 	"dtUrlSubNode": "/a",
 	"dtUrlId": "@href",
 	"dtUrlIdR": "/index.php/label/zb/id/(\\S+).html",
