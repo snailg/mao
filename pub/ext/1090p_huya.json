@@ -35,7 +35,7 @@
 	"dtActor": "//div[contains(@class,'content-wrap')]/div[2]/a/text()",
 	"dtMark": "",
 	"dtDesc": "//div[contains(@class,'content-wrap')]/div[3]/p/text()",
-	"dtFromNode": "//div[contains(@class,'filter_line filter_line_0')]/a",
+	"dtFromNode": "//div[contains(@class,'filter_line')]/a",
 	"dtFromName": "/text()",
 	"dtFromNameR": "",
 	"dtUrlNode": "//div[contains(@class, 'pack-title ecinfolist')]",
