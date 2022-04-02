@@ -8,7 +8,7 @@
 	//"dcShow2Vip": {},
 	//"dcPlayUrl": "true",
 	"cateManual": {
-        "王者荣誉":"game/wzry","英雄联盟":"game/lol"
+        "游戏":"game","王者荣誉":"game/wzry","英雄联盟":"game/lol"
         },
 	"homeVodNode": "//div[contains(@class, 'type-list-auto')]/li/a",
 	"homeVodName": "//ul[@class='type-txt-inner']/h5/text()",
