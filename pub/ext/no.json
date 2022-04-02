@@ -10,7 +10,7 @@
 	"homeVodNode": "//div[contains(@id,'post-')]",
 	"homeVodName": "//div[@class='item-head']/h3/a/text()",
 	"homeVodId": "/@href",
-	"homeVodIdR": "\\S+/(\\w+).html",
+	"homeVodIdR": "https://www.novipnoad.com/(\\w+).html",
 	"homeVodImg": "//[@class='qv_tooltip tooltipstered']//a/img/@src",
     "homeVodImgR": "",
 	"homeVodMark": "",
@@ -18,42 +18,43 @@
 	"cateVodNode": "//div[contains(@id,'post-')]",
 	"cateVodName": "//div[@class='item-head']/h3/a/text()",
 	"cateVodId": "/@href",
-	"cateVodIdR": "\\S+/(\\w+).html",
+	"cateVodIdR": "https://www.novipnoad.com/(\\w+).html",
   	"cateVodImg": "//[@class='qv_tooltip tooltipstered']//a/img/@src",
  	"cateVodMark": "",
 
     // 详情页地址 用于获取详情页信息 及 播放列表和地址
-	"dtUrl": "https://www.subaibaiys.com/{vid}",
+	"dtUrl": "https://www.novipnoad.com/{vid}",
     // 详情节点
-	"dtNode": "//body",
+	"dtNode": "//head",
     // 视频名
-	"dtName": "//h1[@class='light-title entry-title']/text()",
+	"dtName": "//meta[@property='og:title']/@content",
+    //"dtName": "//body//h1[@class='light-title entry-title']/text()",
 	"dtNameR": "",
     // 视频图片
-	"dtImg": "//[@class='qv_tooltip tooltipstered']//a/img/@src",
+	"dtImg": "//meta[@property='og:image']/@content",
 	"dtImgR": "",
     // 视频分类
 	"dtCate": "//div[@class='item-tax-list']/strong[contains(text(),'Category: ')]/a/text()",
 	"dtCateR": "",
     
     // 播放源节点
-	"dtFromNode": "//div[contains('tm-multilink')]//div[@class='multilink-btn btn btn-sm btn-default bordercolor2hover bgcolor2hover ']",
+	"dtFromNode": "//body//h1[@class='light-title entry-title']",
     // 播放源名称
 	"dtFromName": "/text()",
     // 播放列表节点
-	"dtUrlNode": "//div[contains('tm-multilink')]//div[@class='multilink-btn btn btn-sm btn-default bordercolor2hover bgcolor2hover ']",
+	"dtUrlNode": "//head//meta[@property='og:url']",
     // 播放地址节点
 	"dtUrlSubNode": "/onclick",
     // 播放地址
-	"dtUrlId": "@href",
+	"dtUrlId": "@content",
     // 二次处理正则
-	"dtUrlIdR": "/play/(\\S+).html",
+	"dtUrlIdR": "https://www.novipnoad.com/(\\S+).html",
     // 剧集名称
-	"dtUrlName": "/text()",
+	"dtUrlName": "@content",
     // 二次处理正则
 	"dtUrlNameR": "",
     // 播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
-	"playUrl": "http://www.novipnoad.com/{cateId}/{playUrl}.html",
+	"playUrl": "http://www.novipnoad.com/{playUrl}.html",
     // 解析webview的user-agent
 	"playUa": "",
     // 搜索地址
