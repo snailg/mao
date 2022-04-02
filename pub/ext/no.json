@@ -25,7 +25,7 @@
     // 详情页地址 用于获取详情页信息 及 播放列表和地址
 	"dtUrl": "https://www.novipnoad.com/{vid}",
     // 详情节点
-	"dtNode": "//head",
+	"dtNode": "/html",
     // 视频名
 	"dtName": "//meta[@property='og:title']/@content",
     //"dtName": "//body//h1[@class='light-title entry-title']/text()",
