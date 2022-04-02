@@ -10,7 +10,7 @@
 	"homeVodNode": "//div[contains(@id,'post-')]",
 	"homeVodName": "//div[@class='item-head']/h3/a/text()",
 	"homeVodId": "/@href",
-	"homeVodIdR": "https://www.novipnoad.com/(\\w+).html",
+	"homeVodIdR": "https://www.novipnoad.com/(\\S+).html",
 	"homeVodImg": "//[@class='qv_tooltip tooltipstered']//a/img/@src",
     "homeVodImgR": "",
 	"homeVodMark": "",
@@ -18,7 +18,7 @@
 	"cateVodNode": "//div[contains(@id,'post-')]",
 	"cateVodName": "//div[@class='item-head']/h3/a/text()",
 	"cateVodId": "/@href",
-	"cateVodIdR": "https://www.novipnoad.com/(\\w+).html",
+	"cateVodIdR": "https://www.novipnoad.com/(\\S+).html",
   	"cateVodImg": "//[@class='qv_tooltip tooltipstered']//a/img/@src",
  	"cateVodMark": "",
 
