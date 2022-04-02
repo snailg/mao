@@ -30,7 +30,7 @@
 	"dtNode": "//body",
 	"dtName": "//h3[@class='Title-header']/text()",
 	"dtNameR": "",
-	"dtImg": "//div[@class='DyImg ']/img/@src",
+	"dtImg": "//div[@class='Title-anchorPicBack']/a/div/img/@src",
 	"dtImgR": "",
     "dtCate": "//span[@class='host-channel']/a[2]/text()",
     "dtArea": "//span[@class='host-channel']/a[1]/text()",
