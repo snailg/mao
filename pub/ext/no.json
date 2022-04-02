@@ -23,14 +23,14 @@
  	"cateVodMark": "",
 
     // 详情页地址 用于获取详情页信息 及 播放列表和地址
-	"dtUrl": "https://www.subaibaiys.com/{cateId}/{vid}",
+	"dtUrl": "https://www.subaibaiys.com/{vid}",
     // 详情节点
-	"dtNode": "//div[@id='body']",
+	"dtNode": "//body",
     // 视频名
-	"dtName": "//[@class='video-item single-video-view post-134776 post type-post status-publish format-video has-post-thumbnail hentry category-anime tag-46326 post_format-post-format-video']/h1/text()",
+	"dtName": "//h1[@class='light-title entry-title']/text()",
 	"dtNameR": "",
     // 视频图片
-	"dtImg": "",
+	"dtImg": "//[@class='qv_tooltip tooltipstered']//a/img/@src",
 	"dtImgR": "",
     // 视频分类
 	"dtCate": "//div[@class='item-tax-list']/strong[contains(text(),'Category: ')]/a/text()",
