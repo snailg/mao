@@ -38,7 +38,7 @@
 	"dtFromName": "/text()",
 	"dtFromNameR": "",
 	"dtUrlNode": "//title",
-	"dtUrlSubNode": "/a",
+	"dtUrlSubNode": "",
 	"dtUrlId": "/text()",
 	"dtUrlIdR": "\\S+直播间(\\S+)_\\S+",
 	"dtUrlName": "/text()",
