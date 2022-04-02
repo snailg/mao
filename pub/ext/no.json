@@ -7,7 +7,7 @@
     "动画": "anime"
   },
 
-	"homeVodNode": "//div[contains(@class,'video-item post-137170')]",
+	"homeVodNode": "//div[contains(@id,'post-')]",
 	"homeVodName": "//div[@class='item-head']/h3/a/text()",
 	"homeVodId": "/@href",
 	"homeVodIdR": "\\S+/(\\w+).html",
@@ -15,7 +15,7 @@
     "homeVodImgR": "",
 	"homeVodMark": "",
 	"cateUrl": "https://www.novipnoad.com/{cateId}/page/{catePg}/",
-	"cateVodNode": "//div[contains(@class,'video-item post-137170')]",
+	"cateVodNode": "//div[contains(@id,'post-')]",
 	"cateVodName": "//div[@class='item-head']/h3/a/text()",
 	"cateVodId": "/@href",
 	"cateVodIdR": "\\S+/(\\w+).html",
