@@ -11,7 +11,7 @@
 	"homeVodName": "//div[@class='item-head']/h3/a/text()",
 	"homeVodId": "/@href",
 	"homeVodIdR": "https://www.novipnoad.com/(\\S+).html",
-	"homeVodImg": "//div[@class='qv_tooltip tooltipstered']//a/img/@src",
+	"homeVodImg": "//[@class='qv_tooltip tooltipstered']//a/img/@src",
     "homeVodImgR": "",
 	"homeVodMark": "",
 	"cateUrl": "https://www.novipnoad.com/{cateId}/page/{catePg}/",
@@ -19,7 +19,7 @@
 	"cateVodName": "//div[@class='item-head']/h3/a/text()",
 	"cateVodId": "/@href",
 	"cateVodIdR": "https://www.novipnoad.com/(\\S+).html",
-  	"cateVodImg": "//div[@class='qv_tooltip tooltipstered']//a/img/@src",
+  	"cateVodImg": "//[@class='qv_tooltip tooltipstered']//a/img/@src",
  	"cateVodMark": "",
 
     // 详情页地址 用于获取详情页信息 及 播放列表和地址
