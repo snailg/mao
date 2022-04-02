@@ -38,11 +38,11 @@
 	"dtCateR": "",
     
     // 播放源节点
-	"dtFromNode": "/body//h1[@class='light-title entry-title']",
+	"dtFromNode": "//h1[@class='light-title entry-title']",
     // 播放源名称
 	"dtFromName": "/text()",
     // 播放列表节点
-	"dtUrlNode": "/head//meta[@property='og:url']",
+	"dtUrlNode": "//meta[@property='og:url']",
     // 播放地址节点
 	"dtUrlSubNode": "",
     // 播放地址
