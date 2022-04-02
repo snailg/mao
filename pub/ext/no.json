@@ -44,7 +44,7 @@
     // 播放列表节点
 	"dtUrlNode": "//head//meta[@property='og:url']",
     // 播放地址节点
-	"dtUrlSubNode": "/onclick",
+	"dtUrlSubNode": "",
     // 播放地址
 	"dtUrlId": "@content",
     // 二次处理正则
