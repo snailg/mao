@@ -1,11 +1,12 @@
 {
+    "author":"baddychen",
 	"ua": "",
 	"homeUrl": "https://1090p.tk",
-	"dcVipFlag": "true",
-	"pCfgJs": "https://1090p.tk/static/js/playerconfig.js",
-	"pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
-	"dcShow2Vip": {},
-	"dcPlayUrl": "true",
+	//"dcVipFlag": "true",
+	//"pCfgJs": "https://1090p.tk/static/js/playerconfig.js",
+	//"pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
+	//"dcShow2Vip": {},
+	//"dcPlayUrl": "true",
 	"cateManual": {
         "星秀":"class/星秀","一起看":"class/一起看","户外":"class/户外","二次元":"class/二次元","美食":"class/美食","颜值":"class/颜值","交友":"class/交友","音乐":"class/音乐","体育":"class/体育",
         "英雄联盟":"class/英雄联盟","LOL云顶之弈":"class/LOL云顶之弈","穿越火线":"class/穿越火线","DNF":"class/DNF","魔兽世界":"class/魔兽世界","炉石传说":"class/炉石传说","DOTA2":"class/DOTA2","坦克世界":"class/坦克世界","CS:GO":"class/CS:GO","魔兽争霸3":"class/魔兽争霸3","问道":"class/问道","使命召唤":"class/使命召唤",
