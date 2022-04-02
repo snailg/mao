@@ -5,32 +5,21 @@
 	"cateManual": {
     "电影": "movie",
     "动画": "anime"
-
   },
 
-    // 首页推荐视频的节点
-	"homeVodNode": "//div[@class='item-thumbnail']/a",
-    // 首页推荐视频的名称
-	"homeVodName": "/@title",
-    // 二次处理正则
-    "homeVodNameR": "",
-    // 首页推荐视频的id
+	"homeVodNode": "//div[contains(@class,'video-item post-137170')]",
+	"homeVodName": "//div[@class='item-head']/h3/a/text()",
 	"homeVodId": "/@href",
-    // 二次处理正则
 	"homeVodIdR": "\\S+/(\\w+).html",
-    // 首页推荐视频的图片
-	"homeVodImg": "/img/@data-original",
-    // 二次处理正则
+	"homeVodImg": "//[@class='item-thumbnail']/a/img/@data-original",
     "homeVodImgR": "",
-    // 首页推荐视频的简介
 	"homeVodMark": "",
 	"cateUrl": "https://www.novipnoad.com/{cateId}/page/{catePg}/",
-    // 同上面的homeVod字段 分类列表中的视频信息
-	"cateVodNode": "//div[@class='item-thumbnail']/a",
-	"cateVodName": "",
+	"cateVodNode": "//div[contains(@class,'video-item post-137170')]",
+	"cateVodName": "//div[@class='item-head']/h3/a/text()",
 	"cateVodId": "/@href",
 	"cateVodIdR": "\\S+/(\\w+).html",
-  	"cateVodImg": "/img/@data-original",
+  	"cateVodImg": "//[@class='item-thumbnail']/a/img/@data-original",
  	"cateVodMark": "",
 
     // 详情页地址 用于获取详情页信息 及 播放列表和地址
