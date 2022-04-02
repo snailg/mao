@@ -27,22 +27,22 @@
     // 详情节点
 	"dtNode": "/html",
     // 视频名
-	"dtName": "//meta[@property='og:title']/@content",
+	"dtName": "/head//meta[@property='og:title']/@content",
     //"dtName": "//body//h1[@class='light-title entry-title']/text()",
 	"dtNameR": "",
     // 视频图片
-	"dtImg": "//meta[@property='og:image']/@content",
+	"dtImg": "/dead//meta[@property='og:image']/@content",
 	"dtImgR": "",
     // 视频分类
 	"dtCate": "//div[@class='item-tax-list']/strong[contains(text(),'Category: ')]/a/text()",
 	"dtCateR": "",
     
     // 播放源节点
-	"dtFromNode": "//body//h1[@class='light-title entry-title']",
+	"dtFromNode": "/body//h1[@class='light-title entry-title']",
     // 播放源名称
 	"dtFromName": "/text()",
     // 播放列表节点
-	"dtUrlNode": "//head//meta[@property='og:url']",
+	"dtUrlNode": "/head//meta[@property='og:url']",
     // 播放地址节点
 	"dtUrlSubNode": "",
     // 播放地址
