@@ -27,11 +27,11 @@
     // 详情节点
 	"dtNode": "/html",
     // 视频名
-	"dtName": "/head//meta[@property='og:title']/@content",
+	"dtName": "//meta[@property='og:title']/@content",
     //"dtName": "//body//h1[@class='light-title entry-title']/text()",
 	"dtNameR": "",
     // 视频图片
-	"dtImg": "/dead//meta[@property='og:image']/@content",
+	"dtImg": "//meta[@property='og:image']/@content",
 	"dtImgR": "",
     // 视频分类
 	"dtCate": "//div[@class='item-tax-list']/strong[contains(text(),'Category: ')]/a/text()",
