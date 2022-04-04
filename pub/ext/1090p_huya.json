@@ -47,7 +47,7 @@
 	"dtUrlName": "/text()",
 	"dtUrlNameR": "",
 	//"playUrl": "https://1090p.tk/index.php/label/zb/id/{playUrl}.html",
-	"playUrl":"http://epg.112114.xyz/huya/{playUrl}",
+	"playUrl":"https://m.huya.com/{playUrl}",
     "playUa": "",
 	"searchUrl": "https://1090p.tk/index.php/ajax/suggest?mid=1&wd={wd}&limit=100",
 	"scVodNode": "json:list",
