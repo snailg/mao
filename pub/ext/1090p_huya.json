@@ -41,7 +41,7 @@
 	"dtFromName": "/text()",
 	"dtFromNameR": "",
 	"dtUrlNode": "//a[@class='host-video']",
-	"dtUrlSubNode": "",
+	"dtUrlSubNode": "/nil",
 	"dtUrlId": "@href",
 	"dtUrlIdR": "https://v.huya.com/u/(\\S+)",
 	"dtUrlName": "/em/text()",
