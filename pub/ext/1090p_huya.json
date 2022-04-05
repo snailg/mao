@@ -43,7 +43,7 @@
 	"dtUrlNode": "//ul[@class='sidebar-icon-list']",
 	"dtUrlSubNode": "/li/a",
 	"dtUrlId": "@eid_desc",
-	"dtUrlIdR": "点击/左导航/订阅/(\\S+)",
+	"dtUrlIdR": "\\S+/(\\S+)",
 	"dtUrlName": "/span/text()",
 	"dtUrlNameR": "",
 	//"playUrl": "https://1090p.tk/index.php/label/zb/id/{playUrl}.html",
