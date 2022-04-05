@@ -42,7 +42,7 @@
 	"dtFromNameR": "",
 	"dtUrlNode": "//div[@class='host-detail J_roomHdDetail']",
 	"dtUrlSubNode": "/a[@class='host-video']",
-	"dtUrlId": "@href",
+	"dtUrlId": "/@href",
 	"dtUrlIdR": "https://v.huya.com/u/(\\S+)",
 	"dtUrlName": "/em/text()",
 	"dtUrlNameR": "",
