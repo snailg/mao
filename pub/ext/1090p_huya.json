@@ -41,7 +41,7 @@
 	"dtFromName": "/text()",
 	"dtFromNameR": "",
 	"dtUrlNode": "//ul[@class='sidebar-icon-list']",
-	"dtUrlSubNode": "/li/a",
+	"dtUrlSubNode": "/li[contains(@class,'allLive')]/a",
 	"dtUrlId": "@eid_desc",
 	"dtUrlIdR": "\\S+/(\\S+)",
 	"dtUrlName": "/span/text()",
