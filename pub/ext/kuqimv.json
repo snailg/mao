@@ -31,7 +31,7 @@
   "dtFromNode": "//div[@class='lei_title']/h1",
   "dtFromName": "/text()",
   "dtUrlNode": "//div[@id='doHits']/li[@class='down']",
-  "dtUrlSubNode": "//a",
+  "dtUrlSubNode": "/a",
   "dtUrlId": "@href",
   "dtUrlIdR": "/include/download.php?id=(\\S+)",
   "dtUrlName": "/text()",
