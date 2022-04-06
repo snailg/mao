@@ -1,6 +1,6 @@
 {
   "ua": "",
-  "homeUrl": "https://www.kuqimv.com/",
+  "homeUrl": "https://www.kuqimv.com/play/",
   //"dcVipFlag": "true",
   //"pCfgJs": "https://cjt521.com/static/js/playerconfig.js",
   //"pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
@@ -30,8 +30,8 @@
   "dtImg": "//div[@class='lei_info mt']/div[1]/img/@src",
   "dtFromNode": "//div[@class='lei_info mt']/div[@class='play_info']/h1",
   "dtFromName": "/text()",
-  "dtUrlNode": "//div[@id='doHits']",
-  "dtUrlSubNode": "/li/a",
+  "dtUrlNode": "//div[@id='doHits']/li[@class='down']",
+  "dtUrlSubNode": "//a",
   "dtUrlId": "@href",
   "dtUrlIdR": "/include/download.php?id=(\\S+)",
   "dtUrlName": "/text()",
