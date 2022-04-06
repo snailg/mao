@@ -51,31 +51,18 @@
     // 视频简介
 	"dtDesc": "//p[contains(@class,'desc text-collapse hidden-xs')]/text()[2]",
 	"dtDescR": "",
-    // 播放源节点
-	"dtFromNode": "//ul[contains(@class,'nav nav-tabs active')]/li/a",
-    // 播放源名称
-	"dtFromName": "/text()",
-    // 二次处理正则
-	"dtFromNameR": "",
-    // 播放列表节点
-	"dtUrlNode": "//ul[contains(@class,'myui-content__list sort-list clearfix')]",
-    // 播放地址节点
+    "dtFromNode": "//h3[contains(text(), '播放')]",
+    "dtFromName": "concat('播放源',count(parent::*/preceding::*//h3[contains(text(), '播放')]) + 1)",
+    "dtFromNameR": "(\\S+).0",
+	"dtUrlNode": "//ul[@class='myui-content__list sort-list clearfix']",
 	"dtUrlSubNode": "/li/a",
-    // 播放地址
 	"dtUrlId": "/@href",
-    // 二次处理正则
 	"dtUrlIdR": "/play/(\\S+).html",
-    // 剧集名称
 	"dtUrlName": "/text()",
-    // 二次处理正则
 	"dtUrlNameR": "",
-    // 播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
 	"playUrl": "https://www.hdmoli.com/play/{playUrl}.html",
-    // 解析webview的user-agent
 	"playUa": "",
-    // 搜索地址
 	"searchUrl": "https://www.hdmoli.com/search.php?searchword={wd}",
-    // 同上面的homeVod字段 搜索结果中的视频信息, 这里有对苹果cms suggest搜索接口的特殊支持，参考示例中的极品影视
 	"scVodNode": "//li[contains(@class,'active  clearfix')]/div/a",
 	"scVodName": "/@title",
 	"scVodId": "/@href",
