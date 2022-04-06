@@ -28,7 +28,7 @@
   "dtNode": "//body",
   "dtName": "//div[@class='lei_info mt']/div[@class='play_info']/h1/text()",
   "dtImg": "//div[@class='lei_info mt']/div[@class='pic']/img/@src",
-  "dtFromNode": "//div[@class='lei_wz']/span",
+  "dtFromNode": "//div[@class='lei_info mt']/div[@class='play_info']/h1",
   "dtFromName": "/text()",
   "dtUrlNode": "//div[@id='doHits']/li[@class='down']",
   "dtUrlSubNode": "/a",
