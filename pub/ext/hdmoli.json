@@ -1,54 +1,34 @@
 {
 	"ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
-    // 首页地址 用于获取 分类和首页推荐
 	"homeUrl": "https://www.hdmoli.com",
-     "dcPlayUrl": "true",
-    // 手动设置分类，如果手动设置了分类则不使用上面的分类xpath获取分类  例如 "cateManual": {"电影": "1", "电视剧": "2"},
+    "dcPlayUrl": "true",
 	"cateManual": {"电影": "1","剧集": "2"},
-    // 首页推荐视频的节点
 	"homeVodNode": "//ul[contains(@class,'myui-vodlist clearfix')]/li/div/a",
-    // 首页推荐视频的名称
 	"homeVodName": "/@title",
-    // 二次处理正则
     "homeVodNameR": "",
-    // 首页推荐视频的id
 	"homeVodId": "/@href",
-    // 二次处理正则
 	"homeVodIdR": "/movie/(\\w+).html",
-    // 首页推荐视频的图片
 	"homeVodImg": "/@data-original",
-    // 二次处理正则
     "homeVodImgR": "",
-    // 首页推荐视频的简介
 	"homeVodMark": "/span[2]/text()",
-    // 二次处理正则
     "homeVodMarkR": "",
-    // 分类页地址 {cateId} 分类id {catePg} 当前页
-	//"cateUrl": "https://www.hdmoli.com/search.php?&page={catePg}&searchtype=5&order={by}&tid={cateId}&area={area}&year=&letter=&yuyan=&state=&money=&ver=&jq=",
-    // 同上面的homeVod字段 分类列表中的视频信息
-	"cateUrl":"https://www.hdmoli.com/mlist/index{cateId}-{catePg}.html",
+	"cateUrl": "https://www.hdmoli.com/search.php?&page={catePg}&searchtype=5&order={by}&tid={cateId}&area={area}&year=&letter=&yuyan=&state=&money=&ver=&jq=",
+	//"cateUrl":"https://www.hdmoli.com/mlist/index{cateId}-{catePg}.html",
     "cateVodNode": "//ul[contains(@class,'myui-vodlist clearfix')]/li/div/a",
 	"cateVodName": "/@title",
 	"cateVodId": "/@href",
 	"cateVodIdR": "/movie/(\\w+).html",
 	"cateVodImg": "/@data-original",
 	"cateVodMark": "/span[2]/text()",
-    // 详情页地址 用于获取详情页信息 及 播放列表和地址
 	"dtUrl": "https://www.hdmoli.com/movie/{vid}.html",
-    // 详情节点
 	"dtNode": "//body",
-    // 视频名
 	"dtName": "//div[contains(@class,'myui-content__detail')]/h1/text()",
 	"dtNameR": "",
-    // 视频图片
 	"dtImg": "//div[contains(@class,'myui-content__thumb')]/a/img/@data-original",
 	"dtImgR": "",
-    // 视频分类
 	"dtCate": "//div[contains(@class,'myui-content__detail')]/p[2]/text()[2]",
 	"dtCateR": "",
-    // 视频年份
 	"dtYear": "//div[contains(@class,'myui-content__detail')]/p[2]/text()[6]",
-    // 视频简介
 	"dtDesc": "//p[contains(@class,'desc text-collapse hidden-xs')]/text()[2]",
 	"dtDescR": "",
     "dtFromNode": "//h3[contains(text(), '播放')]",
