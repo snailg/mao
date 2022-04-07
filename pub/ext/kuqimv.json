@@ -20,6 +20,8 @@
   "dtNode": "//body",
   "dtName": "//div[@class='lei_info mt']/div[2]/h1/text()",
   "dtImg": "//div[@class='lei_info mt']/div[1]/img/@src",
+  "dtCate": "//div[@class='play_info']/li[3]/a/text()",
+  "dtActor": "//div[@class='play_info']/li[4]/a/text()",
   "dtFromNode": "//div[@class='lei_title']/h1",
   "dtFromName": "/text()",
   "dtFromNameR": "(\\S+) mp4\\S+",
