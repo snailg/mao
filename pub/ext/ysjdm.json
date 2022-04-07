@@ -14,7 +14,7 @@
 	"homeVodImgR": "\\S+(http\\S+)",
 	"homeVodMark": "/span[contains(@class,'pic_text')]/text()",
 	"cateUrl": "https://09tv.top/index.php/vod/show/{cateId}/id/20/page/{catePg}.html",
-	"cateVodNode": "//div[contains(@class,'module-item-cover')]/div[contains(@class,'module-item-pic')]",
+	"cateVodNode": "//ul[contains(@class,'vodlist_wi')]/li/a",
 	"cateVodName": "/@title",
 	"cateVodId": "/@href",
 	"cateVodIdR": "/index.php/vod/detail/id/(\\w+).html",
