@@ -24,7 +24,7 @@
   "cateVodIdR": "/play/(\\d+).html",
   "cateVodImg": "/div[@class='pic']/a/img/@src",
   "cateVodMark": "/i/text()",
-  "dtUrl": "https://www.kuqimv.com/play/{vid}.html",
+  "dtUrl": "https://www.kuqimv.com{vid}",
   "dtNode": "//body",
   "dtName": "//div[@class='lei_info mt']/div[2]/h1/text()",
   "dtImg": "//div[@class='lei_info mt']/div[1]/img/@src",
