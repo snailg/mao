@@ -60,7 +60,7 @@
 	"dtUrlIdR": "/index.php/vod/play/id/(\\S+).html",
 	"dtUrlName": "/text()",
 	"dtUrlNameR": "",
-	"playUrl": "http://ioo.ouyewow.com/index.php/vod/play/id/{playUrl}.html",
+	"playUrl": "http://ioo.ouyewow.com{playUrl}.html",
 	"playUa": "",
  	"searchUrl": "http://ioo.ouyewow.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=20",
 	"scVodNode": "json:list",
