@@ -29,7 +29,7 @@
   "dtUrlIdR": "/include/download.php?id=(\\S+)",
   "dtUrlName": "parent::div/parent::div//text()",
   "dtUrlNameR": "",
-  "playUrl": "https://www.kuqimv.com/play/{playUrl}.html",
+  "playUrl": "https://www.kuqimv.com/play/{vid}.html",
   "playUa": "",
   "searchUrl": "https://www.kuqimv.com/search.php?key={wd}",
   "scVodNode": "//div[@class='play_xg']/li",
