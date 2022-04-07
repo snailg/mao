@@ -27,7 +27,7 @@
   "dtUrlSubNode": "/a",
   "dtUrlId": "@href",
   "dtUrlIdR": "/include/download.php?id=(\\S+)",
-  "dtUrlName": "parent::div//text()",
+  "dtUrlName": "*/parent::div/div[1]/text()",
   "dtUrlNameR": "",
   "playUrl": "https://www.kuqimv.com/play/{playUrl}.html",
   "playUa": "",
