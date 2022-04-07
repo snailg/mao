@@ -32,7 +32,7 @@
   "dtUrlIdR": "http://3030.com.cn/watch/(\\d+).html",
   "dtUrlName": "/text()",
   "dtUrlNameR": "",
-  "playUrl": "https://www.kuqimv.com/watch/{playUrl}.html",
+  "playUrl": "https://www.kuqimv.com/watch/4312.html",
   "playUa": "",
   "searchUrl": "https://www.kuqimv.com/search.php?key={wd}",
   "scVodNode": "//div[@class='play_xg']/li",
