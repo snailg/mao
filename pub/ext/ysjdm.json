@@ -1,4 +1,5 @@
 {
+    "author":"baddychen",
 	"ua": "",
 	"homeUrl": "https://ysjdm.net/index.php/vod/show/id/20.html",
 	"cateNode": "//div[@id='hl02']/div/ul/li/a[contains(@href,'class')]",
