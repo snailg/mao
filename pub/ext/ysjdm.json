@@ -10,7 +10,7 @@
 	"homeVodNode": "//ul[contains(@class,'vodlist_wi')]/li/a",
 	"homeVodName": "/@title",
 	"homeVodId": "/@href",
-	"homeVodIdR": "/index.php/vod/type/id/(\\w+).html",
+	"homeVodIdR": "/index.php/vod/detail/id/(\\w+).html",
 	"homeVodImg": "/@data-original",
 	"homeVodImgR": "\\S+(http\\S+)",
 	"homeVodMark": "/span[contains(@class,'pic_text')]/text()",
