@@ -19,7 +19,7 @@
   "homeVodImg": "/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
   "homeVodMark": "/span[contains(@class,'pic-text')]/text()",
-  "cateUrl": "https://www.duboku.ru/vodtype/{cateId}-{catePg}.html",
+  //"cateUrl": "https://www.duboku.ru/vodtype/{cateId}-{catePg}.html",
   "cateUrl": "https://www.duboku.ru/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
   "cateVodNode": "//ul[contains(@class,'myui-vodlist')]//li//a[contains(@class,'myui-vodlist__thumb')]",
   "cateVodName": "/@title",
