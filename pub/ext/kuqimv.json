@@ -27,7 +27,7 @@
   "dtUrlSubNode": "/a",
   "dtUrlId": "@href",
   "dtUrlIdR": "/include/download.php?id=(\\S+)",
-  "dtUrlName": "following::div/font/text()",
+  "dtUrlName": "following::div[@class='lei_sm']/font/text()",
   "dtUrlNameR": "",
   "playUrl": "https://www.kuqimv.com/play/{playUrl}.html",
   "playUa": "",
