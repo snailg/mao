@@ -40,7 +40,7 @@
   "dtUrlName": "/text()",
   "dtUrlNameR": "",
   "playUrl": "https://cjt521.com/vodplay/{playUrl}.html",
-  "playUa": "",
+  "playUa": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36",
   "searchUrl": "https://cjt521.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
   "scVodNode": "json:list",
   "scVodName": "name",
