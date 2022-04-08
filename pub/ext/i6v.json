@@ -24,7 +24,7 @@
   "homeVodIdR": "https://www.i6v.cc/(\\S+).html",
   "homeVodImg": "/div[1]/a/img/@src",
   "homeVodMark": "/div[2]/div[1]/p/text()",
-  "homeVodMarkR": "\\S+ 名(\\S+)",
+  "homeVodMarkR": "\\S+ 地(\\S+)",
   "cateUrl": "https://www.i6v.cc{cateId}/index_{catePg}.html",
   "cateVodNode": "//div[@class='post_hover']",
   "cateVodName": "/div[1]/a/@title",
@@ -32,7 +32,7 @@
   "cateVodIdR": "/(\\S+).html",
   "cateVodImg": "/div[1]/a/img/@src",
   "cateVodMark": "/div[2]/div[1]/p/text()",
-  "cateVodMarkR": "\\S+ 名(\\S+)",
+  "cateVodMarkR": "\\S+ 地(\\S+)",
 
   "dtUrl": "https://{vid}.html",
   "dtNode": "//body",
