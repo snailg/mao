@@ -29,7 +29,7 @@
   "dtMark": "",
   "dtActor": "//div[@class='stui-content__detail']/p[2]/text()",
   "dtDirector": "//div[@class='stui-content__detail']/p[3]/text()",
-  "dtDesc": "//div[@class='stui-content__detail']/p[4]/text()",
+  "dtDesc": "//div[@class='stui-content__detail']/p[4]/text()[3]",
   "dtFromNode": "//div[contains(@class, 'stui-pannel__head')]/h3",
   "dtFromName": "/text()",
   "dtUrlNode": "//ul[contains(@class,'stui-content__playlist')]",
