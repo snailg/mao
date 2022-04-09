@@ -30,7 +30,9 @@
   "dtNode": "//body",
   "dtName": "//h1[contains(@class,'post-title')]/text()",
   "dtImg": "//div[contains(@class,'v-overflowHidden')]/div[1]/img/@src",
-  "dtFromNode": "//div[@class='entry']//*[contains(@class,'Src-a')]",
+
+  
+  "dtFromNode": "//div[@class='entry']//*[contains(@class,'Src-')]",
   //"dtFromNode": "//a[contains(@class,'Src-a')]",
   "dtFromName": "/text()",
   "dtUrlNode": "//div[@class='wp-playlist-tracks']",
