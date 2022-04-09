@@ -45,5 +45,5 @@
 	"scVodId": "/@href",
 	"scVodIdR": "/index.php/vod/detail/id/(\\w+).html",
 	"scVodImg": "/@data-original",
-	"scVodMark": "/span[@class='pic-text text-right']/text()",
+	"scVodMark": "/span[@class='pic-text text-right']/text()"
 }
