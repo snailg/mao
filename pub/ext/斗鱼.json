@@ -1,8 +1,9 @@
 {
     "author":"baddychen",
 	"ua": "",
-    "homeUrl": "https://www.douyu.com",
-    "cateManual": {"一起看":"g_yqk"},
+    "homeUrl": "https://www.douyu.com/g_yqk",
+    //"cateManual": {"一起看":"g_yqk"},
+    "cateManual": {"陪看":"290","综合":"1863"},
 	"homeVodNode": "//ul[@class='layout-Cover-list']/li/div/a",
 	"homeVodName": "//h3[@class='DyListCover-intro']/text()",
 	"homeVodId": "/@href",
@@ -11,6 +12,7 @@
 	"homeVodImgR": "\\S+(http\\S+)",
 	"homeVodMark": "concat(/a[contains(@class,'video-info')]/em/text(),'-',/a[contains(@class,'video-info')]/p/em/text(),'-',/span/span[2]/i[2]/text())",
 	"cateUrl": "https://www.douyu.com/gapi/rkc/directory/mixList/2_208/{catePg}",
+    https://www.douyu.com/gapi/rkc/directory/mixList/3_1863/2
 	"cateVodNode": "json:rl",
 	"cateVodName": "rn",
 	"cateVodId": "url",
