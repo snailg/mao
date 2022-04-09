@@ -1,7 +1,7 @@
 {
     "author":"baddychen",
 	"ua": "",
-    "homeUrl": "https://www.douyu.com/g_yqk",
+    "homeUrl": "https://www.douyu.com",
     "cateManual": {"一起看":"g_yqk"},
 	"homeVodNode": "//ul[@class='layout-Cover-list']/li/div/a",
 	"homeVodName": "//h3[@class='DyListCover-intro']/text()",
