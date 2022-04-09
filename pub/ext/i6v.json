@@ -39,7 +39,7 @@
   "dtNode": "//body",
   "dtName": "//div[@class='article_container row  box']/h1/text()",
   "dtImg": "//div[@id='post_content']/p[1]/img/@src",
-  "dtyear":"//div[@id='post_content']/p[1]/text()",
+  "dtYear":"//div[@id='post_content']/p[1]/text()",
   "dtDesc": "//div[@id='post_content']/p[contains(text(),'简　　介')]/following-sibling::*/text()",
 
 
