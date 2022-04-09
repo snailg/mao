@@ -53,6 +53,13 @@
   "dtUrlName": "/text()",
   "dtUrlNameR": "",
   "playUrl": "https://www.i6v.cc/e/DownSys/play/{playUrl}",
-  "playUa": ""
-
+  "playUa": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36",
+  
+  "searchUrl": "https://www.i6v.cc/e/search/index.php?keyboard={wd}",
+  "scVodNode": "//ul[@class='stui-vodlist clearfix']/li/a",
+  "scVodName": "/@title",
+  "scVodId": "/@href",
+  "scVodIdR": "/id/(\\w+).html",
+  "scVodImg": "/@data-original",
+  "scVodMark": "/span[@class='pic-text text-right']/text()"
 }
