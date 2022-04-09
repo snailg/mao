@@ -37,10 +37,10 @@
   //"dtUrl": "https://{vid}.html",
   "dtUrl": "https://www.i6v.cc/{vid}.html",
   "dtNode": "//body",
-  "dtName": "//*[@id='tab-content']/ul[1]/li[1]/a/text()",
-  "dtImg": "//*[@id='post_content']/p[1]/img/@src",
-  "dtyear":"//*[@id='post_content']/p[contains(text(),'年　　代')]/text()",
-  "dtDesc": "//*[@id='post_content']/p[contains(text(),'简　　介')]/following-sibling::*/text()",
+  "dtName": "//div[@class='article_container row  box']/h1/text()",
+  "dtImg": "//div[@id='post_content']/p[1]/img/@src",
+  "dtyear":"//div[@id='post_content']/p[1]/text()",
+  "dtDesc": "//div[@id='post_content']/p[contains(text(),'简　　介')]/following-sibling::*/text()",
 
 
   "dtFromNode": "//*[@id='content']/div[1]/div[4]/div[contains(@class,'widget box row')]",
