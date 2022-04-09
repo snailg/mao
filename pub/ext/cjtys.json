@@ -32,11 +32,16 @@
   "dtImg": "//div[contains(@class,'v-overflowHidden')]/div[1]/img/@src",
   
   "dtYear": "//div[contains(@class,'v-overflowHidden')]/div[4]/text()[5]",
+  "dtYearR": ": (.+)",
   "dtArea": "//div[contains(@class,'v-overflowHidden')]/div[4]/text()[4]",
+  "dtAreaR": ": (.+)",
   "dtCate": "//div[contains(@class,'v-overflowHidden')]/div[4]/text()[3]",
+  "dtCateR": ": (.+)",
   "dtActor": "//div[contains(@class,'v-overflowHidden')]/div[4]/text()[2]",
+  "dtActorR": ": (.+)",
   "dtDirector": "//div[contains(@class,'v-overflowHidden')]/div[4]/text()",
-  "dtDesc": "//div[@calss='abstract' and contains(text(),'简介')]/following-sibling::*/text()",
+  "dtDirectorR": ": (.+)",
+  "dtDesc": "//div[contains(@class,'v-overflowHidden')]/div[4]/p[2]/text()",
 
   "dtFromNode": "//*[contains(@class,'Src-')]",
   "dtFromName": "/text()",
