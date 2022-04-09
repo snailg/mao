@@ -39,14 +39,14 @@
   "dtNode": "//body",
   "dtName": "//div[@class='article_container row  box']/h1/text()",
   "dtImg": "//div[@id='post_content']/p[1]/img/@src",
-  "dtYear":"//div[@id='post_content']/p[1]/text()",
+  "dtYear": "//div[@id='post_content']/p[contains(text(),'译　　名')]/following-sibling::*/text()",
   "dtDesc": "//div[@id='post_content']/p[contains(text(),'简　　介')]/following-sibling::*/text()",
 
 
-  "dtFromNode": "//*[@id='content']/div[1]/div[4]/div[contains(@class,'widget box row')]",
+  "dtFromNode": "//*[@id='content']/div[1]/div[4]/div[@class='widget box row']",
   "dtFromName": "/h3/text()",
   
-  "dtUrlNode": "//*[@id='content']/div[1]/div[4]/div[contains(@class,'widget box row')]",
+  "dtUrlNode": "//*[@id='content']/div[1]/div[4]/div[@class='widget box row']",
   "dtUrlSubNode": "/a",
   "dtUrlId": "@href",
   "dtUrlIdR": "https://www.i6v.cc/e/DownSys/play/(\\S+)",
