@@ -31,15 +31,15 @@
   "dtName": "//h1[contains(@class,'post-title')]/text()",
   "dtImg": "//div[contains(@class,'v-overflowHidden')]/div[1]/img/@src",
   
-  "dtYear": "//div[@calss='abstract']/text()[5]",
+  "dtYear": "//div[contains(@class,'v-overflowHidden')]/div[4]/text()",
   "dtArea": "//div[@calss='abstract']/text()[4]",
   "dtCate": "//div[@calss='abstract']/text()[3]",
   "dtActor": "//div[@calss='abstract']/text()[2]",
   "dtDirector": "//div[@calss='abstract']/text()[1]",
-  "dtDesc": "//div[@calss='abstract' and contains(text(),'简介:')]/following-sibling::*/text()",
+  "dtDesc": "//div[@calss='abstract' and contains(text(),'简介')]/following-sibling::*/text()",
 
   "dtFromNode": "//*[contains(@class,'Src-')]",
-  "dtFromName": "//text()",
+  "dtFromName": "/text()",
   "dtUrlNode": "//div[@class='wp-playlist-tracks']",
   "dtUrlSubNode": "/div/a",
   "dtUrlId": "@href",
