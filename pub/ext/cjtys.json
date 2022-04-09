@@ -30,8 +30,14 @@
   "dtNode": "//body",
   "dtName": "//h1[contains(@class,'post-title')]/text()",
   "dtImg": "//div[contains(@class,'v-overflowHidden')]/div[1]/img/@src",
-
   
+  "dtYear": "//div[@calss='abstract']/text()[5]",
+  "dtArea": "//div[@calss='abstract']/text()[4]",
+  "dtCate": "//div[@calss='abstract']/text()[3]",
+  "dtActor": "//div[@calss='abstract']/text()[2]",
+  "dtDirector": "//div[@calss='abstract']/text()[1]",
+  "dtDesc": "//div[@calss='abstract']/p[2]/text()",
+
   "dtFromNode": "//div[@class='entry']//*[contains(@class,'Src-')]",
   //"dtFromNode": "//a[contains(@class,'Src-a')]",
   "dtFromName": "/text()",
