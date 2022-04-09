@@ -41,7 +41,7 @@
   "dtActorR": ": (.+)",
   "dtDirector": "//div[contains(@class,'v-overflowHidden')]/div[4]/text()",
   "dtDirectorR": ": (.+)",
-  "dtDesc": "//div[contains(@class,'v-overflowHidden')]/div[4]/p[2]/text()",
+  "dtDesc": "//*[contains(@text(),'简介')]/following-sibling::*/text()",
 
   "dtFromNode": "//*[contains(@class,'Src-')]",
   "dtFromName": "/text()",
