@@ -42,7 +42,8 @@
   "dtYear": "//div[@id='post_content']/p[1]/text()[3]",
   "dtArea": "//div[@id='post_content']/p[1]/text()[4]",
   "dtCate": "//div[@id='post_content']/p[1]/text()[5]",
-  "dtActor": "//div[@id='post_content']/p[1]/text()[12]",
+  "dtActor": "//div[@id='post_content']/p[1]/text()[13]",
+  "dtDirector": "//div[@id='post_content']/p[1]/text()[11]",
   "dtDesc": "//div[@id='post_content']/p[contains(text(),'简　　介')]/following-sibling::*/text()",
 
 
