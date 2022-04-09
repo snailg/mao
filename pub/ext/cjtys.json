@@ -38,7 +38,7 @@
   "dtDirector": "//div[@calss='abstract']/text()[1]",
   "dtDesc": "//div[@calss='abstract']/p[2]/text()",
 
-  "dtFromNode": "//div[@class='entry']//*[contains(@class,'Src-')]",
+  "dtFromNode": "//*[contains(@class,'Src-')]",
   //"dtFromNode": "//a[contains(@class,'Src-a')]",
   "dtFromName": "/text()",
   "dtUrlNode": "//div[@class='wp-playlist-tracks']",
