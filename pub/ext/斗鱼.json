@@ -2,7 +2,7 @@
     "author":"baddychen",
 	"ua": "",
     "homeUrl": "https://www.douyu.com/",
-    "cateManual": {"英雄联盟":"g_LOL","一起看":"g_yqk"},
+    "cateManual": {"一起看":"g_yqk"},
 	"homeVodNode": "//ul[@class='layout-Cover-list']/li/div/a",
 	"homeVodName": "//h3[@class='DyListCover-intro']/text()",
 	"homeVodId": "/@href",
