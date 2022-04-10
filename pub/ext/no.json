@@ -43,7 +43,7 @@
 	"dtUrlSubNode": "//a",
 	"dtUrlId": "@href",
 	"dtUrlIdR": "(\\S+)",
-	"dtUrlName": "/text()",
+	"dtUrlName": "\"播放\"",
 	"dtUrlNameR": "",
 	"playUrl": "https://www.novipnoad.com{playUrl}",
 	"playUa": "",
