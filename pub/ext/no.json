@@ -41,8 +41,8 @@
 	"dtUrlIdR": "/(\\S+).html#respond",
 	"dtUrlName": "/text()",
 	"dtUrlNameR": "",
-	"playUrl": "http://www.novipnoad.com/{playUrl}.html",
-	"playUa": "",
+	//"playUrl": "http://www.novipnoad.com/{playUrl}.html",
+	//"playUa": "",
 	"searchUrl": "http://www.9rmb.com/search?wd={wd}",
     // 同上面的homeVod字段 搜索结果中的视频信息, 这里有对苹果cms suggest搜索接口的特殊支持，参考示例中的极品影视
 	"scVodNode": "//div[@class='movie-item']/a",
