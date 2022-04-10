@@ -23,7 +23,7 @@
  	"cateVodMark": "",
 
 
-	"dtUrl": "https://www.novipnoad.com/{vid}.html",
+	"dtUrl": "{vid}.html",
 	"dtNode": "//body",
 	"dtName": "//h1[@class='light-title entry-title']/text()",
 	"dtNameR": "",
