@@ -4,7 +4,11 @@
 	"homeUrl": "https://www.novipnoad.com",
 	"cateManual": {
     "电影": "movie",
-    "动画": "anime"
+    "动画": "anime",
+    "综艺": "show",
+    "音乐": "music",
+    "短片": "short",
+    "其他": "other"
   },
 
 	"homeVodNode": "//div[contains(@id,'post-')]",
