@@ -1,9 +1,9 @@
 {
 	"ua": "",
-    // 首页地址 用于获取 分类和首页推荐
 	"homeUrl": "https://www.novipnoad.com",
 	"cateManual": {
     "电影": "movie",
+    "剧集": "tv",
     "动画": "anime",
     "综艺": "show",
     "音乐": "music",
