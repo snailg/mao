@@ -27,7 +27,7 @@
 	"dtNode": "//body",
 	"dtName": "//h1[@class='light-title entry-title']/text()",
 	"dtNameR": "",
-	"dtImg": "//meta[@property='og:image']/@content",
+	"dtImg": "//div[@class='video-item']/div[1]/a/img/@data-original",
 	"dtImgR": "",
 
 	"dtCate": "//div[@class='item-tax-list']/strong[contains(text(),'Category: ')]/a/text()",
