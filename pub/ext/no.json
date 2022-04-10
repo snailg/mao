@@ -23,7 +23,7 @@
  	"cateVodMark": "",
 
 
-	"dtUrl": "https://www.novipnoad.com/movie/136996.html",
+	"dtUrl": "https://www.novipnoad.com/{vid}",
 	"dtNode": "//body",
 	"dtName": "//h1[@class='light-title entry-title']/text()",
 	"dtNameR": "",
