@@ -22,42 +22,27 @@
   	"cateVodImg": "//a/img/@data-original",
  	"cateVodMark": "",
 
-    // 详情页地址 用于获取详情页信息 及 播放列表和地址
+
 	"dtUrl": "https://www.novipnoad.com/{vid}.html",
-    // 详情节点
-	"dtNode": "/html",
-    // 视频名
-	"dtName": "//meta[@property='og:title']/@content",
-    //"dtName": "//body//h1[@class='light-title entry-title']/text()",
+	"dtNode": "//body",
+	"dtName": "//h1[@class='light-title entry-title']/text()",
 	"dtNameR": "",
-    // 视频图片
 	"dtImg": "//meta[@property='og:image']/@content",
 	"dtImgR": "",
-    // 视频分类
+
 	"dtCate": "//div[@class='item-tax-list']/strong[contains(text(),'Category: ')]/a/text()",
 	"dtCateR": "",
     
-    // 播放源节点
 	"dtFromNode": "//h1[@class='light-title entry-title']",
-    // 播放源名称
 	"dtFromName": "/text()",
-    // 播放列表节点
-	"dtUrlNode": "//meta[@property='og:url']",
-    // 播放地址节点
-	"dtUrlSubNode": "",
-    // 播放地址
-	"dtUrlId": "@content",
-    // 二次处理正则
-	"dtUrlIdR": "https://www.novipnoad.com/(\\S+).html",
-    // 剧集名称
-	"dtUrlName": "@content",
-    // 二次处理正则
+	"dtUrlNode": "//h3[@calss='comment-reply-title']",
+	"dtUrlSubNode": "/a",
+	"dtUrlId": "@href",
+	"dtUrlIdR": "/(\\S+).html#respond",
+	"dtUrlName": "/text()",
 	"dtUrlNameR": "",
-    // 播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
 	"playUrl": "http://www.novipnoad.com/{playUrl}.html",
-    // 解析webview的user-agent
 	"playUa": "",
-    // 搜索地址
 	"searchUrl": "http://www.9rmb.com/search?wd={wd}",
     // 同上面的homeVod字段 搜索结果中的视频信息, 这里有对苹果cms suggest搜索接口的特殊支持，参考示例中的极品影视
 	"scVodNode": "//div[@class='movie-item']/a",
