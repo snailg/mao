@@ -48,7 +48,7 @@
     "dtUrlNode": "//div[@class='tm-socia1-share']",
 	"dtUrlSubNode": "/a[@class='socia1-icon s-em']",
 	"dtUrlId": "@href",
-	"dtUrlIdR": "\\S+https%3A%2F%2Fwww.novipnoad.com%2Fmovie%2F(\\S+)",
+	"dtUrlIdR": "\\S+%2F(\\S+)",
 	"dtUrlName": "\"haha\"",
 	"dtUrlNameR": "",
 	//"playUrl": "https://www.novipnoad.com{playUrl}",
