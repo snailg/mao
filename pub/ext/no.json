@@ -24,9 +24,8 @@
 
 
 	"dtUrl": "https://www.novipnoad.com/movie/136996.html",
-	"dtNode": "/html",
-	//"dtName": "//h1[@class='light-title entry-title']/text()",
-    "dtName": "//meta[@property='og:title']/@content",
+	"dtNode": "//body",
+	"dtName": "//h1[@class='light-title entry-title']/text()",
 	"dtNameR": "",
 	"dtImg": "//div[@class='video-item']/div[1]/a/img/@data-original",
 	"dtImgR": "",
