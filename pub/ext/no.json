@@ -35,7 +35,7 @@
     
 	"dtFromNode": "//span[@class='fn']/a",
 	"dtFromName": "/text()",
-	"dtUrlNode": "//h3[@calss='comment-reply-title']",
+	"dtUrlNode": "//h3[@calss='comment-reply-title']/small",
 	"dtUrlSubNode": "/a",
 	"dtUrlId": "@href",
 	"dtUrlIdR": "/(\\S+).html#respond",
