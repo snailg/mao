@@ -1,0 +1,46 @@
+{
+  "ua": "",
+  "homeUrl": "https://zaixiandianying8.com",
+//网站分类页
+  "cateNode": "",
+  "cateName": "",
+  "cateId": "",
+  "cateIdR": "",
+  "cateManual": {"蓝光": "37", "电影": "1", "电视剧": "2", "综艺": "3", "动漫": "4"},
+
+
+
+//分类网页网址
+  "cateUrl": "https://zaixiandianying8.com/vodtype/{cateId}-{catePg}.html",
+  "cateVodNode": "//li[@class='stui-vodlist__item']/a",
+  "cateVodName": "/@title",
+  "cateVodId": "/@href",
+  "cateVodIdR": "/voddetail/(\\w+).html",
+  "cateVodImg": "/@data-original",
+  "cateVodMark": "/span/span/text()",
+
+// 详情页
+  "dtUrl": "https://zaixiandianying8.com/voddetail/{vid}.html",
+  "dtNode":"//div[@class='myui-content__thumb']",
+  "dtName":"//div[@class='myui-content__thumb']/a/@title/text()",
+  "dtImg": "//div[@class='stui-content__thumb']/a/img/@data-original",
+  "dtFromNode":  "//div [ contains ( @class, ' myui-panel__head active bottom-line ' ) ] /h3",
+  "dtFromName": "/text()",
+  "dtUrlNode": "//ul[contains(@class,'nav nav-tabs active')]",
+  "dtUrlSubNode": "/li/a",
+  "dtUrlId": "@href",
+  "dtUrlIdR": "/vodplay/(\\S+).html",
+  "dtUrlName": "/text()",
+  "dtUrlNameR": "",
+// 播放页面的地址
+  "playUrl": "https://zaixiandianying8.com/vodplay/{playUrl}.html",
+  "playUa": "",
+//搜索地址
+  "searchUrl": "https://zaixiandianying8.com/vodsearch/-------------.html?wd={wd}",
+  "scVodNode": "json:list",
+  "scVodName": "name",
+  "scVodId": "id",
+  "scVodIdR": "",
+  "scVodImg": "pic",
+  "scVodMark": ""
+}
