@@ -33,7 +33,7 @@
 	"dtCate": "//div[@class='item-tax-list']/strong[contains(text(),'Category: ')]/a/text()",
 	"dtCateR": "",
     
-	"dtFromNode": "//h1[@class='light-title entry-title']",
+	"dtFromNode": "//span[@class='fn']/a",
 	"dtFromName": "/text()",
 	"dtUrlNode": "//h3[@calss='comment-reply-title']",
 	"dtUrlSubNode": "/a",
