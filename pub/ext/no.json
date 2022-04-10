@@ -49,7 +49,7 @@
 	"dtUrlSubNode": "/a[@class='socia1-icon s-em']",
 	"dtUrlId": "@href",
 	"dtUrlIdR": "\\S+https%3A%2F%2Fwww.novipnoad.com(\\S+)",
-	"dtUrlName": "/nil",
+	"dtUrlName": "\"haha\"",
 	"dtUrlNameR": "",
 	"playUrl": "https://www.novipnoad.com{playUrl}",
     //"playUrl": "location.href",
