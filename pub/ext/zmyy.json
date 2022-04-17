@@ -60,7 +60,7 @@
 	"dtUrlNameR": "",
 	"playUrl": "http://www.zzzlike.vip/vodplay/{playUrl}.html",
 	"playUa": "",
-	"searchUrl": "https://www.vivod.xyz/?s={wd}",
+	"searchUrl": "http://www.zzzlike.vip/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
 	"scVodNode": "//div[@class='bt_img mi_ne_kd search_list']/ul/li/a",
 	"scVodName": "/img/@alt",
 	"scVodId": "/@href",
