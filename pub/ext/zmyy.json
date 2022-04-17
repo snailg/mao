@@ -47,9 +47,6 @@
 	"dtDirectorR": "",
 	"dtDesc": "//div[@class='yp_context']/p/text()",
 	"dtDescR": "",
-    //"dtFromNode": "//span[contains(text(), '观看')]",
-    //"dtFromName": "concat('vivod超清源',count(parent::*/preceding::*//span[contains(text(), '观看')]) + 1)",
-    //"dtFromNameR": "(\\S+).0",
     "dtFromNode": "//div[contains(@class, 'bottom-line')]/h3",
     "dtFromName": "/text()",
 	"dtUrlNode": "//ul[@class='stui-content__playlist clearfix']",
@@ -60,11 +57,11 @@
 	"dtUrlNameR": "",
 	"playUrl": "http://www.zzzlike.vip/vodplay/{playUrl}.html",
 	"playUa": "",
-	"searchUrl": "http://www.zzzlike.vip/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
-	"scVodNode": "//div[@class='bt_img mi_ne_kd search_list']/ul/li/a",
-	"scVodName": "/img/@alt",
-	"scVodId": "/@href",
-	"scVodIdR": "/movie/(\\w+).html",
-	"scVodImg": "/img/@data-original",
-	"scVodMark": "following-sibling::div[@class='hdinfo']/span/text()"
+	"searchUrl": "http://www.zzzlike.vip/index.php/ajax/suggest?mid=1&wd={wd}&limit=100",
+	"scVodNode": "json:list",
+	"scVodName": "name",
+	"scVodId": "id",
+	"scVodIdR": "",
+	"scVodImg": "pic",
+	"scVodMark": ""
 }
