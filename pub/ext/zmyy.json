@@ -45,7 +45,7 @@
 	"dtActorR": "",
 	"dtDirector": "//span[contains(text(),'导演')]/following-sibling::*/text()",
 	"dtDirectorR": "",
-	"dtDesc": "//span[@class='detail-sketch']/text()",
+	"dtDesc": "//span[@class='detail-content']/text()",
 	"dtDescR": "",
     "dtFromNode": "//div[contains(@class, 'bottom-line')]/h3",
     "dtFromName": "/text()",
