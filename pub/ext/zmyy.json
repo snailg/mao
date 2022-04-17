@@ -19,7 +19,7 @@
 	"cateVodName": "/@title",
 	"cateVodId": "/@href",
 	"cateVodIdR": "/voddetail/(\\w+).html",
-	"cateVodImg": "/img/@data-original",
+	"cateVodImg": "/@data-original",
 	"cateVodImgR": "",
 	"cateVodMark": "/span[2]/text()",
 	"dtUrl": "https://www.vivod.xyz/movie/{vid}.html",
