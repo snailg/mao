@@ -1,6 +1,11 @@
 {
     "author":"baddychen",
 	"ua": "",
+    "dcVipFlag": "true",
+	"pCfgJs": "http://www.zzzlike.vip/static/js/playerconfig.js",
+	"pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
+	"dcShow2Vip": {},
+	"dcPlayUrl": "true",
 	"homeUrl": "http://www.zzzlike.vip",
 	"cateNode": "//ul[@class='stui-header__menu type-slide']/li/a[contains(@href,'type')]",
 	"cateName": "/text()",
