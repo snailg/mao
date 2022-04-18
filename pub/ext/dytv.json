@@ -59,7 +59,7 @@
 	"dtUrlName": "/span/text()",
 	"dtUrlNameR": "",
 	"playUrl": "https://ilqtugu.cn/p/{playUrl}.html",
-	"playUa": "https://jx.yizz.top/?url=",
+	"playUa": "",
 	"searchUrl": "https://www.dytv123.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
 	"scVodNode": "json:list",
 	"scVodName": "name",
