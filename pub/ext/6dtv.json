@@ -46,7 +46,7 @@
   "dtYearR": "",
   "dtMark": "//span[contains(@class,'text-muted') and contains(text(), '集数')]/following-sibling::*/text()",
   "dtMarkR": "",
-  "dtDesc": "//span[contains(@class,'detail-sketch')]/text()",
+  "dtDesc": "//span[@class='detail-content']/text()",
   "dtDescR": "",
   "dtFromNode": "//a[@data-toggle='tab' and contains(@href,'play')]",
   "dtFromName": "/text()",
