@@ -17,7 +17,7 @@
  "homeVodIdR": "/show/(\\w+).html",
  "homeVodImg": "/img/@src",
  "homeVodMark": "/span/text()",
- "cateUrl": "https://v.xuangz.cn/whole/{cateId}_______0_addtime__{catePg}.html",
+ "cateUrl": "https://v.xuangz.cn/whole/{cateId}_______0_addtime_{catePg}.html",
  //"cateUrl": "https://v.xuangz.cn/whole/{cateId}_{area}_{class}_{lang}_{year}___0_id_{catePg}.html",
  "cateVodNode": "//ul[@id='data_list']//div[@class='pic']/a",
  "cateVodName": "/img/@title",
