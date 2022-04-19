@@ -1,15 +1,14 @@
 {
-    "author":"takagen99",
+    "author":"baddychen",
     "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
     "homeUrl": "https://www.ttsp.tv/",
-    "cateManual": {
-        "电影": "1",
-        "剧集": "2",
-        "综艺": "3",
-        "动漫": "4",
-        "??": "61"
-    },
-    // Home Summary =====================================================
+    //"cateNode": "//ul[contains(@class,'nav_list clearfix')]/li/a[contains(@href,'vod')]",
+    //"cateName": "/@title",
+    //"cateId": "/@href",
+    //"cateIdR": "/vod/(\\w+).html",
+    //"cateManual": {},
+    "cateManual": {"电影": "1","剧集": "2","综艺": "3","动漫": "4","午夜剧场": "61"},
+
     "homeVodNode": "//ul[@class='vodlist vodlist_wi  clearfix']/li",
     "homeVodName": "/a/@title",
     "homeVodId": "/a/@href",
