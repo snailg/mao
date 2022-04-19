@@ -25,7 +25,8 @@
     "cateVodMark": "/a/span[2]/text()",
 
     "dtUrl": "https://www.ttsp.tv/voddetail/{vid}.html",
-    "dtNode": "//div[contains(@class,'detail_list_box')]",
+    //"dtNode": "//div[contains(@class,'detail_list_box')]",
+    "dtNode": "//body",
     "dtName": "//a[contains(@class,'vodlist_thumb')]/@title",
     "dtImg": "//a[contains(@class,'vodlist_thumb')]/@data-original",
     "dtCate": "//div[contains(@class,'content_detail content_min fl')]/ul/li[1]/a[3]/text()",
