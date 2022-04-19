@@ -6,7 +6,7 @@
   "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
   "dcShow2Vip": {},
   "dcPlayUrl": "true",
-"cateNode": "//ul[contains(@class,'stui-header__menu')]/li/a[contains(@href,'list')]",
+  "cateNode": "//ul[contains(@class,'stui-header__menu')]/li/a[contains(@href,'list')]",
   "cateName": "/text()",
   "cateId": "/@href",
   "cateIdR": "/list/(\\S+).html",
@@ -67,7 +67,8 @@
   //"scVodMark": ""
   "searchUrl": "http://6d.xuangz.cn/?c=search&wd={wd}",
   "scVodNode": "//a[@class='v-thumb stui-vodlist__thumb lazyload']",
-  "scVodName": "@title",  "scVodId": "@href",
+  "scVodName": "@title",
+  "scVodId": "@href",
   "scVodIdR": "/v_show/(\\w+).html",
   "scVodImg": "@data-original",
   "scVodMark": "",
