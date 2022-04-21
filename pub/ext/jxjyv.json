@@ -36,7 +36,7 @@
 	"dtUrlName": "/text()",
 	"playUrl": "http://www.re242.cn/plays/{playUrl}.html",
 	"playUa": "",
-	"searchUrl": "http://jxjyv.com/search.php?m=vod-search&wd={wd}",
+	"searchUrl": "http://jxjyv.com/search.php?searchword={wd}",
 	"scVodNode": "//div[@class='detail-wrap']",
 	"scVodName": "/a/@title",
 	"scVodId": "/a/@href",
