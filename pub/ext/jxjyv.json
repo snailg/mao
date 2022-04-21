@@ -22,7 +22,7 @@
 	"dtImg": "//div[@class='stui-content__thumb']/a/img/@data-original",
     "dtCate": "//div[@class='stui-content__detail']/p[1]/a[1]/text()",
 	"dtYear": "//div[@class='stui-content__detail']/p[1]/text()[5]",
-    "dtArea": "//div[@class='stui-content__detail']/p[1]/text()[6]",
+    "dtArea": "//div[@class='stui-content__detail']/p[1]/text()[3]",
 	"dtActor": "//div[@class='stui-content__detail']/p[2]/text()",
 	"dtDirector": "//div[@class='stui-content__detail']/p[3]/text()",
 	"dtDesc": "//div[@class='stui-content__detail']/p[5]/text()",
