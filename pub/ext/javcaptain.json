@@ -31,7 +31,7 @@
   "dtImgR": "",
   //"dtFromNode": "//div[contains(@class,'play_source_tab') and @id='NumTab']/a",
   //"dtFromName": "/text()",
-  "dtFromNode": "//div[@id='bofy']//h3",
+  "dtFromNode": "//div[@id='bofy']/div[1]/h3",
   "dtFromName": "/text()",
   "dtFromNameR": "",
   "dtUrlNode": "//ul[@class='content_playlist clearfix']",
