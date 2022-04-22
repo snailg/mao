@@ -33,13 +33,15 @@
   "dtNode": "//div[@class='stui-pannel__bd']",
   "dtName": "//div[@class='stui-content__thumb']/a/@title",
   "dtImg":  "//div[@class='stui-content__thumb']/a/img/@data-original",
-  "dtCate": "",
+  "dtCate": "//div[@class='stui-content__detail']/p[1]/text()",
   "dtYear": "",
   "dtArea": "",
   "dtActor": "//div[@class='stui-content__detail']/p[2]/text()",
+  "dtActorR": "主演：(.+)",
   "dtMark": "//div[@class='stui-content__detail']/p[4]/text()",
   "dtDirector": "//div[@class='stui-content__detail']/p[3]/text()",
-  "dtDesc": "//p[@class='desc detail']//span[3]/text()",
+  "dtDirectorR": "导演：(.+)",
+  "dtDesc": "//p[@class='desc detail']/span[3]/text()",
     
 // Playlist =====================================================     
 //  "dtFromNode": "//div[@class='stui-vodlist__head' and not(contains(text(),'猜你喜欢'))]",
