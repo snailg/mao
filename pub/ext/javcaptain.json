@@ -37,7 +37,7 @@
   //"dtFromName": "/text()",
   "dtFromNameR": "",
   "dtUrlNode": "//ul[@class='content_playlist clearfix']",
-  "dtUrlSubNode": "/li/a",
+  "dtUrlSubNode": "//li/a",
   "dtUrlId": "@href",
   "dtUrlIdR": "",
   "dtUrlName": "/text()",
