@@ -30,7 +30,7 @@
   //"dtFromNode": "//a[contains(@alt,'線路')]",
   //"dtFromName": "[substring-before(text(),'4')]",
   //"dtFromName": "/text()",
-  "dtFromNode": "//div[@class='content_detail content_min fl']/ul/li[2]",
+  "dtFromNode": "//div[@class='content_detail content_min fl']/ul/li[1]",
   "dtFromName": "/text()[2]",
   "dtFromNameR": "",
   "dtUrlNode": "//div[@class='playlist_full']/ul",
