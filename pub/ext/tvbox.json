@@ -38,7 +38,7 @@
 "dtActorR": "",
 "dtYear": "//ul[@class='txt_list clearfix']/li[2]/em[4]/text()",
 "dtYearR": "",
-"dtDesc": "//p[@id='synopsis_txt']/span[2]/text()",
+"dtDesc": "//p[@id='synopsis_txt']/span[1]/text()",
 "dtDescR": "",
 
 "dtFromNode":"//ul[contains(@class,'play_source_tab')]/li/a",
