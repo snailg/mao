@@ -25,7 +25,7 @@
   //"dtUrl": "https://javcaptain.com/index.php/vod/detail/id/{vid}.html",
   "dtUrl": "https://javcaptain.com/index.php/vod/detail/id/61018.html",
   "dtNode": "//body",
-  "dtName": "//div[@class='content_detail content_top fl']//h2[@class='title']/text()",
+  "dtName": "//div[@class='content_detail content_top fl']/div[1]/h2/text()",
   "dtNameR": "",
   "dtImg": "//div[@class='content_thumb fl']/a/img/@data-original",
   "dtImgR": "",
