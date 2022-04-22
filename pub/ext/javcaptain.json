@@ -31,7 +31,7 @@
   "dtImgR": "",
   "dtFromNode": "//a[contains(@alt,'線路')]",
   //"dtFromName": "[substring-before(text(),'(')]",
-  "dtFromName": "[substring(text(),'')]",
+  "dtFromName": "播放线路",
   //"dtFromName": "/text()",
   //"dtFromNode": "//div[@id='bofy']/div[1]/h3",
   //"dtFromName": "/text()",
