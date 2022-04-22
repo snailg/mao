@@ -25,7 +25,7 @@
   "dtUrl": "https://javcaptain.com/index.php/vod/detail/id/{vid}.html",
   //"dtUrl": "https://javcaptain.com/index.php/vod/detail/id/61018.html",
   	"dtNode": "//body",
-	"dtName": "//div[contains(@class,'content_detail content_top fl')]/div[1]/h2/text()",
+	"dtName": "//div[contains(@class,'content_thumb fl')]/a/@title",
 	"dtImg": "//div[contains(@class,'content_thumb fl')]/a/@data-original",
   //"dtFromNode": "//a[contains(@alt,'線路')]",
   //"dtFromName": "[substring-before(text(),'4')]",
