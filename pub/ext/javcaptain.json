@@ -41,7 +41,7 @@
   "dtUrlNameR": "",
   "playUrl": "https://javcaptain.com{playUrl}",
   //"playUrl": "https://javcaptain.com/index.php/vod/play/id/61018/sid/1/nid/1.html",
-  "playUa": "",
+  "playUa": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
   "searchUrl": "https://javcaptain.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
   "scVodNode": "json:list",
   "scVodName": "name",
