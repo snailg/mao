@@ -36,7 +36,7 @@
   //"dtFromNode": "//div[@id='bofy']/div[1]/h3",
   //"dtFromName": "/text()",
   "dtFromNameR": "\\S+(11)\\S+",
-  "dtUrlNode": "//ul[@class='content_playlist clearfix']",
+  "dtUrlNode": "//div[@id='playlistbox']/ul",
   "dtUrlSubNode": "/li/a",
   "dtUrlId": "@href",
   "dtUrlIdR": "",
