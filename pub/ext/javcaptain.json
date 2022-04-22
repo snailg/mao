@@ -29,7 +29,7 @@
   "dtNameR": "",
   "dtImg": "//div[@class='content_thumb fl']/a/img/@data-original",
   "dtImgR": "",
-  "dtFromNode": "//a[contains(text(),'線路')]",
+  "dtFromNode": "//a[contains(@alt,'線路')]",
   //"dtFromName": "[substring-before(text(),'(')]",
   //"dtFromName": "/text()",
   //"dtFromNode": "//div[@id='bofy']/div[1]/h3",
