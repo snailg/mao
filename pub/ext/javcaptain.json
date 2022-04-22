@@ -14,7 +14,7 @@
   "homeVodImg": "/@data-original",
   "homeVodImgR": "",
   "homeVodMark": "/span[2]/text()",
-  "cateUrl": "https://javcaptain.com/index.php/vod/id/{cateId}/page/{catePg}.html",
+  "cateUrl": "https://javcaptain.com/index.php/vod/type/id/{cateId}/page/{catePg}.html",
   "cateVodNode": "//ul[@class='vodlist vodlist_hb clearfix']/li/a",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
