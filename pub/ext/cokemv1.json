@@ -25,7 +25,7 @@
     "homeVodNode": "//a[@class='module-poster-item module-item']",
     "homeVodName": "/@title",
     "homeVodId": "/@href",
-    "homeVodIdR": "/(\\w+).html",
+    "homeVodIdR": "/voddetail/(\\w+).html",
     "homeVodImg": "//img[@class='lazy lazyload']/@data-original",
     "homeVodMark": "//div[@class='module-item-note']/text()",
   
@@ -34,7 +34,7 @@
     "cateVodNode": "//a[@class='module-poster-item module-item']",
     "cateVodName": "/@title",
     "cateVodId": "/@href",
-    "cateVodIdR": "/(\\w+).html",
+    "cateVodIdR": "/voddetail/(\\w+).html",
     "cateVodImg": "//img[@class='lazy lazyload']/@data-original",
     "cateVodMark": "//div[@class='module-item-note']/text()",
   
@@ -72,12 +72,12 @@
   
   // Search Results ==================================================
     "searchUrl": "https://cokemv.me/vodsearch/-------------.html?wd={wd}",
-    "scVodNode": "json:list",
-    "scVodName": "name",
-    "scVodId": "id",
-    "scVodIdR": "",
-    "scVodImg": "pic",
-    "scVodMark": "",
+    "scVodNode": "//div[@class='module-card-item module-item']",
+    "scVodName": "//div[@class='module-card-item-title']/strong/text()",
+    "scVodId": "/a/@href",
+    "scVodIdR": "/voddetail/(\\w+).html",
+    "scVodImg": "//img[@class='lazy lazyload']/@data-original",
+    "scVodMark": "//div[@class='module-item-note']/text()",
   
   // Filters =======================================================
     "filter": {
