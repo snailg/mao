@@ -65,7 +65,7 @@
   "dtUrlId": "//meta[@property='og:url']/@content",
   "dtUrlIdR": "/(\\S+).html",
   "dtUrlName": "/text()",
-  "dtUrlNameR": "(HD)",
+  "dtUrlNameR": "\\S+(HD)\\S+",
 
 
 
