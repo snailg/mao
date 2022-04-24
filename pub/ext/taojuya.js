@@ -60,7 +60,7 @@
     "dtDirectorR": "",
     "dtActor": "//span[contains(text(), '主演')]/following-sibling::/a/text()",
     "dtActorR": "",
-    "dtDesc": "//span[contains(text(), '简介')]/parent::text()",
+    "dtDesc": "//p[@class='col-pd']/text()[3]",
     "dtDescR": "",
     "dtFromNode": "//ul[@class='nav nav-tabs pull-right']/li/a",
     "dtFromName": "/text()",
