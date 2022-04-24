@@ -72,9 +72,9 @@
   
   // Search Results ==================================================
     "searchUrl": "https://cokemv.me/vodsearch/-------------.html?wd={wd}",
-    "scVodNode": "//div[@class='module-card-item module-item']",
+    "scVodNode": "//div[@class='module-main module-page']",
     "scVodName": "//div[@class='module-card-item-title']/strong/text()",
-    "scVodId": "/a/@href",
+    "scVodId": "//a[@class='module-card-item-poster']/@href",
     "scVodIdR": "/voddetail/(\\w+).html",
     "scVodImg": "//img[@class='lazy lazyload']/@data-original",
     "scVodMark": "//div[@class='module-item-note']/text()",
