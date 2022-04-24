@@ -72,7 +72,7 @@
   
   // Search Results ==================================================
     "searchUrl": "https://cokemv.me/vodsearch/-------------.html?wd={wd}",
-    "scVodNode": "//div[@class='module-main module-page']",
+    "scVodNode": "//div[@class='module-card-item module-item']",
     "scVodName": "//div[@class='module-card-item-title']/strong/text()",
     "scVodId": "//a[@class='module-card-item-poster']/@href",
     "scVodIdR": "/voddetail/(\\w+).html",
