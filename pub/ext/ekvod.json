@@ -25,8 +25,10 @@
 	"homeVodImg": "/@data-original",
 	"homeVodImgR": "\\S+(http\\S+)",
 	"homeVodMark": "/span[contains(@class,'pic-text')]/text()",
-	"cateUrl": "https://www.ekvod.com/vodshow/{cateId}--------{catePg}---/",
-	"cateVodNode": "//a[contains(@class,'stui-vodlist__thumb')]",
+	//"cateUrl": "https://www.ekvod.com/vodshow/{cateId}--------{catePg}---/",
+	
+    "cateUrl": "https://www.ekvod.com/vodtype/{cateId}-{catePg}.html",
+    "cateVodNode": "//a[contains(@class,'stui-vodlist__thumb')]",
 	"cateVodName": "/span[contains(@class,'pic-tag pic-tag-top')]/text()",
 	"cateVodId": "/@href",
 	"cateVodIdR": "/voddetail/(\\w+)/",
