@@ -64,8 +64,8 @@
   "dtUrlSubNode": "//head",
   "dtUrlId": "//meta[@property='og:url']/@content",
   "dtUrlIdR": "/(\\S+).html",
-  "dtUrlName": "/text()",
-  "dtUrlNameR": "\\S+(HD)\\S+",
+  "dtUrlName": "\"HD\"",
+  "dtUrlNameR": "",
 
 
 
