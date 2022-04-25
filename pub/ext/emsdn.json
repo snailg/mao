@@ -1,6 +1,7 @@
+//https://www.nmdvd.com/
 {
 	"ua": "",
-	"homeUrl": "https://v.emsdn.cn",
+	"homeUrl": "https://v.xiangdao.me",
 	"cateNode": "//div[@class='l']/a[contains(@href, 'vod-type-id-')]",
 	"cateName": "/text()",
 	"cateId": "/@href",
