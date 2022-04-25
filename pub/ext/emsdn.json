@@ -40,7 +40,7 @@
 	"dtActorR": "",
 	"dtDirector": "/div[@class='content_01 content_01_bg delay-h']/div[@class='video_tv_cont_01']/div[@class='cont']/div[@class='rig']/div[@class='lef-sort']/div[@class='d_z_y'][1]/font/a/text()",
 	"dtDirectorR": "",
-	"dtDesc": "/div[@class='new-left']/div[@class='content_01 content_01_bg']/ul[@class='list_06']/div[@class='jjie']",
+	"dtDesc": "//article[@class='detail-con']/p/text()",
 	"dtDescR": "",
 	"dtFromNode": "//div[@class='hd']/ul/li/a",
 	"dtFromName": "/text()",
