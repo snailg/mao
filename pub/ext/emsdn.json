@@ -59,7 +59,7 @@
 	"scVodName": "//span[@class='sTit']/text()",
 	"scVodId": "//span[@class='sBtn']/a/@href",
 	"scVodIdR": "/vod-detail-id-(\\w+).html",
-	"scVodImg": "//img/@data-src"
+	"scVodImg": "//img/@data-src",
 	"scVodMark": "//span[@class='sDes'][2]/text()",
     "filter":{
 "1": [
