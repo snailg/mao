@@ -1,6 +1,11 @@
 {
   //"ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
   "ua":"",
+  "dcVipFlag": "true",
+  "pCfgJs": "http://www.gfysys.com/static/js/playerconfig.js",
+  "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
+  "dcShow2Vip": {},
+  "dcPlayUrl": "true",
   "homeUrl": "http://www.gfysys.com",
   "cateManual": {"电影": "1","连续剧": "2","综艺": "3","动漫": "4"},    
   "homeVodNode": "//div[@class='myui-vodlist__box']/a",
