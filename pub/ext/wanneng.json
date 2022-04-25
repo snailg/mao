@@ -15,7 +15,9 @@
 		"电影": "1",
 		"连续剧": "2",
 		"综艺": "3",
-		"动漫": "4"
+		"动漫": "4",
+        "纪录片": "20",
+        "儿童节目": "35"     
 	},
 	"homeVodNode": "//div[contains(@class, 'padding-0')]//ul[contains(@class,'myui-vodlist')]/li//a[contains(@class,'myui-vodlist__thumb')]",
 	"homeVodName": "/@title",
