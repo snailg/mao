@@ -33,7 +33,7 @@
   "dtActor": "//div[contains(@class,'myui-content__detail')]/p[2]/text()",
   "dtDirector": "//div[contains(@class,'myui-content__detail')]/p[3]/text()",
   "dtDesc": "//div[contains(@class,'myui-content__detail')]/p[4]/a/@onclick",
-  "dtDescR": "MyTheme.Layer.Text('剧情简介','(\\S+)'\\S+",
+  "dtDescR": "\\S+剧情简介','(\\S+)",
   "dtFromNode": "//ul[@class='nav nav-tabs active']/li/a[contains(@href,'playlist')]",
   "dtFromName": "/text()",
   "dtFromNameR": "",
