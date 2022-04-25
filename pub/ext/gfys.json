@@ -33,7 +33,7 @@
   "dtActor": "//div[contains(@class,'myui-content__detail')]/p[2]/text()",
   "dtDirector": "//div[contains(@class,'myui-content__detail')]/p[3]/text()",
   "dtDesc": "//div[contains(@class,'myui-content__detail')]/p[4]/a/@onclick",
-  "dtDescR": "",
+  "dtDescR": "\\S+'(\\S+)'\\S+",
   "dtFromNode": "//ul[@class='nav nav-tabs active']/li/a[contains(@href,'playlist')]",
   "dtFromName": "/text()",
   "dtFromNameR": "",
