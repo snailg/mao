@@ -54,12 +54,12 @@
 	"playUrl": "https://v.xiangdao.me/{playUrl}.html",
 	"playUa": "",
 	"searchUrl": "https://v.xiangdao.me/index.php?m=vod-search-wd-{wd}.html",
-	"scVodNode": "//ul[@class='list_01 list_01_03_02']/li/a[@class='b_a']",
-	"scVodName": "/@title",
-	"scVodId": "/@href",
+	"scVodNode": "//ul[@id='data_list']/li",
+	"scVodName": "/div[2]/span[1]/text",
+	"scVodId": "/div[1]/a/@href",
 	"scVodIdR": "/vod-detail-id-(\\w+).html",
-	"scVodImg": "/img/@src",
-	"scVodMark": "/font/text()",
+	"scVodImg": "/div[1]/a/img/@src",
+	"scVodMark": "",
     "filter":{
 "1": [
 {"name":"类型","key":"cateId","value":[{"n":"全部","v":"1"},{"n":"动作片","v":"5"},{"n":"喜剧片","v":"6"},{"n":"爱情片","v":"7"},{"n":"科幻片","v":"8"},{"n":"恐怖片","v":"9"},{"n":"剧情片","v":"10"},{"n":"战争片","v":"11"},{"n":"惊悚片","v":"16"},{"n":"奇幻片","v":"17"}]},
