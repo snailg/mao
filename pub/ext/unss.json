@@ -32,7 +32,7 @@
 	"dtNameR": "\\S+(http\\S+)",
 	"dtImg": "//div[@class='myui-content__thumb']/a/img/@data-original",
 	"dtImgR": "",
-	"dtCate": "//span[contains(@class,'text-muted') and contains(text(), '类型')]/following-sibling::*/text()",
+	"dtCate": "//span[contains(@class,'text-muted') and contains(text(), '分类')]/following-sibling::*/text()",
 	"dtCateR": "",
 	"dtYear": "//span[contains(@class,'text-muted hidden-xs') and contains(text(), '年份')]/following-sibling::*/text()",
 	"dtYearR": "",
