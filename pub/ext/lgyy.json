@@ -23,7 +23,7 @@
 "dtNameR": "",
 "dtFromNode":"//div[@id='y-playList']/div/span",
 "dtFromName": "/text()",
-"dtUrlNode":"//div[contains(@class,'module-play-list-base')]",
+"dtUrlNode":"//div[contains(@class,'module-play-list-content')]",
 "dtUrlSubNode": "/a",
 "dtUrlId": "@href",
 "dtUrlIdR":"/vodplay/(\\S+).html",
