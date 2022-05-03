@@ -54,11 +54,11 @@
 	"dtUrlNameR": "",
 	"playUrl": "https://nulltm.com/{playUrl}.html",
 	"playUa": "",
-	"searchUrl": "https://nulltm.com/search?wd={wd}",
-	"scVodNode": "//div[@class='movie-list-body flex']/div[contains(@class,'vod-search-list')]",
-	"scVodName": "/div/div/div[1]/div[1]/text()",
-	"scVodId": "/div/a/@href",
-	"scVodIdR": "/v(\\S+).html",
-	"scVodImg": "/div/a/div/@data-original",
-	"scVodMark": "/div/div/div[1]/div[3]/text()"
+	"searchUrl": "https://nulltm.com/vodsearch/{wd}-------------.html",
+	"scVodNode": "//a[@class='stui-vodlist__thumb lazyload']",
+	"scVodName": "/@title",
+	"scVodId": "/@href",
+	"scVodIdR": "/voddetail/(\\w+).html",
+	"scVodImg": "/@data-original",
+	"scVodMark": "/span[2]/text()"
 }
