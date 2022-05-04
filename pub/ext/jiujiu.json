@@ -77,10 +77,10 @@
 	"playUrl": "https://www.40mdd.com/play/{playUrl}.html",
 	"playUa": "",
 	"searchUrl": "https://www.40mdd.com/search?wd={wd}",
-	"scVodNode": "json:list",
-	"scVodName": "name",
-	"scVodId": "id",
-	"scVodIdR": "",
-	"scVodImg": "pic",
+	"scVodNode": "//div[@class='meta']/a",
+	"scVodName": "/@title",
+	"scVodId": "/@href",
+	"scVodIdR": "/show/(\\S+).html",
+	"scVodImg": "/img/@src",
 	"scVodMark": ""
 }
