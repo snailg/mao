@@ -19,7 +19,7 @@
   "homeVodImgR": "",
   "homeVodMark": "/span[contains(@class,'pic-text')]/text()",
   //"cateUrl": "http://akdy2019.com/aktype/{cateId}/page/{catePg}.html",
-  "cateUrl": "http://akdy2019.com/akshow/{cateId}/area/{area}/by/{by}/class/{clas}/page/{catePg}/year/{year}.html",
+  "cateUrl": "http://akdy2019.com/akshow/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
   "cateVodNode": "//ul[@class='myui-vodlist clearfix']//a[@class='myui-vodlist__thumb lazyload']",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
