@@ -54,7 +54,7 @@
 	"dtDirectorR": "",
 	"dtMark": "//div[@class='stui-content__detail']/p[4]/text()",
 	"dtMarkR": "",
-	"dtDesc": "//spam[@class='detail-content']/text()",
+	"dtDesc": "//spam[@class='detail-sketch']/text()",
 	"dtDescR": "",
 	"dtFromNode": "//h3[@class='iconfont icon-iconfontplay2']",
 	"dtFromName": "[substring-before(text(),'(')]",
