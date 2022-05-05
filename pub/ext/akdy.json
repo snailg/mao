@@ -42,7 +42,7 @@
   "dtActorR": "",
   "dtDirector": "//span[contains(@class,'text-muted') and contains(text(),'导演')]/following-sibling::*/text()",
   "dtDirectorR": "",
-  "dtMark": "//span[contains(@class,'text-muted') and contains(text(),'更新')]/parent::p/span[2]/text()",
+  "dtMark": "//div[@class='myui-content__detail']/p[2]/span[2]/text()",
   "dtMarkR": "",
   "dtDesc": "//div[@class='col-pd text-collapse content']/span[2]//text()",
   "dtDescR": "",
