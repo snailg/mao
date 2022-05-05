@@ -40,7 +40,7 @@
 	"dtNode": "//body",
     "dtName": "//div[@class='stui-content__thumb']/a/@title",
 	"dtNameR": "",
-	"dtImg": "//div[@class='stui-content__thumb']/a/img/@src",
+	"dtImg": "//div[@class='stui-content__thumb']/a/img/@data-original",
 	"dtImgR": "",
 	"dtCate": "//div[@class='stui-content__detail']/p[1]/text()",
 	"dtCateR": "",
