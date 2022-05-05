@@ -6,7 +6,7 @@
   "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
   "dcShow2Vip": {},
   "dcPlayUrl": "true",
-  "cateNode": "//ul[@class='item nav-list clearfix']/li/a[contains(@href, 'aktype')]",
+  "cateNode": "//ul[@class='item nav-list clearfix']/li/a[contains(@href, 'aktype') and not(contains(@href,'24'))]",
   "cateName": "/text()",
   "cateId": "/@href",
   "cateIdR": "/aktype/(\\d+).html",
