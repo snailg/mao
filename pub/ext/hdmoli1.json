@@ -46,12 +46,12 @@
   "playUa": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
 
   "searchUrl": "https://www.hdmoli.com/search.php?searchword={wd}",
-  "scVodNode": "//div[@class='container min']/ul[contains(@class, 'myui-vodlist__media')]/li",
-  "scVodName": "//a/@title",
-  "scVodId": "//a/@href",
-  "scVodIdR": "/(.+).html",
-  "scVodImg": "//a/@data-original",
-  "scVodMark": "//a/span[contains(@class, 'pic-text')]/text()",
+	"scVodNode": "//li[contains(@class,'active  clearfix')]/div/a",
+	"scVodName": "/@title",
+	"scVodId": "/@href",
+	"scVodIdR": "/movie/(\\w+).html",
+	"scVodImg": "/@data-original",
+	"scVodMark": "/span[2]/text()",
   "filter": {
     "1": [
       {
