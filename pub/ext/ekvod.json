@@ -56,7 +56,7 @@
 	"dtMarkR": "",
 	"dtDesc": "//p[@class='zkjj_a']/text()",
 	"dtDescR": "",
-	"dtFromNode": "//h3[@class='title']",
+	"dtFromNode": "//h3[@class='iconfont icon-iconfontplay2']",
 	"dtFromName": "[substring-before(text(),'(')]",
 	"dtFromNameR": "",
 	"dtUrlNode": "//ul[contains(@class, 'stui-content__playlist clearfix')]",
