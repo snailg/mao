@@ -44,7 +44,7 @@
   "dtUrlIdR": "(\\S+)",
   "dtUrlName": "\"HD\"",
   "dtUrlNameR": "",
-  "playUrl": "{playUrl}",
+  "playUrl": "https://www.4kvm.com/movies/cwdsk",
   "playUa": "",
   "searchUrl": "http://www.9eguoyu.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
   "scVodNode": "json:list",
