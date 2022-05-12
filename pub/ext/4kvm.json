@@ -30,7 +30,7 @@
   "dtDirector": "//span[contains(text(), '导演')]/following-sibling::a/text()",
   "dtActor": "//span[contains(text(), '主演')]/following-sibling::a/text()",
   "dtDesc": "//div[@class='col-pd text-collapse content']/p/text()",
-  "dtFromNode": "//li[contains(@class,'player-option')]/i/span[1]",
+  "dtFromNode": "//li[contains(@id,'player-option')]/i/span[1]",
   //"dtFromNode": "//dt[contains(text(), '资源')]",
   //"dtFromName": "concat('播放源',count(parent::*/preceding::*//dt[contains(text(), '资源')]) + 1)",
   //"dtFromNameR": "(\\S+).0",  
