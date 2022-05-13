@@ -42,7 +42,7 @@
 	"dtUrlNameR": "",
 	"playUrl": "http://4kan.me/vodplay/{playUrl}/",
 	"playUa": "",
-	"searchUrl": "https://1080p.one/index.php/ajax/suggest?mid=1&wd={wd}&limit=20",
+	"searchUrl": "http://4kan.me/index.php/ajax/suggest?mid=1&wd={wd}&limit=50",
 	"scVodNode": "json:list",
 	"scVodName": "name",
 	"scVodId": "id",
