@@ -2,7 +2,7 @@
     "author":"baddychen",
 	"ua": "",
 	"homeUrl": "http://4kan.me/",
-    "cateManual": {"电影":"1","剧集":"2","综艺":"3","动漫":"4","日韩":"15","欧美":"16"},
+    "cateManual": {"电影":"1","剧集":"2","综艺":"3","动漫":"4","国产剧":"13","日韩剧":"15","欧美剧":"16"},
 	"homeVodNode": "//ul[@class='stui-vodlist clearfix']//div[@class='stui-vodlist__box']",
 	"homeVodName": "/a/span[4]/text()",
 	"homeVodId": "/a/@href",
