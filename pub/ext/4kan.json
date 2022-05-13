@@ -6,7 +6,7 @@
 	//"cateName": "/b/text()",
 	//"cateId": "/@href",
 	//"cateIdR": "/vodshow/{\\d+}-----------/",
-    //"cateManual": {},
+    "cateManual": {"电影":"1","剧集":"2"},
 	"homeVodNode": "//ul[@class='stui-vodlist clearfix']//div[@class='stui-vodlist__box']",
 	"homeVodName": "/a/span[4]/text()",
 	"homeVodId": "/a/@href",
