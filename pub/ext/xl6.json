@@ -45,7 +45,7 @@
 	"dtActor": "//span[contains(text(), '主演')]/following-sibling::a/text()",
 	"dtMark": "//span[contains(text(), '更新')]/following-sibling::li/text()",
 	"dtDesc": "//p[contains(@class,'fed-padding fed-part-both fed-text-muted')]/text()",
-	"dtFromNode": "//div[contains(@class,'module-player-tab')]//span[1]",
+	"dtFromNode": "//div[contains(@class,'module-player-tab')]//div[@class='module-tab-content']//span",
 	"dtFromName": "/text()",
 	"dtFromNameR": "\"HD\"",
 	"dtUrlNode": "//div[@class='module-blocklist']",
