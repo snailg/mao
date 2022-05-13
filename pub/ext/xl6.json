@@ -48,7 +48,7 @@
 	"dtFromNode": "//div[@class='module-tab-item tab-item selected']/span[1]",
 	"dtFromName": "/text()",
 	"dtFromNameR": "",
-	"dtUrlNode": "//div[@class='scroll-content']",
+	"dtUrlNode": "//div[contains(@id,'sort-item')]",
 	"dtUrlSubNode": "/a",
 	"dtUrlId": "@href",
 	"dtUrlIdR": "/index.php/vod/play/id/(\\S+).html",
