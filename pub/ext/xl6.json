@@ -47,7 +47,7 @@
 	"dtDesc": "//p[contains(@class,'fed-padding fed-part-both fed-text-muted')]/text()",
 	"dtFromNode": "//div[@class='module-tab-item tab-item selected']/span",
 	"dtFromName": "/text()",
-	"dtFromNameR": "",
+	"dtFromNameR": "\"hd\"",
 	"dtUrlNode": "//div[@class='module-blocklist']",
 	"dtUrlSubNode": "/div/a",
 	"dtUrlId": "@href",
