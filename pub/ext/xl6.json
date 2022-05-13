@@ -45,7 +45,7 @@
 	"dtActor": "//span[contains(text(), '主演')]/following-sibling::a/text()",
 	"dtMark": "//span[contains(text(), '更新')]/following-sibling::li/text()",
 	"dtDesc": "//p[contains(@class,'fed-padding fed-part-both fed-text-muted')]/text()",
-	"dtFromNode": "//div[@class='module-tab-item tab-item selected']/span[1]",
+	"dtFromNode": "//div[@class='module-tab-item tab-item selected']/span",
 	"dtFromName": "/text()",
 	"dtFromNameR": "",
 	"dtUrlNode": "//div[@class='sort-item']",
