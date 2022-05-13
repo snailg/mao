@@ -51,7 +51,7 @@
 	"dtUrlNameR": "",
 	"playUrl": "https://app.xl6.top/index.php/vod/play/id/{playUrl}.html",
 	"playUa": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Core/1.94.137.400 QQBrowser/11.0.5090.400",
-	"searchUrl": "http://07tv.top/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
+	"searchUrl": "https://app.xl6.top/index.php/ajax/suggest?mid=1&wd={wd}&limit=30",
 	"scVodNode": "json:list",
 	"scVodName": "name",
 	"scVodId": "id",
