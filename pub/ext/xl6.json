@@ -34,7 +34,7 @@
 	"cateVodMark": "following::div[@class='module-item-text']/text()",
 	"dtUrl": "https://app.xl6.top/index.php/vod/detail/id/{vid}.html",
 	"dtNode": "//body",
-	"dtName": "//h1[@class='page-title']/a/text()",
+	"dtName": "//h1[@class='page-title']/text()",
 	"dtNameR": "",
 	"dtImg": "//div[@class='mobile-play']/div/div/img/@data-src",
 	"dtImgR": "",
