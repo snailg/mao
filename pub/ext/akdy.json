@@ -1,7 +1,7 @@
 {
   "author": "baddychen",
   "ua": "",
-  "homeUrl": "http://akdy2019.com",
+  "homeUrl": "http://akdy2019.com/?btwaf=18613370",
   "cateNode": "//ul[@class='item nav-list clearfix']/li/a[contains(@href, 'aktype') and not(contains(@href,'24'))]",
   "cateName": "/text()",
   "cateId": "/@href",
