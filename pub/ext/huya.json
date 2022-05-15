@@ -41,7 +41,7 @@
 	"dtUrlNameR": "",
     //"playUrl": "https://hd.huya.com/h5/liveshare/index.html?lp={playUrl}",
 	//"playUrl": "https://hd.huya.com/h5/liveshare/index.html?type=middlepage&rso=wap-live-share&gameid=2&lp={playUrl}&",
-    "playUrl": "http://live.yj1211.work/index/liveRoom?platform=huya&roomId=688",
+    "playUrl": "http://3954-out.liveplay.myqcloud.com/live/3954_421447299_2000.m3u8?bizid=3954&txSecret=b92029635775aecf07f49ba7f8ff3446&txTime=6288fb1b&uid=0&fromdj=&_qedj_t=Bhh0RGcrOLdTB2UYvF1SYpA5nGtNOOx6Hn0QASYUNDIxNDQ3Mjk5XzE2NTI1Mzk1NDYyYoD0mExWHHVRaTVDMGdJQUFEemNqODBETjhGQUVicGpBUmhmAHyGK3BnZ19saXZlX3JlYWRfaWZjX210X3N2ci5lbnRyeV9oNV9saXZlX3Jvb22WAKYNMTI0LjIyMi41LjEzMbEH0MYA1gDs%2FA8%3D",
 	"playUa": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36",
 	"searchUrl": "https://www.huya.com/search?hsk={wd}",
 	"scVodNode": "//ul[@class='js-live-list']/li",
