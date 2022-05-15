@@ -47,7 +47,7 @@
 	"dtUrlNode": "//script[7]/text()[0]",
 	"dtUrlSubNode": "json:TT_ROOM_DATA",
 	"dtUrlId": "screenshot",
-	"dtUrlIdR": "[\\W|\\S|.]*??streamName[\\W|\\S|.]*?=([\\W|\\S|.]*?)&amp;interval=",
+	"dtUrlIdR": "",
 	"dtUrlName": "\"直播\"",
 	"dtUrlNameR": "",
     //"playUrl": "https://hd.huya.com/h5/liveshare/index.html?lp={playUrl}",
