@@ -44,7 +44,7 @@
 	//"dtUrlIdR": "(\\w+)",
 	//"dtUrlName": "\"直播\"",
 	//"dtUrlNameR": "",
-	"dtUrlNode": "//script[7]/text()",
+	"dtUrlNode": "//script[7]/text()[0]",
 	"dtUrlSubNode": "json:TT_ROOM_DATA",
 	"dtUrlId": "screenshot",
 	"dtUrlIdR": "[\\W|\\S|.]*??streamName[\\W|\\S|.]*?=([\\W|\\S|.]*?)&amp;interval=",
