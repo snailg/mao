@@ -46,7 +46,7 @@
 	//"dtUrlNameR": "",
 	"dtUrlNode": "//script[7]/text()[0]",
 	"dtUrlSubNode": "",
-	"dtUrlId": "[substring-after(//script[7]/text()[0], \"?streamName=\")]",
+	"dtUrlId": "[substring-after(//script[7]/text()[0], '?streamName=')]",
 	"dtUrlIdR": "(\\S+)",
 	"dtUrlName": "\"直播\"",
 	"dtUrlNameR": "",
