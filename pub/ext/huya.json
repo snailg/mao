@@ -45,7 +45,7 @@
 	//"dtUrlName": "\"直播\"",
 	//"dtUrlNameR": "",
 	"dtUrlNode": "//script[7]/text()[0]",
-	"dtUrlSubNode": "json:var TT_ROOM_DATA =",
+	"dtUrlSubNode": "",
 	"dtUrlId": "screenshot",
 	"dtUrlIdR": "",
 	"dtUrlName": "\"直播\"",
