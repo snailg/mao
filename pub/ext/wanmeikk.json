@@ -43,7 +43,7 @@
   "dtActorR": "",
   "dtDirector": "//p[@class='dir']/span[contains(text(), '导演')]/parent::text()",
   "dtDirectorR": "",
-  "dtDesc": "//div[@class='tbox2']//div[@class='tbox_js']/text()",
+  "dtDesc": "//span[@class='detail-content']/text()",
   "dtDescR": "",
   "dtFromNode": "///h3",
   "dtFromName": "/text()",
