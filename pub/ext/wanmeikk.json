@@ -7,7 +7,7 @@
   "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
   "dcShow2Vip": {},
   "dcPlayUrl": "true",
-  "cateNode": "//ul[@class='dropdown']/li/a[contains(@href,'category') and not(contanis(@href,'8'))]",
+  "cateNode": "//ul[@class='dropdown']/li/a[contains(@href,'category') and not(contains(@href,'8'))]",
   "cateName": "/text()",
   "cateId": "/@href",
   "cateIdR": "/category/(\\d+).html",
