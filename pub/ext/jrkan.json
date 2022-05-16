@@ -3,7 +3,7 @@
     "author": "baddychen",
     "ua": "",
     "homeUrl": "http://jrkankan.com/",
-    //"cateManual": {"所有直播": "1"},
+    "cateManual": {"所有直播": ""},
     "homeVodNode": "//ul[@data-stype='zqlq']",
 	"homeVodName": "concat(/li[@class='lab_time']/text(),'-',/li[@class='lab_events']/span/text())",
     "homeVodId": "/li[@class='lab_channel']/a[1]/@href",
