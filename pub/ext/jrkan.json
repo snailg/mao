@@ -38,7 +38,7 @@
     "dtUrlNameR": "",
     "playUrl":"http://play.sportsteam333.com/play/{playUrl}",
     //"playUrl":"http://play.sportsteam666.com/play/{playUrl}",
-    //"playUrl": "http://play.sportsteam365.com/play/{playUrl}",
+    //"playUrl":"http://play.sportsteam365.com/play/{playUrl}",
     "playUa": "", 
     "searchUrl": "http://www.jrskan.com?key={wd}",
     "scVodNode": "//div[@class='play_xg']/li",
