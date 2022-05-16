@@ -45,7 +45,7 @@
   "dtDirectorR": "",
   "dtDesc": "//span[@class='detail-content']/text()",
   "dtDescR": "",
-  "dtFromNode": "///h3",
+  "dtFromNode": "//h3",
   "dtFromName": "/text()",
   "dtFromNameR": "",
   //"dtFromNode": "//div[contains(@class, 'tbox_t')]/h3/i[contains(@class, 'icon-pin')]/parent::*",
