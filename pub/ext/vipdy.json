@@ -41,7 +41,7 @@
 	"dtDirectorR": "",
 	"dtDesc": "/span[contains(@class,'video-info-itemtitle') and contains(text(), '剧情')]/following-sibling::*/text()",
 	"dtDescR": "",
-	"dtFromNode": "//span[contains(@data-id,'_1_con')]",
+	"dtFromNode": "//span[contains(@data-id,'_con')]",
 	"dtFromName": "/em/text()",
 	"dtFromNameR": "",
 	"dtUrlNode": "//ul[@class='con-list clearfix']",
