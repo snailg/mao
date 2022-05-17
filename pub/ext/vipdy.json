@@ -44,7 +44,7 @@
 	"dtFromNode": "//span[@class='play_list']",
 	"dtFromName": "/text()",
 	"dtFromNameR": "",
-	"dtUrlNode": "//div[contains(@class,'p_conBox')]",
+	"dtUrlNode": "//div[@class='v_conBox p_conBox']",
 	"dtUrlSubNode": "/div/a",
 	"dtUrlId": "@href",
 	"dtUrlIdR": "/index.php/vod/play/id/(\\S+).html",
