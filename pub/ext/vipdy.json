@@ -44,7 +44,7 @@
 	"dtFromNode": "//a[@class='playBtnNo']",
 	"dtFromName": "/@data-name",
 	"dtFromNameR": "",
-	"dtUrlNode": "//div[contains(@class,'v_conBox')]",
+	"dtUrlNode": "//div[contains(@class,'p_conBox')]",
 	"dtUrlSubNode": "/div/a",
 	"dtUrlId": "@href",
 	"dtUrlIdR": "/index.php/vod/play/id/(\\S+).html",
