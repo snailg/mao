@@ -22,7 +22,7 @@
 	"cateVodImg": "/img/@data-src",
 	"cateVodImgR": "\\S+(http\\S+)",
 	"cateVodMark": "following::div[@class='module-item-text']/text()",
-	"dtUrl": "https://www.ifimv.com/index.php/vod/detail/id/{vid}.html",
+	"dtUrl": "https://www.ifimv.com/video/{vid}.html",
 	"dtNode": "//body",
 	"dtName": "//h1[@class='page-title']/text()",
 	"dtNameR": "",
