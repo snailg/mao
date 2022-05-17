@@ -41,7 +41,7 @@
 	"dtDirectorR": "",
 	"dtDesc": "/span[contains(@class,'video-info-itemtitle') and contains(text(), '剧情')]/following-sibling::*/text()",
 	"dtDescR": "",
-	"dtFromNode": "//a[@class='playBtnNo']",
+	"dtFromNode": "//div[@class='more_mod_border clearfix']/a",
 	"dtFromName": "/@data-name",
 	"dtFromNameR": "",
 	"dtUrlNode": "//div[contains(@class,'p_conBox')]",
