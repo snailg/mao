@@ -42,7 +42,7 @@
 	"dtDesc": "/span[contains(@class,'video-info-itemtitle') and contains(text(), '剧情')]/following-sibling::*/text()",
 	"dtDescR": "",
 	"dtFromNode": "//a[@class='playBtnNo']",
-	"dtFromName": "/text()",
+	"dtFromName": "/@data-name",
 	"dtFromNameR": "",
 	"dtUrlNode": "//div[contains(@class,'playNumList')]",
 	"dtUrlSubNode": "/a",
