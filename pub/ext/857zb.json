@@ -1,7 +1,7 @@
 {
     "author": "baddychen",
     "ua": "",
-    "homeUrl": "https://qiushenzhibo4.com/d/category/all",
+    "homeUrl": "http://hulilive.com/listLive?%E5%85%A8%E9%83%A8",
     "cateManual": {"全部直播": "1"},
     "homeVodNode": "//div[@class='match-list w1200']/a",
 	"homeVodName": "/div[2]/p/text()",
@@ -9,7 +9,7 @@
     "homeVodIdR": "/live/(\\w+)",
     "homeVodImg": "//div[@class='el-image']/img/@data-src", 
     "homeVodMark": "",
-    "cateUrl": "https://qiushenzhibo4.com/d/category/all",
+    "cateUrl": "http://hulilive.com/listLive?%E5%85%A8%E9%83%A8",
 	"cateVodNode": "//div[@class='match-list w1200']/a",
     "cateVodName": "/div[2]/p/text()",
     "cateVodId": "/@href",
