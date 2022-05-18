@@ -1,7 +1,7 @@
 {
     "author": "baddychen",
     "ua": "",
-    "homeUrl": "https://www.yyzb1.tv/liveType.html",
+    "homeUrl": "https://857zb1.tv/liveType.html",
     "cateManual": {"全部直播": ""},
     "homeVodNode": "//ul[@class='category-list']/li",
 	"homeVodName": "/a/h4/text()",
@@ -9,7 +9,7 @@
     "homeVodIdR": "(\\S+)",
     "homeVodImg": "/a/div/img/@data-src",  
     "homeVodMark": "concat('主播-',/a/h6/span/text())",
-    "cateUrl": "https://www.yyzb1.tv/liveType.html",
+    "cateUrl": "https://857zb1.tv/liveType.html",
 	"cateVodNode": "//ul[@class='category-list']/li/a",
     "cateVodName": "/h4/text()",
     "cateVodId": "/@href",
