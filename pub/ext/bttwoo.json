@@ -4,7 +4,7 @@
     "dcVipFlag": "true",
     "dcPlayUrl": "true",
     "cateManual": {
-        "最新电影": "new-movie",
+        "最近更新": "new-movie",
         "热门电影": "hot",
         "本月热门": "hot-month",
         "高分电影": "gf",
