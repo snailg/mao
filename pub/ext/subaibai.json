@@ -21,7 +21,7 @@
     "综艺": "zongyi",
     "香港经典": "xianggangdy"
   },
-  "homeVodNode": "//div[contains(@class,'leibox')]/ul/li",
+  "homeVodNode": "//div[contains(@class,'mrb')]/ul/li",
   "homeVodName": "/h3[@class='dytit']/a/text()",
   "homeVodId": "/h3[@class='dytit']/a/@href",
   "homeVodIdR": "/movie/(\\w+).html",
