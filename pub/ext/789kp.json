@@ -1,7 +1,7 @@
-//789kp.com
+//https://789kp.com http://789ba.com
 {
   "ua": "",
-  "homeUrl": "http://789ba.com",
+  "homeUrl": "https://789kp.com",
   //  "dcVipFlag": "false",
   //  "dcShow2Vip": {},
   "dcPlayUrl": "true",
@@ -17,7 +17,7 @@
   "homeVodImg": "/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
   "homeVodMark": "/span[contains(@class,'pic-text')]/text()",
-  "cateUrl": "http://789ba.com/show/{cateId}-{area}-{by}------{catePg}---{year}.html",
+  "cateUrl": "https://789kp.com/show/{cateId}-{area}-{by}------{catePg}---{year}.html",
   "cateVodNode": "//div[contains(@class, 'stui-vodlist__box')]/a",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
@@ -25,7 +25,7 @@
   "cateVodImg": "/@data-original",
   "cateVodImgR": "\\S+(http\\S+)",
   "cateVodMark": "/span[contains(@class,'pic-text')]/text()",
-  "dtUrl": "http://789ba.com/vod/{vid}.html",
+  "dtUrl": "https://789kp.com/vod/{vid}.html",
   "dtNode": "//body",
   "dtName": "//h1[@class='title']/text()",
   "dtNameR": "",
@@ -48,7 +48,7 @@
   "dtUrlIdR": "/play/(\\S+).html",
   "dtUrlName": "/text()",
   "dtUrlNameR": "",
-  "playUrl": "http://789ba.com/play/{playUrl}.html",
+  "playUrl": "https://789kp.com/play/{playUrl}.html",
   "playUa": "",
   "searchUrl": "https://www.789ik.com/search/-------------.html?wd={wd}",
   "scVodNode": "//div[contains(@class, 'stui-vodlist__box')]/a",
