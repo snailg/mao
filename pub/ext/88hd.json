@@ -16,7 +16,7 @@
     "综艺": "3",
     "动漫": "4"
   },
-  "homeVodNode": "//div[contains(@class, 'index-area')]/li/a",
+  "homeVodNode": "//div[contains(@class, 'index-area')]/ul/li/a",
   "homeVodName": "/@title",
   "homeVodId": "/@href",
   "homeVodIdR": "(\\S+).html",
@@ -24,7 +24,7 @@
   "homeVodImgR": "\\S+(http\\S+)",
   "homeVodMark": "/p//text()",
   "cateUrl": "https://www.88hd.com/vod-type-id-{cateId}-pg-{catePg}.html",
-  "cateVodNode": "//div[contains(@class, 'index-area')]/li/a",
+  "cateVodNode": "//div[contains(@class, 'index-area')]/ul/li/a",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
   "cateVodIdR": "(\\S+).html",
