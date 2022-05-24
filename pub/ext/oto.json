@@ -26,7 +26,7 @@
   "dtYear": "//div[@class='playinfo']/div/text()",
   "dtCate": "//div[@class='play_info']/li[3]/a/text()",
   "dtActor": "//div[@class='play_info']/li[4]/a/text()",
-  "dtFromNode": "//a[contains(@class,'#down')]",
+  "dtFromNode": "//a[contains(@href,'#down')]",
   "dtFromName": "/text()",
   "dtFromNameR": "",
   "dtUrlNode": "//ul[contains(@class,'stui-content__playlist')]",
