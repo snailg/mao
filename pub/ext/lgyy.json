@@ -34,7 +34,7 @@
 "dtAreaR": "",
 "dtMark": "",
 "dtMarkR": "",
-"dtActor": "//span[contains(text(), '主演：')]/following-siblingt::div/a/text()",
+"dtActor": "//span[contains(text(), '主演：')]/following-sibling::div/a/text()",
 "dtActorR": "",
 "dtDirector": "//span[contains(text(), '导演：')]/following-sibling::div/a/text()",
 "dtDirectorR": "",
