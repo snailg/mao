@@ -14,6 +14,7 @@
     "电影": "1",
     "连续剧": "2",
     "综艺纪录片": "3",
+    "福利": "124",
     "动漫": "4"
   },
   "homeVodNode": "//ul[contains(@class, 'myui-vodlist')]/li/div[contains(@class, 'myui-vodlist__box')]",
