@@ -5,7 +5,7 @@
 	//"播放源": "解析",
 	//json或web解析都行
     "youku": "http://api.vip123kan.vip/?url=",
-    "qiyi": "http://json.52mhe.com/home/api?type=ys&uid=3882795&key=ajkmopvwzCDEGHSTU9&url=",
+    "qiyi": "https://vvip.funsline.cn/api/?key=4f1accZJfhLGD7vo20&url=",
     "qq": "http://api.vip123kan.vip/?url=",
     "wuduzy": "https://aa.xkys.tv/json.php?url=",
     "rx": "https://svip.rongxingvr.top/api/?key=niBgMGXVdCQhsmeEBK&url=",
