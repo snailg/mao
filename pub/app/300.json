@@ -5,7 +5,7 @@
 	//"播放源": "解析",
 	//json或web解析都行
     "youku": "http://api.vip123kan.vip/?url=",
-    "qiyi": "https://app.iminna.com/jx/?url=",
+    "qiyi": "https://jx.hfyrw.com/mao.go?url=",
     "qq": "http://api.vip123kan.vip/?url=",
     "wuduzy": "https://aa.xkys.tv/json.php?url=",
     "rx": "https://svip.rongxingvr.top/api/?key=niBgMGXVdCQhsmeEBK&url=",
