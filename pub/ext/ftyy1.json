@@ -41,7 +41,7 @@
   "dtMark": "//span[contains(text(), '更新')]/following-sibling::a/text()",
   "dtDirector": "//span[contains(text(), '导演')]/following-sibling::*/text()",
   "dtActor": "//span[contains(text(), '主演')]/following-sibling::*/text()",
-  "dtDesc": "//span[contains(@class, 'sketch content')]/text()",
+  "dtDesc": "//div[contains(@class, 'text-collapse')]/span[2]/p/text()",
   "dtFromNode": "//ul[contains(@class,'nav-tabs')]/li/a",
   "dtFromName": "/text()",
   "dtFromNameR": "",
