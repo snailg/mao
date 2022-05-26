@@ -8,7 +8,7 @@
 	"pCfgJsR": "MacPlayerConfig.player_list=([\\w\\W]*?),MacPlayerConfig.downer_list=",
 	"dcShow2Vip": {},
 	"dcPlayUrl": "true",
-    "cateManual": {"电影": "1","剧集": "2","综艺": "3","动漫": "4","日韩剧": "15","欧美剧": "16"},
+  "cateManual": {"电影": "1","剧集": "2","综艺": "3","动漫": "4","日韩剧": "15","欧美剧": "16"},
 	"homeVodNode": "//div[@class='stui-vodlist__box']",
 	"homeVodName": "/a/@title",
 	"homeVodId": "/a/@href",
