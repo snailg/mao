@@ -40,11 +40,11 @@
   "dtUrlNameR": "",
   "playUrl": "https://javcaptain.com/{playUrl}",
   "playUa": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
-  "searchUrl": "https://javcaptain.com/index.php/vod/search.html?wd={wd}&submit=",
-  "scVodNode": "json:list",
-  "scVodName": "name",
-  "scVodId": "id",
-  "scVodIdR": "",
-  "scVodImg": "pic",
+  "searchUrl": "https://javcaptain.com/en/search?wd={wd}",
+  "scVodNode": "//div[@class='card mx-1']",
+  "scVodName": "/div//p/text()",
+  "scVodId": "/a/@href",
+  "scVodIdR": "https://javcaptain.com/(\\S+)",
+  "scVodImg": "//img/@src",
   "scVodMark": ""
 }
