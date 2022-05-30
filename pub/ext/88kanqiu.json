@@ -1,8 +1,10 @@
+//http://www.88zhibo.live/
 {
     "author":"",
 	"ua": "",
     "homeUrl": "http://www.88kanqiu.cc/",
-    "cateManual": {"NBA":"1","CBA":"2","英超":"8","西甲":"9","意甲":"10","德甲":"14","法甲":"15"},
+    //"cateManual": {"NBA":"1","CBA":"2","英超":"8","西甲":"9","意甲":"10","德甲":"14","法甲":"15"},
+	"cateManual": {"全部直播":""},
 	"homeVodNode": "//div[@class='row d-none d-lg-flex justify-content-between align-items-center vertical-center']",
 	"homeVodName": "concat(/div[@class='col-md-4 text-right']/span/text(),'vs',/div[@class='col-md-4 text-left']/span/text())",
 	"homeVodId": "/div[contains(@class,'pay-btn')]/a/@href",
@@ -10,7 +12,8 @@
 	"homeVodImg": "/div[4]/img/@src",
 	"homeVodImgR": "\\S+(http\\S+)",
 	"homeVodMark": "concat(/div[contains(@class,'category-game-time')]/text(),'---',/div[contains(@class,'pay-btn')]/a/text())",
-	"cateUrl": "http://www.88kanqiu.cc/match/{cateId}/live",
+	//"cateUrl": "http://www.88kanqiu.cc/match/{cateId}/live",
+	"cateUrl": "http://www.88kanqiu.cc/",
 	"cateVodNode": "//div[@class='row d-none d-lg-flex justify-content-between align-items-center vertical-center']",
 	"cateVodName": "concat(/div[@class='col-md-4 text-right']/span/text(),'vs',/div[@class='col-md-4 text-left']/span/text())",
 	"cateVodId": "/div[contains(@class,'pay-btn')]/a/@href",
