@@ -4,7 +4,7 @@
 	//播放源有啥需要解析就写， 列如下：
 	//"播放源": "解析",
 	//json或web解析都行
-    "youku": "https://jx.xmflv.com/?url=",
+    "youku": "https://jx.hfyrw.com/mao.go?url=",
     "qiyi": "https://jx.hfyrw.com/mao.go?url=",
     "qq": "http://api.vip123kan.vip/?url=",
     "wuduzy": "https://aa.xkys.tv/json.php?url=",
