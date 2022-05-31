@@ -4,15 +4,15 @@
 	//播放源有啥需要解析就写， 列如下：
 	//"播放源": "解析",
 	//json或web解析都行
-    "youku": "http://api.vip123kan.vip/?url=",
+    "youku": "https://jx.xmflv.com/?url=",
     "qiyi": "https://jx.hfyrw.com/mao.go?url=",
     "qq": "http://api.vip123kan.vip/?url=",
     "wuduzy": "https://aa.xkys.tv/json.php?url=",
     "rx": "https://svip.rongxingvr.top/api/?key=niBgMGXVdCQhsmeEBK&url=",
     "renrenmi": "https://languangyingshiziyuan.1080zy.top/rrmi.php/?url=",
     "mgtv": "http://json.52mhe.com/home/api?type=ys&uid=3882795&key=ajkmopvwzCDEGHSTU9&url=",
-    "letv": "https://jx.xmflv.com/?url=",
-    "xigua": "https://jx.parwix.com:4433/player/analysis.php?v=",
+    "letv": "http://api.vip123kan.vip/?url=",
+    "xigua": "https://za.kuanjv.com/?url=",
     "pptv": "https://www.nxflv.com/?url="
   }
 }
