@@ -16,7 +16,7 @@
     "cateVodIdR": "http://www.5five.top/?p=(\\w+)",
     "cateVodImg": "\"https://pic4.zhimg.com/v2-cae9b89b2ab45564ff190e41c5b72f87_b.jpeg\"",  
     "cateVodMark": "",
-	"dtUrl": "http://www.5five.top/?p={vid}",
+	"dtUrl": "{vid}",
     "dtNode": "//body",
     "dtName": "//h2[@class='entry-title']/text()",
     "dtImg": "\"https://pic4.zhimg.com/v2-cae9b89b2ab45564ff190e41c5b72f87_b.jpeg\"", 
