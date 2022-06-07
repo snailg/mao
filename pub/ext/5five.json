@@ -18,7 +18,7 @@
     "cateVodMark": "",
 	"dtUrl": "{vid}",
     "dtNode": "//body",
-    "dtName": "//h2[@class='entry-title']/text()",
+    "dtName": "//h1[@class='entry-title']/text()",
     "dtImg": "\"https://pic4.zhimg.com/v2-cae9b89b2ab45564ff190e41c5b72f87_b.jpeg\"", 
     "dtCate": "",
     "dtYear": "",
