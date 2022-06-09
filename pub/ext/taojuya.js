@@ -72,7 +72,7 @@
     "dtUrlIdR": "/vodplay/(\\S+).html",
     "dtUrlName": "/text()",
     "dtUrlNameR": "",
-    "playUrl": "https://so2.cc/vodplay/{playUrl}.html",
+    "playUrl": "https://soumk.com/vodplay/{playUrl}.html",
     "playUa": "",
     "searchUrl": "https://so2.cc/vodsearch/-------------.html?wd={wd}",
     "scVodNode": "//a[contains(@class,'stui-vodlist__thumb')]",
