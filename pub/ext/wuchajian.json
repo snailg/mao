@@ -5,7 +5,7 @@
     "cateManual": {"比赛直播": ""},
     "homeVodNode": "//div[@class='data']//tr[contains(@class,'against')]",
 	"homeVodName": "/td[2]/@title",
-    "homeVodId": "/td[@class='live_link']/a[1]/@href",
+    "homeVodId": "/td[@class='live_link']/a[contains(@href,'qietv')]/@href",
     "homeVodIdR": "\\S+-(\\S+).html",
     "homeVodImg": "/td[1]/img/@src",  
     "homeVodMark": "/span[1]/text()",
