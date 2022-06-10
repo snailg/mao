@@ -32,7 +32,7 @@
     "dtUrlSubNode": "/iframe ",
     "dtUrlSub": "",
     "dtUrlId": "@src",
-    "dtUrlIdR": "http://w.zhibo.me:8088/qie.php?id=()\\S+",
+    "dtUrlIdR": "http://w.zhibo.me:8088/qie.php?id=(\\S+)",
     "dtUrlName": "\"直播\"", 
     "dtUrlNameR": "",
     "playUrl":"http://www.17klive.com:8866/tv/qietv-{playUrl}",
