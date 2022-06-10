@@ -30,7 +30,6 @@
     "dtFromNameR": "",
     "dtUrlNode": "//div[@class='media']",
     "dtUrlSubNode": "/iframe ",
-    "dtUrlSub": "",
     "dtUrlId": "@src",
     "dtUrlIdR": "http://w.zhibo.me:8088/qie.php?id=(\\S+)",
     "dtUrlName": "\"直播\"", 
