@@ -59,7 +59,7 @@
     //"playUrl": "http://yj1211.work:8089/huya/{playUrl}.m3u8",
 	//"playUrl": "https://liveshare.huya.com/iframe/{playUrl}",
 	//"playUrl": "https://www.huya.com/{playUrl}",
-	"playUrl": "http://czycyc.top/h.php?cdn=bd&id={playUrl}",
+	"playUrl": "https://api.qianqi.net/tv/huya/?id={playUrl}",
 	"playUa": "",
 	"searchUrl": "https://www.huya.com/search?hsk={wd}",
 	"scVodNode": "//ul[@class='js-live-list']/li",
