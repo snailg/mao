@@ -34,7 +34,7 @@
     "dtUrlIdR": "http://w.zhibo.me:8088/qie.php?id=(\\S+)",
     "dtUrlName": "\"直播\"", 
     "dtUrlNameR": "",
-    "playUrl":"http://www.17klive.com:8866/tv/qietv-{playUrl}",
+    "playUrl":"{vid}",
     "playUa": "", 
     "searchUrl": "http://www.5five.top/?s={wd}",
     "scVodNode": "//h2[@class='entry-title']",
