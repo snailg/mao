@@ -9,7 +9,7 @@
   "jiequqian": "module-page",
   "jiequhou": "<div id=\"page\">",
   "jiequshuzuqian": "module-poster-items-base",
-  "jiequshuzuhou": "</a>",
+  "jiequshuzuhou": "</div>",
   "tupianqian": "original=\"",
   "tupianhou": "\"",
   "biaotiqian": "title=\"",
