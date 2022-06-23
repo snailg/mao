@@ -42,7 +42,7 @@
 	"dtActor": "//div[@class='stui-content__detail']//p[contains(@class,'data') and contains(text(), '主演')]/text()",
 	"dtActorR": "主演：(\\S+) /\\S+ ",
 	"dtDesc": "//span[@class='detail-content']/text()",
-	"dtFromNode": "//h3[contains(@class,'iconfont icon-iconfontplay2')]",
+	"dtFromNode": "//h3[contains(@class,'iconfont icon-iconfontplay2') and (not contains(text(),'百度')) and (not contains(text(),'夸克'))]",
 	"dtFromName": "/text()",
 	"dtFromNameR": "",
 	"dtUrlNode": "//ul[contains(@class,'stui-content__playlist')]",
